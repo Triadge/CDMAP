@@ -1,0 +1,34 @@
+Context_Pipeline_Basecall:
+
+path_wd <- "/Desktop/Sung_Lab/testdir"
+path_to_scripts <- "/Desktop/Sung_Lab/R_workspace/Context_Project/Context_Pipeline_0.1.0"
+path_output <- "/Desktop/Sung_Lab/testdir/output"
+
+
+Path_RefFile <- "/Desktop/Sung_Lab/testdir/Agrobacterium_Radiobacter/CP000628.fasta"
+Path_GBFile <- "/Desktop/Sung_Lab/testdir/Agrobacterium_Radiobacter/Agrobacterium_Radiobacter_Chr1.gbk"
+Path_InFile <-"/Desktop/Sung_Lab/testdir/Agrobacterium_Radiobacter/Agro_Radiobacter_Chr1.csv"
+Path_Refseq <- "Desktop/Sung_Lab/testdir/Agrobacterium_Radiobacter/CP000628.fasta"
+
+#Use for Linear Chromosomes only (agro_radiobbacter_Chr1)
+# ori_pos <- 496.696
+# ori_bp <- 496696
+# term_pos <-2499.261
+# term_bp <- 2499261
+
+Path_RefFile <- "/Desktop/Sung_Lab/testdir/Agrobacterium_Radiobacter/CP000629.fasta"
+Path_GBFile <- "/Desktop/Sung_Lab/testdir/Agrobacterium_Radiobacter/Agrobacterium_Radiobacter_Chr2.gbk"
+Path_InFile <-"/Desktop/Sung_Lab/testdir/Agrobacterium_Radiobacter/Agro_Radiobacter_Chr2.csv"
+Path_Refseq <- "/Desktop/Sung_Lab/testdir/Agrobacterium_Radiobacter/CP000629.fasta"
+
+#Use for Linear Chromosomes only (agro_radiobbacter_Chr2)
+# ori_pos <- .147
+# ori_bp <- 147
+# term_pos <-1325.604
+# term_bp <- 1325604
+
+
+
+
+
+\u0269

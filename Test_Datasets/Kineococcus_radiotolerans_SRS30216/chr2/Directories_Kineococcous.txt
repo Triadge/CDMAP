@@ -1,0 +1,12 @@
+Context_Pipeline_Basecall:
+
+Path_RefFile <- "/Desktop/Sung_Lab/testdir/Kineococcus_radiotolerans_SRS30216/chr2/CP000751.fasta"
+Path_GBFile <- "/Desktop/Sung_Lab/testdir/Kineococcus_radiotolerans_SRS30216/chr2/CP000751.gbk"
+Path_InFile <-"/Desktop/Sung_Lab/testdir/Kineococcus_radiotolerans_SRS30216/chr2/Basecalls.csv"
+Path_Refseq <- "/Desktop/Sung_Lab/testdir/Kineococcus_radiotolerans_SRS30216/chr2/CP000751.fasta"
+
+Output_DataVerifyReport:
+
+path_output <- “/Desktop/Sung_Lab/testdir/output"
+Path_MyLeft <- "/Desktop/Sung_Lab/testdir/output/Left_Context_Core_full.csv"
+Path_MyRight <- "/Desktop/Sung_Lab/testdir/output/Right_Context_Core_full.csv"

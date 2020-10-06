@@ -1,0 +1,369 @@
+Agrobacterium radiobacter K84 plasmid pAtK84c, complete sequence. - 1..388169
+366 proteins
+Location	Strand	Length	PID	Gene	Synonym	Code	COG	Product
+100..666	+	188	221728080	-	Arad_12000	-	-	hypothetical protein
+839..1981	+	380	221728081	-	Arad_12001	-	-	conserved hypothetical protein
+1991..3211	+	406	221728082	-	Arad_12002	-	-	hypothetical protein
+3215..3607	+	130	221728083	-	Arad_12003	-	-	Tiorf32 protein
+3777..4856	-	359	221728084	-	Arad_12005	-	-	transcriptional regulator, HTH_3 family
+4856..5509	-	217	221728085	-	Arad_12006	-	-	conserved hypothetical protein
+5672..6811	-	379	221728086	-	Arad_12007	-	-	Y4cF Protein
+6920..8149	+	409	221728087	-	Arad_12008	-	-	integrase IntA
+8489..9064	+	191	221728088	-	Arad_12011	-	-	hypothetical protein
+9219..9857	-	212	221728089	-	Arad_12012	-	-	Glutathione S-Transferase Protein
+9989..10342	-	117	221728090	-	Arad_12013	-	-	integration host factor alpha-subunit protein
+10410..10847	-	145	221728091	-	Arad_12014	-	-	phage prohead protease
+10912..12087	+	391	221728092	-	Arad_12015	-	-	Phosphoribosylamine-glycine ligase
+12170..12292	+	40	221728093	-	Arad_12016	-	-	hypothetical protein
+13002..13358	+	118	221728094	-	Arad_12017	-	-	conserved hypothetical protein
+14045..14206	-	53	221728095	-	Arad_12018	-	-	conserved hypothetical protein
+14236..15429	+	397	221728096	repA	Arad_12019	-	-	replication protein A
+15434..16435	+	333	221728097	repB	Arad_12020	-	-	replication protein B
+16592..17905	+	437	221728098	repC	Arad_12022	-	-	replication protein C
+17883..18383	-	166	221728099	-	Arad_12023	-	-	hypothetical protein
+19019..19471	-	150	221728100	-	Arad_12024	-	-	conserved hypothetical protein
+20058..21428	+	456	221728101	-	Arad_12026	-	-	hypothetical protein
+21435..21689	-	84	221728102	-	Arad_12028	-	-	hypothetical protein
+21949..22089	-	46	221728103	-	Arad_12029	-	-	hypothetical protein
+22520..23800	+	426	221728104	-	Arad_12031	-	-	conserved hypothetical protein
+23876..24127	-	83	221728105	-	Arad_12032	-	-	hypothetical protein
+24305..24664	+	119	221728106	-	Arad_12034	-	-	hypothetical protein
+24759..25085	-	108	221728107	-	Arad_12035	-	-	conserved hypothetical protein
+25101..25394	+	97	221728108	-	Arad_12036	-	-	hypothetical protein
+25528..25890	-	120	221728109	-	Arad_12037	-	-	hypothetical protein
+25887..26561	-	224	221728110	-	Arad_12038	-	-	conserved hypothetical protein
+26787..27041	-	84	221728111	-	Arad_12039	-	-	hypothetical protein
+27040..27447	+	135	221728112	-	Arad_12040	-	-	hypothetical protein
+27539..30991	+	1150	221728113	-	Arad_12044	-	-	conserved hypothetical protein
+31008..31757	-	249	221728114	-	Arad_12045	-	-	conserved hypothetical protein
+32511..33503	-	330	221728115	-	Arad_12046	-	-	hypothetical protein
+33545..36400	-	951	221728116	-	Arad_12049	-	-	conserved hypothetical protein
+36606..36824	-	72	221728117	-	Arad_12050	-	-	hypothetical protein
+37011..37181	-	56	221728118	-	Arad_12051	-	-	conserved hypothetical protein
+37250..39145	-	631	221728119	-	Arad_12052	-	-	hypothetical protein
+39162..39602	-	146	221728120	-	Arad_12053	-	-	conserved hypothetical protein
+39747..40214	-	155	221728121	-	Arad_12054	-	-	Staphylococcus nuclease (SNase-like)
+40220..40555	-	111	221728122	-	Arad_12055	-	-	conserved hypothetical protein
+40613..41191	-	192	221728123	exoI	Arad_12056	-	-	succinoglycan biosynthesis protein
+41188..41856	-	222	221728124	-	Arad_12057	-	-	acyltransferase protein
+41853..42329	-	158	221728125	-	Arad_12058	-	-	hypothetical protein
+42348..42797	-	149	221728126	-	Arad_12059	-	-	hypothetical protein
+43339..44043	+	234	221728127	-	Arad_12060	-	-	transglycosylase SLT domain protein
+44061..44414	+	117	221728128	-	Arad_12061	-	-	type IV secretion protein
+44414..44710	+	98	221728129	-	Arad_12063	-	-	type IV secretion protein
+44736..47180	+	814	221728130	avhB4a	Arad_12064	-	-	type IV secretion protein
+47312..47824	+	170	221728131	-	Arad_12065	-	-	conserved hypothetical protein
+47838..48572	+	244	221728132	-	Arad_12066	-	-	conserved hypothetical protein
+48569..48781	+	70	221728133	-	Arad_12067	-	-	hypothetical protein
+48858..49820	+	320	221728134	avhB6a	Arad_12068	-	-	type IV secretion protein
+49854..50600	+	248	221728135	avhB8a	Arad_12070	-	-	type IV secretion protein
+50642..51403	+	253	221728136	avhB9a	Arad_12071	-	-	type IV secretion protein
+51393..52676	+	427	221728137	avhB10a	Arad_12072	-	-	type IV secretion protein
+52651..53763	+	370	221728138	avhB11a	Arad_12073	-	-	type IV secretion protein
+53760..56123	+	787	221728139	-	Arad_12074	-	-	TRAG protein
+56251..56943	+	230	221728140	-	Arad_12076	-	-	hypothetical protein
+57333..58628	+	431	221728141	repC	Arad_12077	-	-	replication protein C
+58628..58804	+	58	221728142	-	Arad_12079	-	-	hypothetical protein
+59167..60762	+	531	221728143	-	Arad_12080	-	-	conserved hypothetical protein
+60772..61767	+	331	221728144	-	Arad_12081	-	-	conserved hypothetical protein
+62488..62748	+	86	221728145	-	Arad_12083	-	-	SyrB2 transcriptional regulator
+62990..63604	+	204	221728146	-	Arad_12084	-	-	conserved hypothetical protein
+63647..63790	+	47	221728147	-	Arad_12085	-	-	hypothetical protein
+64358..65350	+	330	221728148	-	Arad_12088	-	-	hypothetical protein
+65985..67325	+	446	221728149	-	Arad_12091	-	-	Na+-driven multidrug efflux pump
+67363..68721	+	452	221728150	-	Arad_12092	-	-	NikO protein
+68718..69917	+	399	221728151	-	Arad_12094	-	-	hypothetical protein
+69905..71683	+	592	221728152	asnB	Arad_12096	-	-	asparagine synthase (glutamine-hydrolyzing)
+71676..72485	+	269	221728153	-	Arad_12097	-	-	hydrolase Cof
+72533..74146	+	537	221728154	-	Arad_12098	-	-	ATP-binding protein
+74203..74550	-	115	221728155	-	Arad_12099	-	-	hypothetical protein
+74553..76085	-	510	221728156	-	Arad_12100	-	-	transposase number 3 for insertion sequence
+76794..77273	+	159	221728157	-	Arad_12103	-	-	conserved hypothetical protein
+77566..79683	+	705	221728158	-	Arad_12107	-	-	transposase
+79654..79899	-	81	221728159	-	Arad_12108	-	-	transposase number 2 for insertion sequence
+79896..80339	-	147	221728160	-	Arad_12109	-	-	transposase number 1 for insertion sequence
+80450..82078	-	542	221728161	-	Arad_12110	-	-	conserved hypothetical protein
+83210..83341	-	43	221728162	-	Arad_12114	-	-	hypothetical protein
+83351..84700	-	449	221728163	-	Arad_12115	-	-	conserved hypothetical protein
+84697..86061	-	454	221728164	-	Arad_12116	-	-	Coenzyme F420-dependent N5,N10-methylene tetrahydromethanopterin reductase
+86066..87232	-	388	221728165	-	Arad_12118	-	-	Acyl-CoA dehydrogenase, C-terminal:Acyl-CoA dehydrogenase, central region:Acyl-CoA dehydrogenase, N-terminal:Acyl-CoA dehydrogenase, N-terminal
+87270..88250	-	326	221728166	-	Arad_12119	-	-	ABC-type taurine transport system, periplasmic component
+88247..88984	-	245	221728167	-	Arad_12120	-	-	Ribulose-5-phosphate 4-epimerase
+88989..90095	-	368	221728168	-	Arad_12121	-	-	ABC-type Fe3+ transport system periplasmic component
+90107..91189	-	360	221728169	-	Arad_12123	-	-	ABC transporter ATP-binding protein
+91199..92872	-	557	221728170	-	Arad_12124	-	-	ABC-type Fe3+ transport system permease component
+93118..93912	+	264	221728171	-	Arad_12125	-	-	regulatory protein, IclR family
+93922..94650	-	242	221728172	-	Arad_12126	-	-	dehydrogenase
+95685..96302	+	205	221728173	-	Arad_12130	-	-	conserved hypothetical protein
+96609..97079	-	156	221728174	-	Arad_12131	-	-	conserved hypothetical protein
+97076..97507	-	143	221728175	-	Arad_12132	-	-	conserved hypothetical protein
+97631..97738	-	35	221728176	-	Arad_12133	-	-	conserved hypothetical protein
+97980..99026	-	348	221728177	-	Arad_12135	-	-	xylitol dehydrogenase
+99083..99808	-	241	221728178	-	Arad_12136	-	-	short chain dehydrogenase
+99822..100796	-	324	221728179	-	Arad_12137	-	-	sugar uptake ABC transporter permease protein
+100806..101810	-	334	221728180	-	Arad_12138	-	-	sugar uptake ABC transporter permease protein
+101812..103305	-	497	221728181	-	Arad_12139	-	-	sugar uptake ABC transporter ATP-binding protein
+103423..104397	-	324	221728182	-	Arad_12140	-	-	sugar uptake ABC transporter periplasmic solute-binding protein precursor
+104680..105696	+	338	221728183	-	Arad_12141	-	-	transcriptional regulator, LacI (ribose operon repressor) family
+105773..106123	+	116	221728184	-	Arad_12143	-	-	serine protease protein
+106197..107003	-	268	221728185	proC	Arad_12144	-	-	pyrroline-5-carboxylate reductase protein
+107005..108027	-	340	221728186	-	Arad_12145	-	-	Malate/L-lactate dehydrogenase
+108034..108963	-	309	221728187	-	Arad_12146	-	-	EtfA2 electron-transport flavoprotein, alpha-subunit
+108995..109816	-	273	221728188	-	Arad_12147	-	-	electron transfer flavoprotein beta-subunit beta-etf flavoprotein small subunit
+109791..111416	-	541	221728189	betA	Arad_12148	-	-	choline dehydrogenase
+111622..112092	-	156	221728190	-	Arad_12149	-	-	transcriptional regulator
+112347..113243	-	298	221728191	-	Arad_12151	-	-	transmembrane protein
+113295..114023	-	242	221728192	-	Arad_12152	-	-	glutamine transport ATP-binding protein
+114020..114676	-	218	221728193	-	Arad_12153	-	-	Amino acid ABC transporter, permease protein, 3-TM region, His/Glu/Gln/Arg/opine
+114723..115469	-	248	221728194	-	Arad_12155	-	-	ABC-type amino acid transport system periplasmic component
+115733..117175	-	480	221728195	-	Arad_12156	-	-	Succinate-semialdehyde dehydrogenase (NAD(P)+)
+117301..118680	+	459	221728196	-	Arad_12157	-	-	FAD dependent oxidoreductase
+118735..119931	+	398	221728197	-	Arad_12158	-	-	FAD dependent oxidoreductase
+119976..120629	-	217	221728198	-	Arad_12160	-	-	transcriptional regulator
+120798..121697	-	299	221728199	-	Arad_12162	-	-	LysR family transcriptional regulator
+121910..122104	+	64	221728200	-	Arad_12163	-	-	4-oxalocrotonate tautomerase
+122386..122847	-	153	221728201	-	Arad_12166	-	-	Transposase, IS4
+123222..123866	+	214	221728202	-	Arad_12169	-	-	plasmid pRiA4b ORF-3-like protein
+124152..125579	+	475	221728203	-	Arad_12171	-	-	conserved hypothetical protein
+125858..127219	+	453	221728204	-	Arad_12172	-	-	sorbitol-binding periplasmic protein
+127350..128222	+	290	221728205	-	Arad_12173	-	-	sorbitol/mannitol transport inner membrane transmembrane protein
+128224..129066	+	280	221728206	-	Arad_12175	-	-	sorbitol/mannitol transport inner membrane protein
+129078..130079	+	333	221728207	-	Arad_12178	-	-	ABC transporter, nucleotide binding/ATPase protein
+130076..130849	+	257	221728208	-	Arad_12179	-	-	sorbitol dehydrogenase (l-iditol 2-dehydrogenase) protein
+130907..131845	+	312	221728209	-	Arad_12180	-	-	transcriptional regulator (AraC/XylS family)
+131860..133740	-	626	221728210	-	Arad_12181	-	-	methyl-accepting chemotaxis sensory transducer
+134270..134965	-	231	221728211	-	Arad_12185	-	-	conserved hypothetical protein
+135029..135973	-	314	221728212	-	Arad_12186	-	-	amidohydrolase/nitrilase
+136179..137087	+	302	221728213	-	Arad_12187	-	-	AraC-type DNA-binding domain-containing protein
+137161..137889	-	242	221728214	proC	Arad_12188	-	-	pyrroline-5-carboxylate reductase protein
+137950..138255	+	101	221728215	-	Arad_12190	-	-	FAD dependent oxidoreductase
+139226..140683	-	485	221728216	-	Arad_12193	-	-	Cytochrome c, mono- and diheme variant
+140687..142333	-	548	221728217	-	Arad_12195	-	-	Choline dehydrogenase
+142336..142923	-	195	221728218	-	Arad_12196	-	-	conserved hypothetical protein
+143182..144213	+	343	221728219	-	Arad_12197	-	-	LacI-family transcriptional regulator
+144538..146352	-	604	221728220	-	Arad_12198	-	-	Feruloyl esterase
+146536..147354	-	272	221728221	pcaD	Arad_12199	-	-	3-oxoadipate enol-lactonase
+147356..148069	-	237	221728222	-	Arad_12201	-	-	ABC-transporter
+148066..148824	-	252	221728223	-	Arad_12202	-	-	ABC transporter
+148821..149822	-	333	221728224	-	Arad_12203	-	-	ABC-transporter
+149826..150698	-	290	221728225	-	Arad_12204	-	-	ABC-transporter
+150749..151960	-	403	221728226	-	Arad_12205	-	-	ABC transporter subunit
+152038..152820	-	260	221728227	-	Arad_12206	-	-	short-chain alcohol dehydrogenase
+152820..153833	-	337	221728228	-	Arad_12207	-	-	toluate 1,2-dioxygenase electron transfer component
+153853..154344	-	163	221728229	-	Arad_12208	-	-	benzoate dioxygenase beta subunit
+154431..155801	-	456	221728230	-	Arad_12209	-	-	Phenylpropionate dioxygenase, large terminal subunit
+155862..156791	-	309	221728231	catA	Arad_12211	-	-	catechol 1,2-dioxygenase
+156888..157178	-	96	221728232	-	Arad_12212	-	-	Muconolactone delta-isomerase
+157183..158334	-	383	221728233	-	Arad_12213	-	-	Mandelate racemase/muconate lactonizing enzyme
+158432..159364	+	310	221728234	-	Arad_12214	-	-	regulatory protein, LysR:LysR, substrate-binding
+159533..161053	+	506	221728235	-	Arad_12216	-	-	aldehyde dehydrogenase
+161050..162837	+	595	221728236	-	Arad_12217	-	-	oxidoreductase
+162886..163785	-	299	221728237	-	Arad_12218	-	-	Helix-turn-helix, AraC type
+163963..165039	-	358	221728238	-	Arad_12220	-	-	mandelate racemase/muconate lactonizing enzyme
+165036..166190	-	384	221728239	-	Arad_12221	-	-	FMN-dependent alpha-hydroxy acid dehydrogenase
+166195..167778	-	527	221728240	-	Arad_12222	-	-	benzoylformate decarboxylase
+167898..168788	+	296	221728241	-	Arad_12223	-	-	Transcriptional regulator
+168952..170046	-	364	221728242	-	Arad_12224	-	-	nitrilase
+170119..171093	-	324	221728243	-	Arad_12225	-	-	amidohydrolase/nitrilase
+171272..172177	+	301	221728244	-	Arad_12226	-	-	Helix-turn-helix, AraC type
+172327..172995	-	222	221728245	-	Arad_12227	-	-	conserved hypothetical protein
+173019..173378	-	119	221728246	-	Arad_12228	-	-	hypothetical protein
+173671..175098	+	475	221728247	-	Arad_12230	-	-	cytochrome bd-type quinol oxidase subunit 1
+175119..176126	+	335	221728248	cydB	Arad_12231	-	-	cytochrome d ubiquinol oxidase, subunit II
+176126..176272	+	48	221728249	-	Arad_12232	-	-	hypothetical protein
+176890..177150	+	86	221728250	-	Arad_12234	-	-	pyruvate dehydrogenase
+177147..177689	+	180	221728251	-	Arad_12235	-	-	membrane protein
+178261..179301	+	346	221728252	-	Arad_12237	-	-	Transcriptional regulator
+179411..179818	+	135	221728253	-	Arad_12238	-	-	conserved hypothetical protein
+179853..180713	+	286	221728254	-	Arad_12239	-	-	Glyoxalase/bleomycin resistance protein/dioxygenase
+180724..181683	+	319	221728255	-	Arad_12240	-	-	glutathione S-transferase
+181695..182312	+	205	221728256	-	Arad_12241	-	-	Phospholipase/Carboxylesterase
+182329..182991	+	220	221728257	-	Arad_12242	-	-	monooxygenase
+183614..184915	+	433	221728258	-	Arad_12246	-	-	Major facilitator superfamily
+184912..187215	+	767	221728259	-	Arad_12248	-	-	Glycoside hydrolase, family 3, N-terminal:Glycoside hydrolase, family 3, C-terminal
+187302..188024	+	240	221728260	-	Arad_12249	-	-	TetR family transcriptional regulator
+188591..189334	-	247	221728261	-	Arad_12251	-	-	transcriptional regulatory protein
+189489..190451	+	320	221728262	-	Arad_12252	-	-	arginase
+190520..191410	+	296	221728263	-	Arad_12253	-	-	conserved hypothetical protein
+191447..193009	-	520	221728264	-	Arad_12254	-	-	ABC-type dipeptide transport system, periplasmic component
+193132..194895	-	587	221728265	-	Arad_12258	-	-	peptide ABC transporter, ATP-binding protein
+194892..195767	-	291	221728266	-	Arad_12259	-	-	dipeptide transport system permease protein
+195769..196734	-	321	221728267	-	Arad_12260	-	-	peptide ABC transporter, permease protein
+196849..196959	-	36	221728268	-	Arad_12261	-	-	hypothetical protein
+196963..197661	-	232	221728269	-	Arad_12262	-	-	ABC transporter ATP-binding protein
+197658..199382	-	574	221728270	-	Arad_12263	-	-	ABC transporter ATP-binding/permease protein
+199360..200202	-	280	221728271	-	Arad_12264	-	-	ABC transporter permease protein
+200219..201385	-	388	221728272	-	Arad_12265	-	-	nitrile hydratase regulator
+201404..202819	-	471	221728273	-	Arad_12266	-	-	indole acetamide hydrolase
+203076..203360	+	94	221728274	-	Arad_12268	-	-	hypothetical protein
+203518..204312	-	264	221728275	-	Arad_12269	-	-	HAD-superfamily hydrolase, subfamily IIB
+204311..204439	+	42	221728276	-	Arad_12270	-	-	hypothetical protein
+204734..205021	+	95	221728277	-	Arad_12272	-	-	heat shock protein groES
+205049..206677	+	542	221728278	groL	Arad_12273	-	-	chaperonin GroL
+207109..207717	-	202	221728279	-	Arad_12276	-	-	GCN5-family N-acetyltransferase
+209615..209968	+	117	221728280	-	Arad_12279	-	-	uridine kinase
+209999..210289	+	96	221728281	-	Arad_12280	-	-	Panthothenate kinase
+211109..212038	-	309	221728282	-	Arad_12281	-	-	electron transfer flavoprotein alpha-subunit alpha-etf flavoprotein
+212063..212812	-	249	221728283	-	Arad_12282	-	-	electron transfer flavoprotein beta-subunit beta-etf flavoprotein small subunit
+212851..214284	-	477	221728284	-	Arad_12284	-	-	NAD(P) transhydrogenase subunit beta
+214305..215879	-	524	221728285	pntA	Arad_12286	-	-	NAD(P) transhydrogenase, alpha subunit
+215976..216212	+	78	221728286	-	Arad_12287	-	-	hypothetical protein
+216397..216630	-	77	221728287	-	Arad_12288	-	-	hypothetical protein
+217260..218570	+	436	221728288	-	Arad_12289	-	-	Carbohydrate-selective porin, OprB family superfamily
+218831..219394	-	187	221728289	-	Arad_12290	-	-	reductase
+219839..220072	-	77	221728290	-	Arad_12294	-	-	ABC transporter
+220738..221469	+	243	221728291	-	Arad_12297	-	-	hypothetical protein
+221477..222355	+	292	221728292	-	Arad_12298	-	-	2, 3-dihydroxybiphenyl 1, 2-dioxygenase
+222352..222639	+	95	221728293	-	Arad_12299	-	-	hypothetical protein
+222657..222914	-	85	221728294	-	Arad_12300	-	-	Phosphoenolpyruvate carboxykinase (ATP)
+222928..224511	-	527	221728295	-	Arad_12302	-	-	Phytoene dehydrogenase
+224652..225806	-	384	221728296	-	Arad_12303	-	-	hydrolases or acyltransferases (alpha/beta hydrolase superfamily)
+226018..226998	+	326	221728297	-	Arad_12304	-	-	Nucleoside-diphosphate-sugar epimerase
+227139..227594	+	151	221728298	-	Arad_12306	-	-	conserved hypothetical protein
+227591..228367	+	258	221728299	-	Arad_12307	-	-	short-chain alcohol dehydrogenase
+228399..229676	+	425	221728300	-	Arad_12308	-	-	Histidinol dehydrogenase
+229803..230795	+	330	221728301	-	Arad_12310	-	-	fumarylacetoacetate hydrolase family protein
+230797..231276	+	159	221728302	-	Arad_12311	-	-	Lactoylglutathione lyase
+231444..231890	+	148	221728303	-	Arad_12313	-	-	transcriptional regulatory protein
+231916..232914	-	332	221728304	-	Arad_12314	-	-	Catechol 2,3-dioxygenase
+233032..233673	+	213	221728305	-	Arad_12315	-	-	Transcriptional regulator
+233750..234565	+	271	221728306	-	Arad_12316	-	-	short-chain alcohol dehydrogenase
+234562..235356	+	264	221728307	-	Arad_12317	-	-	short-chain alcohol dehydrogenase
+235375..236148	-	257	221728308	-	Arad_12318	-	-	short-chain alcohol dehydrogenase
+236189..236926	-	245	221728309	-	Arad_12319	-	-	transcliptional regulator TetR family
+237058..238182	+	374	221728310	-	Arad_12321	-	-	monooxygenase
+238199..238810	+	203	221728311	-	Arad_12322	-	-	conserved hypothetical protein
+239278..239778	-	166	221728312	-	Arad_12323	-	-	transcriptional regulator
+240230..241042	+	270	221728313	-	Arad_12325	-	-	ferredoxin--NADP reductase
+242382..242705	+	107	221728314	-	Arad_12331	-	-	conserved hypothetical protein
+242785..244041	+	418	221728315	-	Arad_12332	-	-	transporter transmembrane protein
+244019..245497	+	492	221728316	-	Arad_12333	-	-	flavoprotein subunit of a reductase
+245665..246462	+	265	221728317	-	Arad_12335	-	-	hypothetical protein
+246749..247765	+	338	221728318	-	Arad_12337	-	-	Transcriptional regulator
+247838..248206	+	122	221728319	-	Arad_12339	-	-	IS5 family element, transposase orfA
+248302..248505	+	67	221728320	-	Arad_12340	-	-	transposase
+248700..249659	-	319	221728321	-	Arad_12341	-	-	Twin-arginine translocation pathway signal
+249727..250686	-	319	221728322	-	Arad_12342	-	-	extracellular solute-binding protein, family 3
+250725..251537	-	270	221728323	-	Arad_12343	-	-	ABC transporter
+251561..252358	-	265	221728324	-	Arad_12344	-	-	ABC transporter, permease protein
+252362..253129	-	255	221728325	-	Arad_12346	-	-	ABC transporter component C
+253126..254163	-	345	221728326	-	Arad_12347	-	-	Gluconolactonase
+254488..255231	+	247	221728327	-	Arad_12348	-	-	IstB-like ATP-binding protein
+255695..256240	-	181	221728328	-	Arad_12351	-	-	regulatory protein, TetR
+256571..258148	+	525	221728329	-	Arad_12352	-	-	oligopeptide ABC transporter substrate-binding protein
+258145..259062	+	305	221728330	-	Arad_12353	-	-	oligopeptide ABC transporter (permease)
+259073..259963	+	296	221728331	-	Arad_12354	-	-	oligopeptide ABC transporter (permease)
+259960..261657	+	565	221728332	-	Arad_12355	-	-	ABC transporter
+261697..263061	+	454	221728333	-	Arad_12356	-	-	monooxygenase protein
+263119..264081	+	320	221728334	-	Arad_12357	-	-	cysteine synthase
+264208..265845	+	545	221728335	-	Arad_12358	-	-	transporter peptide-binding protein
+265910..266899	+	329	221728336	-	Arad_12359	-	-	ABC transporter permease protein
+266896..267726	+	276	221728337	-	Arad_12361	-	-	ABC transporter permease protein
+267749..269377	+	542	221728338	-	Arad_12362	-	-	ATPase component of various ABC-type transport systems, contain duplicated ATPase
+269400..270716	+	438	221728339	-	Arad_12363	-	-	arylsulphonate monoxygenase
+270741..271808	-	355	221728340	-	Arad_12364	-	-	sugar transport system ATP-binding ABC transporter protein
+271820..272650	-	276	221728341	-	Arad_12365	-	-	ABC transporter, membrane spanning protein
+272654..273553	-	299	221728342	-	Arad_12366	-	-	sugar transport system permease ABC transporter protein
+273759..275018	-	419	221728343	-	Arad_12367	-	-	ABC transporter, substrate binding protein
+275230..277215	+	661	221728344	-	Arad_12368	-	-	conserved hypothetical protein
+277394..278134	+	246	221728345	-	Arad_12370	-	-	Transcriptional regulator
+278191..279513	-	440	221728346	-	Arad_12371	-	-	4-aminobutyrate aminotransferase
+279599..281050	-	483	221728347	-	Arad_12372	-	-	glycerate kinase
+281145..281342	-	65	221728348	-	Arad_12373	-	-	hypothetical protein
+281360..282259	-	299	221728349	-	Arad_12374	-	-	ISSpo9, transposase
+282587..283612	-	341	221728350	-	Arad_12376	-	-	Transposase, IS111A/IS1328/IS1533:Transposase IS116/IS110/IS902
+283687..284373	-	228	221728351	-	Arad_12378	-	-	ISSpo9, transposase
+284544..285548	-	334	221728352	-	Arad_12379	-	-	d-ribose-binding periplasmic protein precursor
+285636..286643	-	335	221728353	-	Arad_12380	-	-	sugar ABC transporter, permease protein
+286615..288132	-	505	221728354	-	Arad_12383	-	-	ribose ABC transport system, ATP-binding protein
+288190..288381	+	63	221728355	-	Arad_12384	-	-	hypothetical protein
+288427..289311	+	294	221728356	-	Arad_12385	-	-	xylose isomerase protein
+289377..290591	+	404	221728357	-	Arad_12386	-	-	transcription regulator protein
+290603..291586	+	327	221728358	-	Arad_12387	-	-	fructokinase
+291583..292878	+	431	221728359	-	Arad_12388	-	-	D-tagatose-bisphosphate aldolase, class II, non-catalytic subunit
+292912..293637	+	241	221728360	-	Arad_12389	-	-	ribitol 2-dehydrogenase
+294493..294723	+	76	221728361	-	Arad_12392	-	-	transporter
+294926..295576	-	216	221728362	-	Arad_12394	-	-	phosphatase/phosphohexomutase
+295666..296928	-	420	221728363	-	Arad_12395	-	-	transcription regulator protein
+296900..297913	-	337	221728364	-	Arad_12396	-	-	sugar-binding transcriptional regulator, LacI family
+297968..298936	-	322	221728365	-	Arad_12397	-	-	ribose ABC transporter, permease protein
+298967..300565	-	532	221728366	-	Arad_12398	-	-	ribose ABC transport system, ATP-binding protein
+301078..301947	-	289	221728367	-	Arad_12399	-	-	Transposase, IS4
+302026..302607	+	193	221728368	-	Arad_12400	-	-	ATP-binding protein of ABC transporter
+303108..303614	+	168	221728369	-	Arad_12402	-	-	conserved hypothetical protein
+303664..305010	-	448	221728370	-	Arad_12403	-	-	Coenzyme F420-dependent N5,N10-methylene tetrahydromethanopterin reductase
+305010..306626	-	538	221728371	-	Arad_12405	-	-	ABC transporter ATP-binding protein
+306623..307468	-	281	221728372	-	Arad_12406	-	-	ABC transporter permease protein
+307465..308493	-	342	221728373	-	Arad_12407	-	-	ABC transporter permease protein
+308508..310130	-	540	221728374	-	Arad_12408	-	-	ABC transporter substrate-binding protein
+310157..311500	-	447	221728375	-	Arad_12410	-	-	nitrilotriacetate monooxygenase component A
+311577..312863	-	428	221728376	-	Arad_12411	-	-	acyl-CoA dehydrogenase
+313026..313943	-	305	221728377	-	Arad_12412	-	-	transcriptional regulator
+314048..314839	+	263	221728378	pcaD	Arad_12413	-	-	3-oxoadipate enol-lactonase
+314927..315121	+	64	221728379	-	Arad_12414	-	-	hypothetical protein
+315317..316360	+	347	221728380	-	Arad_12415	-	-	polar amino acid ABC transport substrate-binding protein, aapJ-2
+316371..317564	+	397	221728381	-	Arad_12416	-	-	ABC-type amino acid transport system, permease component
+317564..318634	+	356	221728382	-	Arad_12417	-	-	ABC-type amino acid transport system, permease component
+319036..319869	-	277	221728383	-	Arad_12419	-	-	conserved hypothetical protein
+320120..321409	-	429	221728384	-	Arad_12422	-	-	conserved hypothetical protein
+321431..322354	-	307	221728385	-	Arad_12423	-	-	conserved hypothetical protein
+322367..323617	-	416	221728386	-	Arad_12424	-	-	conserved hypothetical protein
+323760..324752	-	330	221728387	-	Arad_12425	-	-	peptide transport system permease protein
+324757..325716	-	319	221728388	-	Arad_12426	-	-	oligopeptide ABC transporter permease protein
+325700..327310	-	536	221728389	-	Arad_12427	-	-	ABC transporter, ATP-binding protein
+327324..329084	-	586	221728390	-	Arad_12429	-	-	extracellular solute-binding protein
+329426..331021	+	531	221728391	-	Arad_12433	-	-	ABC transporter substrate-binding protein
+331006..332052	+	348	221728392	-	Arad_12434	-	-	inner membrane component of binding-protein-dependent transport system
+332049..332888	+	279	221728393	-	Arad_12435	-	-	ABC transporter permease protein
+332885..334561	+	558	221728394	-	Arad_12436	-	-	ABC transporter, ATP-binding protein
+334973..335974	+	333	221728395	-	Arad_12438	-	-	alkanesulfonate monooxygenase
+336172..337401	+	409	221728396	-	Arad_12440	-	-	conserved hypothetical protein
+337479..337883	+	134	221728397	-	Arad_12441	-	-	acetyltransferase
+338141..338794	+	217	221728398	-	Arad_12443	-	-	phosphoribulokinase / uridine kinase family
+338853..339350	+	165	221728399	-	Arad_12444	-	-	phage-derived invertase/resolvase
+339406..339954	-	182	221728400	-	Arad_12445	-	-	acetyltransferase
+340478..340822	-	114	221728401	ihfA	Arad_12446	-	-	integration host factor, alpha subunit
+341446..341649	-	67	221728402	-	Arad_12448	-	-	hypothetical protein
+342115..342297	+	60	221728403	-	Arad_12450	-	-	hypothetical protein
+342415..343299	-	294	221728404	cysE	Arad_12452	-	-	serine O-acetyltransferase
+343329..344069	-	246	221728405	-	Arad_12453	-	-	4-phosphopantetheinyl transferase
+344152..345189	-	345	221728406	-	Arad_12454	-	-	High-affinity nickel permease
+345274..345765	-	163	221728407	-	Arad_12455	-	-	conserved hypothetical protein
+345841..346884	-	347	221728408	-	Arad_12456	-	-	cysteine synthase
+346881..347798	-	305	221728409	-	Arad_12457	-	-	conserved hypothetical protein
+347810..351862	-	1350	221728410	-	Arad_12458	-	-	indigoidine synthase
+352787..353626	-	279	221728411	-	Arad_12461	-	-	ABC transporter, nucleotide binding/ATPase protein
+353639..354529	-	296	221728412	-	Arad_12462	-	-	Binding-protein-dependent transport systems inner membrane component
+354533..355654	-	373	221728413	-	Arad_12463	-	-	Binding-protein-dependent transport systems inner membrane component
+355878..356531	-	217	221728414	-	Arad_12465	-	-	regulatory protein, GntR
+356871..357659	-	262	221728415	ehuA	Arad_12466	-	-	ectoine/hydroxyectoine ABC transporter, ATP-binding protein
+357652..358365	-	237	221728416	ehuD	Arad_12467	-	-	ectoine/hydroxyectoine ABC transporter, permease protein EhuD
+358442..359110	-	222	221728417	-	Arad_12468	-	-	Amino acid ABC transporter, permease protein, 3-TM region, His/Glu/Gln/Arg/opine
+359182..360042	-	286	221728418	ehuB	Arad_12469	-	-	ectoine/hydroxyectoine ABC transporter solute-binding protein
+360224..361570	-	448	221728419	-	Arad_12471	-	-	conserved hypothetical protein
+361578..362927	-	449	221728420	-	Arad_12472	-	-	xenobiotic compound monooxygenase, DszA family, A subunit
+362997..364652	-	551	221728421	-	Arad_12473	-	-	ABC-type dipeptide transport system, periplasmic component
+365179..365868	+	229	221728422	-	Arad_12475	-	-	Conserved hypothetical protein
+365939..366286	-	115	221728423	-	Arad_12476	-	-	hypothetical protein
+366289..367821	-	510	221728424	-	Arad_12477	-	-	transposase number 3 for insertion sequence
+367893..368249	-	118	221728425	-	Arad_12478	-	-	transposase number 2 for insertion sequence
+368246..368689	-	147	221728426	-	Arad_12480	-	-	transposase number 1 for insertion sequence
+368851..370110	-	419	221728427	-	Arad_12481	-	-	biotin carboxylase
+370141..372117	-	658	221728428	-	Arad_12482	-	-	3-oxoacyl-ACP reductase
+372234..373115	+	293	221728429	-	Arad_12483	-	-	Transcriptional regulator
+373194..374393	-	399	221728430	-	Arad_12484	-	-	chloramphenicol resistance protein
+374530..375969	-	479	221728431	-	Arad_12485	-	-	Amidase
+375995..376540	-	181	221728432	-	Arad_12488	-	-	GCN5-family N-acetyltransferase
+376599..377774	-	391	221728433	-	Arad_12489	-	-	conserved hypothetical protein
+377852..378133	-	93	221728434	-	Arad_12490	-	-	hypothetical protein
+378134..378523	-	129	221728435	-	Arad_12491	-	-	hypothetical protein
+378535..380289	-	584	221728436	-	Arad_12492	-	-	Prenyltransferase, beta subunit
+380286..381584	-	432	221728437	-	Arad_12493	-	-	coenzyme F390 synthetase
+381938..382204	+	88	221728438	-	Arad_12494	-	-	catalase
+382279..382383	-	34	221728439	-	Arad_12495	-	-	hypothetical protein
+382560..383003	+	147	221728440	-	Arad_12496	-	-	transposase (ISmav2)
+383637..384371	+	244	221728441	-	Arad_12499	-	-	IstB-like ATP-binding protein
+384397..384834	+	145	221728442	-	Arad_12500	-	-	hypothetical protein
+384944..385726	-	260	221728443	-	Arad_12501	-	-	hypothetical protein
+386050..387174	+	374	221728444	-	Arad_12503	-	-	hypothetical protein
+387471..387986	+	171	221728445	-	Arad_12504	-	-	hypothetical protein

@@ -1,0 +1,110 @@
+Agrobacterium vitis S4 plasmid pAtS4b, complete sequence. - 1..130435
+107 proteins
+Location	Strand	Length	PID	Gene	Synonym	Code	COG	Product
+279..1496	+	405	221738392	repA	Avi_9501	-	-	replication protein A
+1493..2491	+	332	221738393	repB	Avi_9502	-	-	replication protein B
+2674..3903	+	409	221738394	repC	Avi_9503	-	-	replication protein C
+3932..4750	-	272	221738395	-	Avi_9504	-	-	alpha/beta hydrolase protein
+4953..5690	+	245	221738396	-	Avi_9505	-	-	GGDEF domain-containing protein
+5858..6244	+	128	221738397	-	Avi_9506	-	-	conserved hypothetical protein
+6241..6768	+	175	221738398	-	Avi_9507	-	-	conserved hypothetical protein
+6832..7143	+	103	221738399	-	Avi_9508	-	-	conserved hypothetical protein
+7190..8302	-	370	221738400	intX	Avi_9510	-	-	phage-related integrase
+8346..8765	-	139	221738401	-	Avi_9511	-	-	nucleic acid-binding protein
+9238..10335	+	365	221738402	-	Avi_9513	-	-	conserved hypothetical protein
+10397..10969	-	190	221738403	-	Avi_9514	-	-	Hypothetical Protein
+10980..11903	-	307	221738404	rpsB	Avi_9516	-	-	30S ribosomal protein S2
+12111..15983	+	1290	221738405	-	Avi_9517	-	-	conserved hypothetical protein
+16434..16715	-	93	221738406	-	Avi_9519	-	-	hypothetical protein
+16828..17115	+	95	221738407	-	Avi_9520	-	-	hypothetical protein
+17350..18660	+	436	221738408	-	Avi_9521	-	-	hypothetical protein
+18787..19353	+	188	221738409	-	Avi_9522	-	-	hypothetical protein
+19826..20632	+	268	221738410	-	Avi_9524	-	-	hypothetical protein
+20632..22509	+	625	221738411	-	Avi_9525	-	-	hypothetical protein
+22615..24360	-	581	221738412	-	Avi_9526	-	-	hypothetical protein
+24544..25332	-	262	221738413	-	Avi_9527	-	-	hypothetical protein
+25510..26523	+	337	221738414	-	Avi_9528	-	-	hypothetical protein
+26662..27747	+	361	221738415	-	Avi_9529	-	-	conserved hypothetical protein
+28041..29846	-	601	221738416	-	Avi_9530	-	-	conserved hypothetical protein
+29843..33256	-	1137	221738417	-	Avi_9531	-	-	helicase ATP-binding protein
+33816..35573	-	585	221738418	pbpB2	Avi_9532	-	-	penicillin-binding protein
+35784..36209	-	141	221738419	-	Avi_9533	-	-	transcriptional regulator Cro/CI family
+36246..36512	-	88	221738420	-	Avi_9535	-	-	hypothetical transcription regulator protein
+36609..36917	+	102	221738421	-	Avi_9536	-	-	hypothetical protein
+36960..37943	+	327	221738422	-	Avi_9537	-	-	conserved hypothetical protein
+37940..38665	+	241	221738423	-	Avi_9538	-	-	conserved hypothetical protein
+38678..38971	+	97	221738424	-	Avi_9539	-	-	conserved hypothetical protein
+39073..44178	+	1701	221738425	-	Avi_9541	-	-	helicase SNF2 family
+44261..44698	-	145	221738426	-	Avi_9542	-	-	conserved hypothetical protein
+45192..45626	+	144	221738427	-	Avi_9545	-	-	conserved hypothetical protein
+45642..45941	+	99	221738428	-	Avi_9546	-	-	CspA-like protein
+46023..46520	-	165	221738429	-	Avi_9549	-	-	conserved hypothetical protein
+46526..46876	-	116	221738430	-	Avi_9550	-	-	conserved hypothetical protein
+46925..47209	-	94	221738431	-	Avi_9551	-	-	hypothetical protein
+47213..49003	+	596	221738432	parB	Avi_9553	-	-	chromosome partitioning protein
+49097..49573	+	158	221738433	-	Avi_9554	-	-	conserved hypothetical protein
+49570..50034	+	154	221738434	-	Avi_9555	-	-	conserved hypothetical protein
+50031..50450	+	139	221738435	-	Avi_9556	-	-	conserved hypothetical protein
+50580..51065	-	161	221738436	-	Avi_9557	-	-	hypothetical protein
+51064..51651	+	195	221738437	-	Avi_9558	-	-	conserved hypothetical protein
+51766..52245	+	159	221738438	-	Avi_9559	-	-	conserved hypothetical protein
+53364..54290	+	308	221738439	ardC	Avi_9564	-	-	antirestriction protein
+54290..54841	+	183	221738440	-	Avi_9566	-	-	hypothetical protein
+54838..55782	+	314	221738441	-	Avi_9567	-	-	conserved hypothetical protein
+55940..56224	-	94	221738442	-	Avi_9569	-	-	conserved hypothetical protein
+56381..56896	-	171	221738443	-	Avi_9570	-	-	conserved hypothetical protein
+57378..57695	+	105	221738444	-	Avi_9572	-	-	conserved hypothetical protein
+58430..59485	+	351	221738445	-	Avi_9577	-	-	Hypothetical Protein
+59884..60285	+	133	221738446	-	Avi_9580	-	-	conserved hypothetical protein
+60465..60785	-	106	221738447	-	Avi_9583	-	-	hypothetical protein
+61091..61414	+	107	221738448	-	Avi_9585	-	-	conserved hypothetical protein
+61930..62268	-	112	221738449	-	Avi_9587	-	-	conserved hypothetical protein
+62265..62570	-	101	221738450	-	Avi_9588	-	-	hypothetical protein
+62749..64638	-	629	221738451	traG	Avi_9589	-	-	Ti-type conjugative transfer system protein TraG
+64625..64903	-	92	221738452	traD	Avi_9590	-	-	conjugal transfer protein Dtr system
+64932..65156	-	74	221738453	traC	Avi_9593	-	-	conjugal transfer protein Dtr system
+65368..69438	+	1356	221738454	traA	Avi_9595	-	-	Ti-type conjugative transfer relaxase TraA
+69435..69968	+	177	221738455	traF	Avi_9596	-	-	conjugative transfer signal peptidase TraF
+69985..71127	+	380	221738456	traB	Avi_9597	-	-	conjugal transfer protein Dtr system
+71566..72201	+	211	221738457	traH	Avi_9599	-	-	conjugal transfer protein Dtr system
+72574..73140	-	188	221738458	-	Avi_9601	-	-	hypothetical protein
+73516..73695	-	59	221738459	-	Avi_9603	-	-	hypothetical protein
+73734..74039	+	101	221738460	-	Avi_9605	-	-	hypothetical protein
+74455..75141	-	228	221738461	-	Avi_9606	-	-	hypothetical protein
+75240..76346	-	368	221738462	hisC	Avi_9607	-	-	histidinol-phosphate aminotransferase
+76409..77671	-	420	221738463	-	Avi_9608	-	-	isopropylmalate/homocitrate/citramalate synthase
+77770..78636	-	288	221738464	mmsB	Avi_9609	-	-	3-hydroxyisobutyrate dehydrogenase
+78790..80637	-	615	221738465	-	Avi_9610	-	-	ABC transporter nucleotide binding/ATPase protein
+80698..81372	-	224	221738466	-	Avi_9611	-	-	conserved hypothetical protein
+81422..82090	-	222	221738467	-	Avi_9612	-	-	transcriptional regulatory protein
+82444..82893	+	149	221738468	-	Avi_9615	-	-	Transposase
+82904..83491	-	195	221738469	istB	Avi_9616	-	-	IS21 family transposase
+83757..84449	-	230	221738470	-	Avi_9617	-	-	transposase
+84516..84752	+	78	221738471	-	Avi_9618	-	-	Transposase
+84801..85253	+	150	221738472	-	Avi_9620	-	-	conserved hypothetical protein
+85269..85622	+	117	221738473	-	Avi_9622	-	-	transposase
+85686..87305	+	539	221738474	-	Avi_9623	-	-	transposase
+87689..89086	-	465	221738475	-	Avi_9626	-	-	glycosyltransferase
+89159..91069	-	636	221738476	cysN	Avi_9629	-	-	sulfate adenylate transferase subunit 1
+91069..91971	-	300	221738477	-	Avi_9630	-	-	sulfate adenylate transferase subunit 2
+92048..92989	-	313	221738478	-	Avi_9632	-	-	conserved hypothetical protein
+93081..93779	-	232	221738479	leuD	Avi_9634	-	-	3-isopropylmalate dehydratase small subunit
+93776..95125	-	449	221738480	leuC	Avi_9636	-	-	3-isopropylmalate dehydratase large subunit
+95783..96763	+	326	221738481	-	Avi_9638	-	-	SyrP-like protein
+96775..108060	+	3761	221738482	-	Avi_9641	-	-	peptide synthetase
+108053..115738	+	2561	221738483	-	Avi_9643	-	-	peptide synthetase
+115923..116480	+	185	221738484	-	Avi_9644	-	-	Phosphopantetheinyl transferase
+116565..117056	+	163	221738485	-	Avi_9645	-	-	conserved hypothetical protein
+117454..118068	-	204	221738486	-	Avi_9646	-	-	hypothetical protein
+118069..119406	-	445	221738487	trbI	Avi_9647	-	-	conjugal transfer protein
+119420..119875	-	151	221738488	trbH	Avi_9648	-	-	conjugal transfer protein
+119879..120700	-	273	221738489	trbG	Avi_9650	-	-	P-type conjugative transfer protein TrbG
+120719..121384	-	221	221738490	trbF	Avi_9651	-	-	conjugal transfer protein
+121425..122531	-	368	221738491	trbL	Avi_9653	-	-	P-type conjugative transfer protein TrbL
+122804..123592	-	262	221738492	trbJ	Avi_9655	-	-	P-type conjugative transfer protein TrbJ
+123567..125630	-	687	221738493	trbE	Avi_9656	-	-	conjugal transfer protein
+126009..126308	-	99	221738494	trbD	Avi_9658	-	-	conjugal transfer protein
+126301..126666	-	121	221738495	trbC	Avi_9659	-	-	conjugal transfer protein
+126684..127646	-	320	221738496	trbB	Avi_9661	-	-	P-type conjugative transfer ATPase TrbB
+128401..129123	+	240	221738497	-	Avi_9665	-	-	two-component transcriptional regulator LuxR family
+129203..129871	+	222	221738498	-	Avi_9666	-	-	autoinducer (acylhomoserine lactone) synthase

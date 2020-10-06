@@ -1,0 +1,2176 @@
+Position in Basecall file: 880 Position in fasta(index is n-1): 880
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGC   New Codon Method: GCC
+
+Position in Basecall file: 937 Position in fasta(index is n-1): 937
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGT   New Codon Method: GTT
+
+Position in Basecall file: 3688 Position in fasta(index is n-1): 3688
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): TTC   New Codon Method: TCC
+
+Position in Basecall file: 3979 Position in fasta(index is n-1): 3979
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTT
+
+Position in Basecall file: 5544 Position in fasta(index is n-1): 5544
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): GTA   New Codon Method: TAT
+
+Position in Basecall file: 5851 Position in fasta(index is n-1): 5851
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAT
+
+Position in Basecall file: 7958 Position in fasta(index is n-1): 7958
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): CTG   New Codon Method: TGG
+
+Position in Basecall file: 8912 Position in fasta(index is n-1): 8912
+Consensus(file): A Consensus(Fasta): A
+Current Codon Method (grabs correct consensus, incorrect neighbors): GAG   New Codon Method: AGT
+
+Position in Basecall file: 9651 Position in fasta(index is n-1): 9651
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCA   New Codon Method: CAA
+
+Position in Basecall file: 9903 Position in fasta(index is n-1): 9903
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGC   New Codon Method: GCT
+
+Position in Basecall file: 10267 Position in fasta(index is n-1): 10267
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTA
+
+Position in Basecall file: 11632 Position in fasta(index is n-1): 11632
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): ATG   New Codon Method: TGA
+
+Position in Basecall file: 11632 Position in fasta(index is n-1): 11632
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): ATG   New Codon Method: TGA
+
+Position in Basecall file: 13385 Position in fasta(index is n-1): 13385
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): CCA   New Codon Method: CAA
+
+Position in Basecall file: 14099 Position in fasta(index is n-1): 14099
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCG   New Codon Method: CGT
+
+Position in Basecall file: 15075 Position in fasta(index is n-1): 15075
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): ATA   New Codon Method: TAG
+
+Position in Basecall file: 15415 Position in fasta(index is n-1): 15415
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACA   New Codon Method: CAA
+
+Position in Basecall file: 16165 Position in fasta(index is n-1): 16165
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAT
+
+Position in Basecall file: 17611 Position in fasta(index is n-1): 17611
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGG   New Codon Method: GGA
+
+Position in Basecall file: 21424 Position in fasta(index is n-1): 21424
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): CCA   New Codon Method: CAC
+
+Position in Basecall file: 23722 Position in fasta(index is n-1): 23722
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): CGT   New Codon Method: GTA
+
+Position in Basecall file: 24901 Position in fasta(index is n-1): 24901
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): GCC   New Codon Method: CCA
+
+Position in Basecall file: 27072 Position in fasta(index is n-1): 27072
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): TTA   New Codon Method: TAT
+
+Position in Basecall file: 27539 Position in fasta(index is n-1): 27539
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACA   New Codon Method: CAA
+
+Position in Basecall file: 27981 Position in fasta(index is n-1): 27981
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): CCC   New Codon Method: CCA
+
+Position in Basecall file: 28346 Position in fasta(index is n-1): 28346
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGC   New Codon Method: GCC
+
+Position in Basecall file: 30387 Position in fasta(index is n-1): 30387
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAA
+
+Position in Basecall file: 33998 Position in fasta(index is n-1): 33998
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): GGT   New Codon Method: GTA
+
+Position in Basecall file: 34010 Position in fasta(index is n-1): 34010
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): CGT   New Codon Method: GTG
+
+Position in Basecall file: 35692 Position in fasta(index is n-1): 35692
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGG   New Codon Method: GGA
+
+Position in Basecall file: 37112 Position in fasta(index is n-1): 37112
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): ATT   New Codon Method: TTG
+
+Position in Basecall file: 38477 Position in fasta(index is n-1): 38477
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): CGT   New Codon Method: GTA
+
+Position in Basecall file: 45632 Position in fasta(index is n-1): 45632
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTT
+
+Position in Basecall file: 46675 Position in fasta(index is n-1): 46675
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACA   New Codon Method: CAA
+
+Position in Basecall file: 47390 Position in fasta(index is n-1): 47390
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGA   New Codon Method: GAT
+
+Position in Basecall file: 47537 Position in fasta(index is n-1): 47537
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCA   New Codon Method: CAA
+
+Position in Basecall file: 48797 Position in fasta(index is n-1): 48797
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): GTT   New Codon Method: TTA
+
+Position in Basecall file: 49225 Position in fasta(index is n-1): 49225
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): GTA   New Codon Method: TAA
+
+Position in Basecall file: 49663 Position in fasta(index is n-1): 49663
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): ATT   New Codon Method: TTC
+
+Position in Basecall file: 52834 Position in fasta(index is n-1): 52834
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): CGA   New Codon Method: GAT
+
+Position in Basecall file: 54986 Position in fasta(index is n-1): 54986
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGG   New Codon Method: GGA
+
+Position in Basecall file: 55726 Position in fasta(index is n-1): 55726
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACC   New Codon Method: CCC
+
+Position in Basecall file: 58529 Position in fasta(index is n-1): 58529
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): CCA   New Codon Method: CAA
+
+Position in Basecall file: 62693 Position in fasta(index is n-1): 62693
+Consensus(file): A Consensus(Fasta): A
+Current Codon Method (grabs correct consensus, incorrect neighbors): TAA   New Codon Method: AAA
+
+Position in Basecall file: 64420 Position in fasta(index is n-1): 64420
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): CCT   New Codon Method: CTC
+
+Position in Basecall file: 65457 Position in fasta(index is n-1): 65457
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACT   New Codon Method: CTG
+
+Position in Basecall file: 67043 Position in fasta(index is n-1): 67043
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): GCG   New Codon Method: CGT
+
+Position in Basecall file: 68595 Position in fasta(index is n-1): 68595
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCA   New Codon Method: CAG
+
+Position in Basecall file: 69934 Position in fasta(index is n-1): 69934
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACA   New Codon Method: CAA
+
+Position in Basecall file: 70086 Position in fasta(index is n-1): 70086
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGA   New Codon Method: GAT
+
+Position in Basecall file: 70908 Position in fasta(index is n-1): 70908
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGA   New Codon Method: GAC
+
+Position in Basecall file: 73473 Position in fasta(index is n-1): 73473
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTT
+
+Position in Basecall file: 74006 Position in fasta(index is n-1): 74006
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACT   New Codon Method: CTG
+
+Position in Basecall file: 75261 Position in fasta(index is n-1): 75261
+Consensus(file): A Consensus(Fasta): A
+Current Codon Method (grabs correct consensus, incorrect neighbors): AAC   New Codon Method: ACA
+
+Position in Basecall file: 76123 Position in fasta(index is n-1): 76123
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): GTT   New Codon Method: TTG
+
+Position in Basecall file: 76468 Position in fasta(index is n-1): 76468
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACA   New Codon Method: CAG
+
+Position in Basecall file: 77086 Position in fasta(index is n-1): 77086
+Consensus(file): A Consensus(Fasta): A
+Current Codon Method (grabs correct consensus, incorrect neighbors): CAT   New Codon Method: ATC
+
+Position in Basecall file: 77821 Position in fasta(index is n-1): 77821
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): GGA   New Codon Method: GAA
+
+Position in Basecall file: 80046 Position in fasta(index is n-1): 80046
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGC   New Codon Method: GCT
+
+Position in Basecall file: 83764 Position in fasta(index is n-1): 83764
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACA   New Codon Method: CAA
+
+Position in Basecall file: 89160 Position in fasta(index is n-1): 89160
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGG   New Codon Method: GGA
+
+Position in Basecall file: 91290 Position in fasta(index is n-1): 91290
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCA   New Codon Method: CAA
+
+Position in Basecall file: 95579 Position in fasta(index is n-1): 95579
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): GCC   New Codon Method: CCA
+
+Position in Basecall file: 95951 Position in fasta(index is n-1): 95951
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACA   New Codon Method: CAG
+
+Position in Basecall file: 96815 Position in fasta(index is n-1): 96815
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGA   New Codon Method: GAG
+
+Position in Basecall file: 96891 Position in fasta(index is n-1): 96891
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): GCA   New Codon Method: CAA
+
+Position in Basecall file: 101397 Position in fasta(index is n-1): 101397
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACT   New Codon Method: CTG
+
+Position in Basecall file: 101544 Position in fasta(index is n-1): 101544
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCC   New Codon Method: CCT
+
+Position in Basecall file: 101785 Position in fasta(index is n-1): 101785
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCA   New Codon Method: CAA
+
+Position in Basecall file: 102497 Position in fasta(index is n-1): 102497
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): GCT   New Codon Method: CTG
+
+Position in Basecall file: 108570 Position in fasta(index is n-1): 108570
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACA   New Codon Method: CAC
+
+Position in Basecall file: 108699 Position in fasta(index is n-1): 108699
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTG
+
+Position in Basecall file: 110775 Position in fasta(index is n-1): 110775
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCT   New Codon Method: CTA
+
+Position in Basecall file: 113671 Position in fasta(index is n-1): 113671
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGA   New Codon Method: GAA
+
+Position in Basecall file: 114754 Position in fasta(index is n-1): 114754
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACA   New Codon Method: CAA
+
+Position in Basecall file: 116834 Position in fasta(index is n-1): 116834
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGC   New Codon Method: GCT
+
+Position in Basecall file: 117679 Position in fasta(index is n-1): 117679
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCT   New Codon Method: CTT
+
+Position in Basecall file: 118076 Position in fasta(index is n-1): 118076
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGA   New Codon Method: GAC
+
+Position in Basecall file: 118160 Position in fasta(index is n-1): 118160
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACT   New Codon Method: CTA
+
+Position in Basecall file: 119417 Position in fasta(index is n-1): 119417
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGG   New Codon Method: GGT
+
+Position in Basecall file: 120593 Position in fasta(index is n-1): 120593
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): GCA   New Codon Method: CAA
+
+Position in Basecall file: 124696 Position in fasta(index is n-1): 124696
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCT   New Codon Method: CTT
+
+Position in Basecall file: 125978 Position in fasta(index is n-1): 125978
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACC   New Codon Method: CCT
+
+Position in Basecall file: 127441 Position in fasta(index is n-1): 127441
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): GGG   New Codon Method: GGT
+
+Position in Basecall file: 127854 Position in fasta(index is n-1): 127854
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): CCA   New Codon Method: CAT
+
+Position in Basecall file: 128445 Position in fasta(index is n-1): 128445
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACA   New Codon Method: CAC
+
+Position in Basecall file: 130118 Position in fasta(index is n-1): 130118
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): CGC   New Codon Method: GCA
+
+Position in Basecall file: 131141 Position in fasta(index is n-1): 131141
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCA   New Codon Method: CAT
+
+Position in Basecall file: 136038 Position in fasta(index is n-1): 136038
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGA   New Codon Method: GAA
+
+Position in Basecall file: 137967 Position in fasta(index is n-1): 137967
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): GGG   New Codon Method: GGG
+
+Position in Basecall file: 142455 Position in fasta(index is n-1): 142455
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAT
+
+Position in Basecall file: 144431 Position in fasta(index is n-1): 144431
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACT   New Codon Method: CTG
+
+Position in Basecall file: 149859 Position in fasta(index is n-1): 149859
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACA   New Codon Method: CAT
+
+Position in Basecall file: 151034 Position in fasta(index is n-1): 151034
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCT   New Codon Method: CTA
+
+Position in Basecall file: 151490 Position in fasta(index is n-1): 151490
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACC   New Codon Method: CCC
+
+Position in Basecall file: 152804 Position in fasta(index is n-1): 152804
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACA   New Codon Method: CAA
+
+Position in Basecall file: 152869 Position in fasta(index is n-1): 152869
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCA   New Codon Method: CAG
+
+Position in Basecall file: 155006 Position in fasta(index is n-1): 155006
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACA   New Codon Method: CAT
+
+Position in Basecall file: 155078 Position in fasta(index is n-1): 155078
+Consensus(file): A Consensus(Fasta): A
+Current Codon Method (grabs correct consensus, incorrect neighbors): TAT   New Codon Method: ATT
+
+Position in Basecall file: 156509 Position in fasta(index is n-1): 156509
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): GGG   New Codon Method: GGG
+
+Position in Basecall file: 158125 Position in fasta(index is n-1): 158125
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACA   New Codon Method: CAA
+
+Position in Basecall file: 159507 Position in fasta(index is n-1): 159507
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGA   New Codon Method: GAT
+
+Position in Basecall file: 159961 Position in fasta(index is n-1): 159961
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): ATT   New Codon Method: TTT
+
+Position in Basecall file: 159961 Position in fasta(index is n-1): 159961
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): ATT   New Codon Method: TTT
+
+Position in Basecall file: 161490 Position in fasta(index is n-1): 161490
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): GCG   New Codon Method: CGC
+
+Position in Basecall file: 161553 Position in fasta(index is n-1): 161553
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): GCT   New Codon Method: CTG
+
+Position in Basecall file: 162564 Position in fasta(index is n-1): 162564
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): CCA   New Codon Method: CAA
+
+Position in Basecall file: 164938 Position in fasta(index is n-1): 164938
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): CCT   New Codon Method: CTG
+
+Position in Basecall file: 167051 Position in fasta(index is n-1): 167051
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTT
+
+Position in Basecall file: 167257 Position in fasta(index is n-1): 167257
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCT   New Codon Method: CTT
+
+Position in Basecall file: 167257 Position in fasta(index is n-1): 167257
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCT   New Codon Method: CTT
+
+Position in Basecall file: 168584 Position in fasta(index is n-1): 168584
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTG
+
+Position in Basecall file: 168715 Position in fasta(index is n-1): 168715
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): CGA   New Codon Method: GAT
+
+Position in Basecall file: 169583 Position in fasta(index is n-1): 169583
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAT
+
+Position in Basecall file: 171854 Position in fasta(index is n-1): 171854
+Consensus(file): A Consensus(Fasta): A
+Current Codon Method (grabs correct consensus, incorrect neighbors): TAT   New Codon Method: ATG
+
+Position in Basecall file: 172565 Position in fasta(index is n-1): 172565
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACG   New Codon Method: CGC
+
+Position in Basecall file: 174352 Position in fasta(index is n-1): 174352
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGA   New Codon Method: GAT
+
+Position in Basecall file: 175428 Position in fasta(index is n-1): 175428
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): CGA   New Codon Method: GAA
+
+Position in Basecall file: 181686 Position in fasta(index is n-1): 181686
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCC   New Codon Method: CCC
+
+Position in Basecall file: 184687 Position in fasta(index is n-1): 184687
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGT   New Codon Method: GTA
+
+Position in Basecall file: 190520 Position in fasta(index is n-1): 190520
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTG
+
+Position in Basecall file: 197380 Position in fasta(index is n-1): 197380
+Consensus(file): A Consensus(Fasta): A
+Current Codon Method (grabs correct consensus, incorrect neighbors): AAG   New Codon Method: AGA
+
+Position in Basecall file: 198338 Position in fasta(index is n-1): 198338
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGG   New Codon Method: GGG
+
+Position in Basecall file: 200234 Position in fasta(index is n-1): 200234
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): GGA   New Codon Method: GAA
+
+Position in Basecall file: 202514 Position in fasta(index is n-1): 202514
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGA   New Codon Method: GAT
+
+Position in Basecall file: 202514 Position in fasta(index is n-1): 202514
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGA   New Codon Method: GAT
+
+Position in Basecall file: 203053 Position in fasta(index is n-1): 203053
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): GTA   New Codon Method: TAA
+
+Position in Basecall file: 204548 Position in fasta(index is n-1): 204548
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAC
+
+Position in Basecall file: 204753 Position in fasta(index is n-1): 204753
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACT   New Codon Method: CTG
+
+Position in Basecall file: 205232 Position in fasta(index is n-1): 205232
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTA
+
+Position in Basecall file: 205232 Position in fasta(index is n-1): 205232
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTA
+
+Position in Basecall file: 206061 Position in fasta(index is n-1): 206061
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): CGT   New Codon Method: GTT
+
+Position in Basecall file: 210357 Position in fasta(index is n-1): 210357
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCC   New Codon Method: CCT
+
+Position in Basecall file: 210357 Position in fasta(index is n-1): 210357
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCC   New Codon Method: CCT
+
+Position in Basecall file: 211515 Position in fasta(index is n-1): 211515
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTA
+
+Position in Basecall file: 211522 Position in fasta(index is n-1): 211522
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): GCC   New Codon Method: CCT
+
+Position in Basecall file: 214957 Position in fasta(index is n-1): 214957
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGA   New Codon Method: GAA
+
+Position in Basecall file: 216413 Position in fasta(index is n-1): 216413
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTG
+
+Position in Basecall file: 216967 Position in fasta(index is n-1): 216967
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCT   New Codon Method: CTA
+
+Position in Basecall file: 218539 Position in fasta(index is n-1): 218539
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): GGA   New Codon Method: GAA
+
+Position in Basecall file: 220338 Position in fasta(index is n-1): 220338
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCC   New Codon Method: CCT
+
+Position in Basecall file: 221028 Position in fasta(index is n-1): 221028
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): CCA   New Codon Method: CAA
+
+Position in Basecall file: 224303 Position in fasta(index is n-1): 224303
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): CTA   New Codon Method: TAA
+
+Position in Basecall file: 224317 Position in fasta(index is n-1): 224317
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAA
+
+Position in Basecall file: 226327 Position in fasta(index is n-1): 226327
+Consensus(file): A Consensus(Fasta): A
+Current Codon Method (grabs correct consensus, incorrect neighbors): AAG   New Codon Method: AGA
+
+Position in Basecall file: 228086 Position in fasta(index is n-1): 228086
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): ATA   New Codon Method: TAT
+
+Position in Basecall file: 231335 Position in fasta(index is n-1): 231335
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAC
+
+Position in Basecall file: 231335 Position in fasta(index is n-1): 231335
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAC
+
+Position in Basecall file: 235418 Position in fasta(index is n-1): 235418
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAA
+
+Position in Basecall file: 235829 Position in fasta(index is n-1): 235829
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAA
+
+Position in Basecall file: 236165 Position in fasta(index is n-1): 236165
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): GGT   New Codon Method: GTA
+
+Position in Basecall file: 237199 Position in fasta(index is n-1): 237199
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCT   New Codon Method: CTT
+
+Position in Basecall file: 237695 Position in fasta(index is n-1): 237695
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTT
+
+Position in Basecall file: 238301 Position in fasta(index is n-1): 238301
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACT   New Codon Method: CTT
+
+Position in Basecall file: 242529 Position in fasta(index is n-1): 242529
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): CCG   New Codon Method: CGT
+
+Position in Basecall file: 244653 Position in fasta(index is n-1): 244653
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAT
+
+Position in Basecall file: 245331 Position in fasta(index is n-1): 245331
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCA   New Codon Method: CAT
+
+Position in Basecall file: 246881 Position in fasta(index is n-1): 246881
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACA   New Codon Method: CAT
+
+Position in Basecall file: 247256 Position in fasta(index is n-1): 247256
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGG   New Codon Method: GGT
+
+Position in Basecall file: 247457 Position in fasta(index is n-1): 247457
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGA   New Codon Method: GAA
+
+Position in Basecall file: 247924 Position in fasta(index is n-1): 247924
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACA   New Codon Method: CAA
+
+Position in Basecall file: 248189 Position in fasta(index is n-1): 248189
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAA
+
+Position in Basecall file: 250037 Position in fasta(index is n-1): 250037
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAA
+
+Position in Basecall file: 251290 Position in fasta(index is n-1): 251290
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTG
+
+Position in Basecall file: 251317 Position in fasta(index is n-1): 251317
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): GCT   New Codon Method: CTA
+
+Position in Basecall file: 254026 Position in fasta(index is n-1): 254026
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGC   New Codon Method: GCA
+
+Position in Basecall file: 256804 Position in fasta(index is n-1): 256804
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAT
+
+Position in Basecall file: 262342 Position in fasta(index is n-1): 262342
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): ATA   New Codon Method: TAC
+
+Position in Basecall file: 263612 Position in fasta(index is n-1): 263612
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAA
+
+Position in Basecall file: 264210 Position in fasta(index is n-1): 264210
+Consensus(file): A Consensus(Fasta): A
+Current Codon Method (grabs correct consensus, incorrect neighbors): TAA   New Codon Method: AAA
+
+Position in Basecall file: 268748 Position in fasta(index is n-1): 268748
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACG   New Codon Method: CGT
+
+Position in Basecall file: 269086 Position in fasta(index is n-1): 269086
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACA   New Codon Method: CAA
+
+Position in Basecall file: 269855 Position in fasta(index is n-1): 269855
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACG   New Codon Method: CGA
+
+Position in Basecall file: 270629 Position in fasta(index is n-1): 270629
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): CTG   New Codon Method: TGG
+
+Position in Basecall file: 271955 Position in fasta(index is n-1): 271955
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): GCT   New Codon Method: CTG
+
+Position in Basecall file: 275005 Position in fasta(index is n-1): 275005
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCA   New Codon Method: CAG
+
+Position in Basecall file: 276438 Position in fasta(index is n-1): 276438
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACA   New Codon Method: CAT
+
+Position in Basecall file: 277561 Position in fasta(index is n-1): 277561
+Consensus(file): A Consensus(Fasta): A
+Current Codon Method (grabs correct consensus, incorrect neighbors): AAT   New Codon Method: ATC
+
+Position in Basecall file: 281533 Position in fasta(index is n-1): 281533
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAT
+
+Position in Basecall file: 284867 Position in fasta(index is n-1): 284867
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGG   New Codon Method: GGT
+
+Position in Basecall file: 289583 Position in fasta(index is n-1): 289583
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGT   New Codon Method: GTT
+
+Position in Basecall file: 294286 Position in fasta(index is n-1): 294286
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): TTT   New Codon Method: TTT
+
+Position in Basecall file: 295358 Position in fasta(index is n-1): 295358
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAT
+
+Position in Basecall file: 297174 Position in fasta(index is n-1): 297174
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTA
+
+Position in Basecall file: 297716 Position in fasta(index is n-1): 297716
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): CGT   New Codon Method: GTT
+
+Position in Basecall file: 303632 Position in fasta(index is n-1): 303632
+Consensus(file): A Consensus(Fasta): A
+Current Codon Method (grabs correct consensus, incorrect neighbors): GAA   New Codon Method: AAT
+
+Position in Basecall file: 304618 Position in fasta(index is n-1): 304618
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): GGG   New Codon Method: GGT
+
+Position in Basecall file: 306493 Position in fasta(index is n-1): 306493
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTC
+
+Position in Basecall file: 308466 Position in fasta(index is n-1): 308466
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTT
+
+Position in Basecall file: 310242 Position in fasta(index is n-1): 310242
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACT   New Codon Method: CTT
+
+Position in Basecall file: 311071 Position in fasta(index is n-1): 311071
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): CCA   New Codon Method: CAT
+
+Position in Basecall file: 311501 Position in fasta(index is n-1): 311501
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAT
+
+Position in Basecall file: 311734 Position in fasta(index is n-1): 311734
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACG   New Codon Method: CGA
+
+Position in Basecall file: 314539 Position in fasta(index is n-1): 314539
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): GGA   New Codon Method: GAT
+
+Position in Basecall file: 315564 Position in fasta(index is n-1): 315564
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAA
+
+Position in Basecall file: 316795 Position in fasta(index is n-1): 316795
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGG   New Codon Method: GGG
+
+Position in Basecall file: 319587 Position in fasta(index is n-1): 319587
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): GGA   New Codon Method: GAA
+
+Position in Basecall file: 324024 Position in fasta(index is n-1): 324024
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACG   New Codon Method: CGC
+
+Position in Basecall file: 324141 Position in fasta(index is n-1): 324141
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTT
+
+Position in Basecall file: 327322 Position in fasta(index is n-1): 327322
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): GCA   New Codon Method: CAA
+
+Position in Basecall file: 330221 Position in fasta(index is n-1): 330221
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCG   New Codon Method: CGG
+
+Position in Basecall file: 331452 Position in fasta(index is n-1): 331452
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAC
+
+Position in Basecall file: 334556 Position in fasta(index is n-1): 334556
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACA   New Codon Method: CAC
+
+Position in Basecall file: 334556 Position in fasta(index is n-1): 334556
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACA   New Codon Method: CAC
+
+Position in Basecall file: 336440 Position in fasta(index is n-1): 336440
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): ATT   New Codon Method: TTG
+
+Position in Basecall file: 339010 Position in fasta(index is n-1): 339010
+Consensus(file): A Consensus(Fasta): A
+Current Codon Method (grabs correct consensus, incorrect neighbors): TAT   New Codon Method: ATA
+
+Position in Basecall file: 341167 Position in fasta(index is n-1): 341167
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): ATT   New Codon Method: TTT
+
+Position in Basecall file: 341564 Position in fasta(index is n-1): 341564
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): CCA   New Codon Method: CAT
+
+Position in Basecall file: 348869 Position in fasta(index is n-1): 348869
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCG   New Codon Method: CGA
+
+Position in Basecall file: 349980 Position in fasta(index is n-1): 349980
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGC   New Codon Method: GCA
+
+Position in Basecall file: 350801 Position in fasta(index is n-1): 350801
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACA   New Codon Method: CAA
+
+Position in Basecall file: 351344 Position in fasta(index is n-1): 351344
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGA   New Codon Method: GAA
+
+Position in Basecall file: 353519 Position in fasta(index is n-1): 353519
+Consensus(file): A Consensus(Fasta): A
+Current Codon Method (grabs correct consensus, incorrect neighbors): AAT   New Codon Method: ATT
+
+Position in Basecall file: 356160 Position in fasta(index is n-1): 356160
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): GGT   New Codon Method: GTT
+
+Position in Basecall file: 358919 Position in fasta(index is n-1): 358919
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAA
+
+Position in Basecall file: 362129 Position in fasta(index is n-1): 362129
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCT   New Codon Method: CTA
+
+Position in Basecall file: 362363 Position in fasta(index is n-1): 362363
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGT   New Codon Method: GTT
+
+Position in Basecall file: 366801 Position in fasta(index is n-1): 366801
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGC   New Codon Method: GCT
+
+Position in Basecall file: 369017 Position in fasta(index is n-1): 369017
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGC   New Codon Method: GCT
+
+Position in Basecall file: 369212 Position in fasta(index is n-1): 369212
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGA   New Codon Method: GAT
+
+Position in Basecall file: 371938 Position in fasta(index is n-1): 371938
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTA
+
+Position in Basecall file: 373065 Position in fasta(index is n-1): 373065
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGA   New Codon Method: GAA
+
+Position in Basecall file: 375644 Position in fasta(index is n-1): 375644
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAT
+
+Position in Basecall file: 378647 Position in fasta(index is n-1): 378647
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCT   New Codon Method: CTT
+
+Position in Basecall file: 380197 Position in fasta(index is n-1): 380197
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAG
+
+Position in Basecall file: 380440 Position in fasta(index is n-1): 380440
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAT
+
+Position in Basecall file: 383797 Position in fasta(index is n-1): 383797
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAT
+
+Position in Basecall file: 387466 Position in fasta(index is n-1): 387466
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAT
+
+Position in Basecall file: 389221 Position in fasta(index is n-1): 389221
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCT   New Codon Method: CTA
+
+Position in Basecall file: 390543 Position in fasta(index is n-1): 390543
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAA
+
+Position in Basecall file: 390670 Position in fasta(index is n-1): 390670
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): GCA   New Codon Method: CAC
+
+Position in Basecall file: 391566 Position in fasta(index is n-1): 391566
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGC   New Codon Method: GCT
+
+Position in Basecall file: 394773 Position in fasta(index is n-1): 394773
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACT   New Codon Method: CTC
+
+Position in Basecall file: 394872 Position in fasta(index is n-1): 394872
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCT   New Codon Method: CTA
+
+Position in Basecall file: 395189 Position in fasta(index is n-1): 395189
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAA
+
+Position in Basecall file: 397049 Position in fasta(index is n-1): 397049
+Consensus(file): A Consensus(Fasta): A
+Current Codon Method (grabs correct consensus, incorrect neighbors): TAT   New Codon Method: ATA
+
+Position in Basecall file: 397601 Position in fasta(index is n-1): 397601
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGC   New Codon Method: GCA
+
+Position in Basecall file: 397953 Position in fasta(index is n-1): 397953
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): GCT   New Codon Method: CTT
+
+Position in Basecall file: 401473 Position in fasta(index is n-1): 401473
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAA
+
+Position in Basecall file: 401825 Position in fasta(index is n-1): 401825
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGG   New Codon Method: GGG
+
+Position in Basecall file: 402425 Position in fasta(index is n-1): 402425
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCC   New Codon Method: CCT
+
+Position in Basecall file: 403449 Position in fasta(index is n-1): 403449
+Consensus(file): A Consensus(Fasta): A
+Current Codon Method (grabs correct consensus, incorrect neighbors): GAA   New Codon Method: AAA
+
+Position in Basecall file: 403450 Position in fasta(index is n-1): 403450
+Consensus(file): A Consensus(Fasta): A
+Current Codon Method (grabs correct consensus, incorrect neighbors): AAA   New Codon Method: AAC
+
+Position in Basecall file: 403455 Position in fasta(index is n-1): 403455
+Consensus(file): A Consensus(Fasta): A
+Current Codon Method (grabs correct consensus, incorrect neighbors): TAT   New Codon Method: ATA
+
+Position in Basecall file: 409021 Position in fasta(index is n-1): 409021
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAT
+
+Position in Basecall file: 410584 Position in fasta(index is n-1): 410584
+Consensus(file): A Consensus(Fasta): A
+Current Codon Method (grabs correct consensus, incorrect neighbors): AAG   New Codon Method: AGA
+
+Position in Basecall file: 410585 Position in fasta(index is n-1): 410585
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGA   New Codon Method: GAA
+
+Position in Basecall file: 411195 Position in fasta(index is n-1): 411195
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAA
+
+Position in Basecall file: 414792 Position in fasta(index is n-1): 414792
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTA
+
+Position in Basecall file: 416659 Position in fasta(index is n-1): 416659
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCA   New Codon Method: CAA
+
+Position in Basecall file: 421247 Position in fasta(index is n-1): 421247
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCA   New Codon Method: CAA
+
+Position in Basecall file: 422425 Position in fasta(index is n-1): 422425
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTT
+
+Position in Basecall file: 422899 Position in fasta(index is n-1): 422899
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): TTA   New Codon Method: TAA
+
+Position in Basecall file: 426085 Position in fasta(index is n-1): 426085
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTT
+
+Position in Basecall file: 427320 Position in fasta(index is n-1): 427320
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGA   New Codon Method: GAT
+
+Position in Basecall file: 429160 Position in fasta(index is n-1): 429160
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGC   New Codon Method: GCA
+
+Position in Basecall file: 429611 Position in fasta(index is n-1): 429611
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACA   New Codon Method: CAG
+
+Position in Basecall file: 429615 Position in fasta(index is n-1): 429615
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): CGA   New Codon Method: GAT
+
+Position in Basecall file: 429882 Position in fasta(index is n-1): 429882
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTA
+
+Position in Basecall file: 431586 Position in fasta(index is n-1): 431586
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTT
+
+Position in Basecall file: 432601 Position in fasta(index is n-1): 432601
+Consensus(file): A Consensus(Fasta): A
+Current Codon Method (grabs correct consensus, incorrect neighbors): AAT   New Codon Method: ATT
+
+Position in Basecall file: 434827 Position in fasta(index is n-1): 434827
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCA   New Codon Method: CAA
+
+Position in Basecall file: 435114 Position in fasta(index is n-1): 435114
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCT   New Codon Method: CTG
+
+Position in Basecall file: 435845 Position in fasta(index is n-1): 435845
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): TTG   New Codon Method: TGA
+
+Position in Basecall file: 439968 Position in fasta(index is n-1): 439968
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTT
+
+Position in Basecall file: 441361 Position in fasta(index is n-1): 441361
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGG   New Codon Method: GGA
+
+Position in Basecall file: 441941 Position in fasta(index is n-1): 441941
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACA   New Codon Method: CAT
+
+Position in Basecall file: 442143 Position in fasta(index is n-1): 442143
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): ATG   New Codon Method: TGA
+
+Position in Basecall file: 444902 Position in fasta(index is n-1): 444902
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAG
+
+Position in Basecall file: 444959 Position in fasta(index is n-1): 444959
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGG   New Codon Method: GGT
+
+Position in Basecall file: 447308 Position in fasta(index is n-1): 447308
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): CCA   New Codon Method: CAT
+
+Position in Basecall file: 447393 Position in fasta(index is n-1): 447393
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCA   New Codon Method: CAT
+
+Position in Basecall file: 448432 Position in fasta(index is n-1): 448432
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): CCA   New Codon Method: CAA
+
+Position in Basecall file: 449769 Position in fasta(index is n-1): 449769
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACA   New Codon Method: CAT
+
+Position in Basecall file: 449805 Position in fasta(index is n-1): 449805
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): CGC   New Codon Method: GCT
+
+Position in Basecall file: 449909 Position in fasta(index is n-1): 449909
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTT
+
+Position in Basecall file: 451989 Position in fasta(index is n-1): 451989
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): GGG   New Codon Method: GGA
+
+Position in Basecall file: 451989 Position in fasta(index is n-1): 451989
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): GGG   New Codon Method: GGA
+
+Position in Basecall file: 452222 Position in fasta(index is n-1): 452222
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGC   New Codon Method: GCA
+
+Position in Basecall file: 452235 Position in fasta(index is n-1): 452235
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACA   New Codon Method: CAA
+
+Position in Basecall file: 452331 Position in fasta(index is n-1): 452331
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACA   New Codon Method: CAA
+
+Position in Basecall file: 452334 Position in fasta(index is n-1): 452334
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACA   New Codon Method: CAT
+
+Position in Basecall file: 452799 Position in fasta(index is n-1): 452799
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAG
+
+Position in Basecall file: 452856 Position in fasta(index is n-1): 452856
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): GCA   New Codon Method: CAG
+
+Position in Basecall file: 453422 Position in fasta(index is n-1): 453422
+Consensus(file): A Consensus(Fasta): A
+Current Codon Method (grabs correct consensus, incorrect neighbors): TAA   New Codon Method: AAT
+
+Position in Basecall file: 453756 Position in fasta(index is n-1): 453756
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCA   New Codon Method: CAT
+
+Position in Basecall file: 454220 Position in fasta(index is n-1): 454220
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): GGA   New Codon Method: GAA
+
+Position in Basecall file: 454382 Position in fasta(index is n-1): 454382
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCA   New Codon Method: CAA
+
+Position in Basecall file: 454496 Position in fasta(index is n-1): 454496
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCT   New Codon Method: CTT
+
+Position in Basecall file: 454536 Position in fasta(index is n-1): 454536
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): CGC   New Codon Method: GCT
+
+Position in Basecall file: 454536 Position in fasta(index is n-1): 454536
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): CGC   New Codon Method: GCT
+
+Position in Basecall file: 455013 Position in fasta(index is n-1): 455013
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): CGT   New Codon Method: GTT
+
+Position in Basecall file: 455464 Position in fasta(index is n-1): 455464
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): GCA   New Codon Method: CAA
+
+Position in Basecall file: 456315 Position in fasta(index is n-1): 456315
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGT   New Codon Method: GTC
+
+Position in Basecall file: 461113 Position in fasta(index is n-1): 461113
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCA   New Codon Method: CAA
+
+Position in Basecall file: 463957 Position in fasta(index is n-1): 463957
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): GCA   New Codon Method: CAC
+
+Position in Basecall file: 472448 Position in fasta(index is n-1): 472448
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): GCA   New Codon Method: CAC
+
+Position in Basecall file: 472456 Position in fasta(index is n-1): 472456
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCC   New Codon Method: CCA
+
+Position in Basecall file: 472648 Position in fasta(index is n-1): 472648
+Consensus(file): A Consensus(Fasta): A
+Current Codon Method (grabs correct consensus, incorrect neighbors): AAT   New Codon Method: ATT
+
+Position in Basecall file: 473147 Position in fasta(index is n-1): 473147
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCT   New Codon Method: CTG
+
+Position in Basecall file: 473264 Position in fasta(index is n-1): 473264
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAA
+
+Position in Basecall file: 473516 Position in fasta(index is n-1): 473516
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAT
+
+Position in Basecall file: 473578 Position in fasta(index is n-1): 473578
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCA   New Codon Method: CAA
+
+Position in Basecall file: 473693 Position in fasta(index is n-1): 473693
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCA   New Codon Method: CAG
+
+Position in Basecall file: 474371 Position in fasta(index is n-1): 474371
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTG
+
+Position in Basecall file: 474442 Position in fasta(index is n-1): 474442
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCC   New Codon Method: CCA
+
+Position in Basecall file: 476970 Position in fasta(index is n-1): 476970
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAA
+
+Position in Basecall file: 477017 Position in fasta(index is n-1): 477017
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAA
+
+Position in Basecall file: 480986 Position in fasta(index is n-1): 480986
+Consensus(file): A Consensus(Fasta): A
+Current Codon Method (grabs correct consensus, incorrect neighbors): CAA   New Codon Method: AAA
+
+Position in Basecall file: 482305 Position in fasta(index is n-1): 482305
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): GCA   New Codon Method: CAG
+
+Position in Basecall file: 482711 Position in fasta(index is n-1): 482711
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAG
+
+Position in Basecall file: 486103 Position in fasta(index is n-1): 486103
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): CGC   New Codon Method: GCT
+
+Position in Basecall file: 486245 Position in fasta(index is n-1): 486245
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCA   New Codon Method: CAT
+
+Position in Basecall file: 488795 Position in fasta(index is n-1): 488795
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGC   New Codon Method: GCA
+
+Position in Basecall file: 490193 Position in fasta(index is n-1): 490193
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGT   New Codon Method: GTT
+
+Position in Basecall file: 490514 Position in fasta(index is n-1): 490514
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAA
+
+Position in Basecall file: 493045 Position in fasta(index is n-1): 493045
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): CCA   New Codon Method: CAG
+
+Position in Basecall file: 495182 Position in fasta(index is n-1): 495182
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCA   New Codon Method: CAA
+
+Position in Basecall file: 498717 Position in fasta(index is n-1): 498717
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): TTC   New Codon Method: TCA
+
+Position in Basecall file: 499319 Position in fasta(index is n-1): 499319
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTT
+
+Position in Basecall file: 500526 Position in fasta(index is n-1): 500526
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): GCA   New Codon Method: CAC
+
+Position in Basecall file: 504931 Position in fasta(index is n-1): 504931
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): ATT   New Codon Method: TTT
+
+Position in Basecall file: 507222 Position in fasta(index is n-1): 507222
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTT
+
+Position in Basecall file: 508938 Position in fasta(index is n-1): 508938
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): CCA   New Codon Method: CAA
+
+Position in Basecall file: 510689 Position in fasta(index is n-1): 510689
+Consensus(file): A Consensus(Fasta): A
+Current Codon Method (grabs correct consensus, incorrect neighbors): TAT   New Codon Method: ATT
+
+Position in Basecall file: 511628 Position in fasta(index is n-1): 511628
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): CCA   New Codon Method: CAT
+
+Position in Basecall file: 511628 Position in fasta(index is n-1): 511628
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): CCA   New Codon Method: CAT
+
+Position in Basecall file: 512062 Position in fasta(index is n-1): 512062
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAA
+
+Position in Basecall file: 514705 Position in fasta(index is n-1): 514705
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGC   New Codon Method: GCA
+
+Position in Basecall file: 517256 Position in fasta(index is n-1): 517256
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACT   New Codon Method: CTA
+
+Position in Basecall file: 518237 Position in fasta(index is n-1): 518237
+Consensus(file): A Consensus(Fasta): A
+Current Codon Method (grabs correct consensus, incorrect neighbors): TAA   New Codon Method: AAA
+
+Position in Basecall file: 519045 Position in fasta(index is n-1): 519045
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGC   New Codon Method: GCA
+
+Position in Basecall file: 521293 Position in fasta(index is n-1): 521293
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCG   New Codon Method: CGT
+
+Position in Basecall file: 523043 Position in fasta(index is n-1): 523043
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): CCA   New Codon Method: CAA
+
+Position in Basecall file: 523496 Position in fasta(index is n-1): 523496
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGG   New Codon Method: GGT
+
+Position in Basecall file: 523739 Position in fasta(index is n-1): 523739
+Consensus(file): A Consensus(Fasta): A
+Current Codon Method (grabs correct consensus, incorrect neighbors): CAA   New Codon Method: AAA
+
+Position in Basecall file: 524223 Position in fasta(index is n-1): 524223
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGC   New Codon Method: GCA
+
+Position in Basecall file: 524328 Position in fasta(index is n-1): 524328
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGA   New Codon Method: GAG
+
+Position in Basecall file: 525001 Position in fasta(index is n-1): 525001
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCA   New Codon Method: CAT
+
+Position in Basecall file: 526392 Position in fasta(index is n-1): 526392
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCT   New Codon Method: CTC
+
+Position in Basecall file: 526610 Position in fasta(index is n-1): 526610
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCC   New Codon Method: CCT
+
+Position in Basecall file: 527046 Position in fasta(index is n-1): 527046
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCC   New Codon Method: CCT
+
+Position in Basecall file: 531159 Position in fasta(index is n-1): 531159
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): TTG   New Codon Method: TGA
+
+Position in Basecall file: 531646 Position in fasta(index is n-1): 531646
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAC
+
+Position in Basecall file: 532517 Position in fasta(index is n-1): 532517
+Consensus(file): A Consensus(Fasta): A
+Current Codon Method (grabs correct consensus, incorrect neighbors): CAA   New Codon Method: AAC
+
+Position in Basecall file: 534758 Position in fasta(index is n-1): 534758
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAA
+
+Position in Basecall file: 536946 Position in fasta(index is n-1): 536946
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTT
+
+Position in Basecall file: 537926 Position in fasta(index is n-1): 537926
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): TTA   New Codon Method: TAA
+
+Position in Basecall file: 538407 Position in fasta(index is n-1): 538407
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGT   New Codon Method: GTA
+
+Position in Basecall file: 539559 Position in fasta(index is n-1): 539559
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGT   New Codon Method: GTT
+
+Position in Basecall file: 540304 Position in fasta(index is n-1): 540304
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): GCC   New Codon Method: CCT
+
+Position in Basecall file: 540340 Position in fasta(index is n-1): 540340
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTT
+
+Position in Basecall file: 541068 Position in fasta(index is n-1): 541068
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTA
+
+Position in Basecall file: 541640 Position in fasta(index is n-1): 541640
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): CCT   New Codon Method: CTG
+
+Position in Basecall file: 544108 Position in fasta(index is n-1): 544108
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAA
+
+Position in Basecall file: 544108 Position in fasta(index is n-1): 544108
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAA
+
+Position in Basecall file: 545977 Position in fasta(index is n-1): 545977
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGC   New Codon Method: GCA
+
+Position in Basecall file: 546911 Position in fasta(index is n-1): 546911
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCA   New Codon Method: CAA
+
+Position in Basecall file: 547934 Position in fasta(index is n-1): 547934
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACA   New Codon Method: CAA
+
+Position in Basecall file: 548212 Position in fasta(index is n-1): 548212
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAT
+
+Position in Basecall file: 550696 Position in fasta(index is n-1): 550696
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): CCA   New Codon Method: CAC
+
+Position in Basecall file: 554350 Position in fasta(index is n-1): 554350
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCT   New Codon Method: CTT
+
+Position in Basecall file: 555265 Position in fasta(index is n-1): 555265
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCA   New Codon Method: CAA
+
+Position in Basecall file: 555848 Position in fasta(index is n-1): 555848
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACT   New Codon Method: CTT
+
+Position in Basecall file: 558669 Position in fasta(index is n-1): 558669
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): CCC   New Codon Method: CCA
+
+Position in Basecall file: 559862 Position in fasta(index is n-1): 559862
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): GCT   New Codon Method: CTT
+
+Position in Basecall file: 560650 Position in fasta(index is n-1): 560650
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): ATT   New Codon Method: TTT
+
+Position in Basecall file: 561732 Position in fasta(index is n-1): 561732
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): GTA   New Codon Method: TAA
+
+Position in Basecall file: 561991 Position in fasta(index is n-1): 561991
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCC   New Codon Method: CCT
+
+Position in Basecall file: 565625 Position in fasta(index is n-1): 565625
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACA   New Codon Method: CAT
+
+Position in Basecall file: 565949 Position in fasta(index is n-1): 565949
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCA   New Codon Method: CAT
+
+Position in Basecall file: 567517 Position in fasta(index is n-1): 567517
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACA   New Codon Method: CAA
+
+Position in Basecall file: 569317 Position in fasta(index is n-1): 569317
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): GGA   New Codon Method: GAA
+
+Position in Basecall file: 570305 Position in fasta(index is n-1): 570305
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACT   New Codon Method: CTC
+
+Position in Basecall file: 570997 Position in fasta(index is n-1): 570997
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): GCA   New Codon Method: CAT
+
+Position in Basecall file: 572809 Position in fasta(index is n-1): 572809
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACA   New Codon Method: CAC
+
+Position in Basecall file: 573092 Position in fasta(index is n-1): 573092
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGT   New Codon Method: GTT
+
+Position in Basecall file: 573709 Position in fasta(index is n-1): 573709
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): GCT   New Codon Method: CTG
+
+Position in Basecall file: 573709 Position in fasta(index is n-1): 573709
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): GCT   New Codon Method: CTG
+
+Position in Basecall file: 575847 Position in fasta(index is n-1): 575847
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAT
+
+Position in Basecall file: 575852 Position in fasta(index is n-1): 575852
+Consensus(file): A Consensus(Fasta): A
+Current Codon Method (grabs correct consensus, incorrect neighbors): TAC   New Codon Method: ACC
+
+Position in Basecall file: 578464 Position in fasta(index is n-1): 578464
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCA   New Codon Method: CAT
+
+Position in Basecall file: 578965 Position in fasta(index is n-1): 578965
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): CCA   New Codon Method: CAG
+
+Position in Basecall file: 578965 Position in fasta(index is n-1): 578965
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): CCA   New Codon Method: CAG
+
+Position in Basecall file: 580964 Position in fasta(index is n-1): 580964
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): GGC   New Codon Method: GCA
+
+Position in Basecall file: 581065 Position in fasta(index is n-1): 581065
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTA
+
+Position in Basecall file: 581368 Position in fasta(index is n-1): 581368
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): TTC   New Codon Method: TCA
+
+Position in Basecall file: 586812 Position in fasta(index is n-1): 586812
+Consensus(file): A Consensus(Fasta): A
+Current Codon Method (grabs correct consensus, incorrect neighbors): CAC   New Codon Method: ACC
+
+Position in Basecall file: 588663 Position in fasta(index is n-1): 588663
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): TTG   New Codon Method: TGT
+
+Position in Basecall file: 592003 Position in fasta(index is n-1): 592003
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGC   New Codon Method: GCT
+
+Position in Basecall file: 593026 Position in fasta(index is n-1): 593026
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): ATC   New Codon Method: TCA
+
+Position in Basecall file: 593229 Position in fasta(index is n-1): 593229
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTT
+
+Position in Basecall file: 593553 Position in fasta(index is n-1): 593553
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCA   New Codon Method: CAT
+
+Position in Basecall file: 593868 Position in fasta(index is n-1): 593868
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCT   New Codon Method: CTT
+
+Position in Basecall file: 596599 Position in fasta(index is n-1): 596599
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACG   New Codon Method: CGA
+
+Position in Basecall file: 598141 Position in fasta(index is n-1): 598141
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGG   New Codon Method: GGG
+
+Position in Basecall file: 602385 Position in fasta(index is n-1): 602385
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACA   New Codon Method: CAA
+
+Position in Basecall file: 603323 Position in fasta(index is n-1): 603323
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTG
+
+Position in Basecall file: 604570 Position in fasta(index is n-1): 604570
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGA   New Codon Method: GAT
+
+Position in Basecall file: 605201 Position in fasta(index is n-1): 605201
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): CCA   New Codon Method: CAC
+
+Position in Basecall file: 610126 Position in fasta(index is n-1): 610126
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): CCA   New Codon Method: CAT
+
+Position in Basecall file: 610520 Position in fasta(index is n-1): 610520
+Consensus(file): A Consensus(Fasta): A
+Current Codon Method (grabs correct consensus, incorrect neighbors): GAT   New Codon Method: ATA
+
+Position in Basecall file: 611082 Position in fasta(index is n-1): 611082
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCG   New Codon Method: CGT
+
+Position in Basecall file: 611205 Position in fasta(index is n-1): 611205
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCA   New Codon Method: CAT
+
+Position in Basecall file: 613403 Position in fasta(index is n-1): 613403
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): CCG   New Codon Method: CGA
+
+Position in Basecall file: 613576 Position in fasta(index is n-1): 613576
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGA   New Codon Method: GAT
+
+Position in Basecall file: 613676 Position in fasta(index is n-1): 613676
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): GGC   New Codon Method: GCA
+
+Position in Basecall file: 616893 Position in fasta(index is n-1): 616893
+Consensus(file): A Consensus(Fasta): A
+Current Codon Method (grabs correct consensus, incorrect neighbors): CAC   New Codon Method: ACG
+
+Position in Basecall file: 617221 Position in fasta(index is n-1): 617221
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): ATT   New Codon Method: TTT
+
+Position in Basecall file: 617222 Position in fasta(index is n-1): 617222
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): TTT   New Codon Method: TTG
+
+Position in Basecall file: 617305 Position in fasta(index is n-1): 617305
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCT   New Codon Method: CTA
+
+Position in Basecall file: 617507 Position in fasta(index is n-1): 617507
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACA   New Codon Method: CAA
+
+Position in Basecall file: 619728 Position in fasta(index is n-1): 619728
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGC   New Codon Method: GCT
+
+Position in Basecall file: 620021 Position in fasta(index is n-1): 620021
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): CTG   New Codon Method: TGT
+
+Position in Basecall file: 620657 Position in fasta(index is n-1): 620657
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACA   New Codon Method: CAT
+
+Position in Basecall file: 621365 Position in fasta(index is n-1): 621365
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCA   New Codon Method: CAA
+
+Position in Basecall file: 623813 Position in fasta(index is n-1): 623813
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGC   New Codon Method: GCA
+
+Position in Basecall file: 624419 Position in fasta(index is n-1): 624419
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCA   New Codon Method: CAG
+
+Position in Basecall file: 626728 Position in fasta(index is n-1): 626728
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): GTC   New Codon Method: TCA
+
+Position in Basecall file: 629205 Position in fasta(index is n-1): 629205
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): CCT   New Codon Method: CTT
+
+Position in Basecall file: 629220 Position in fasta(index is n-1): 629220
+Consensus(file): A Consensus(Fasta): A
+Current Codon Method (grabs correct consensus, incorrect neighbors): TAA   New Codon Method: AAA
+
+Position in Basecall file: 629327 Position in fasta(index is n-1): 629327
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTT
+
+Position in Basecall file: 629955 Position in fasta(index is n-1): 629955
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACA   New Codon Method: CAA
+
+Position in Basecall file: 630138 Position in fasta(index is n-1): 630138
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCT   New Codon Method: CTA
+
+Position in Basecall file: 630486 Position in fasta(index is n-1): 630486
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTT
+
+Position in Basecall file: 631318 Position in fasta(index is n-1): 631318
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAT
+
+Position in Basecall file: 631318 Position in fasta(index is n-1): 631318
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAT
+
+Position in Basecall file: 631682 Position in fasta(index is n-1): 631682
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): CTG   New Codon Method: TGT
+
+Position in Basecall file: 632146 Position in fasta(index is n-1): 632146
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAC
+
+Position in Basecall file: 632239 Position in fasta(index is n-1): 632239
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): GTC   New Codon Method: TCA
+
+Position in Basecall file: 633492 Position in fasta(index is n-1): 633492
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAT
+
+Position in Basecall file: 633813 Position in fasta(index is n-1): 633813
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCA   New Codon Method: CAA
+
+Position in Basecall file: 635956 Position in fasta(index is n-1): 635956
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): CCT   New Codon Method: CTA
+
+Position in Basecall file: 637099 Position in fasta(index is n-1): 637099
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): GCT   New Codon Method: CTT
+
+Position in Basecall file: 637099 Position in fasta(index is n-1): 637099
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): GCT   New Codon Method: CTT
+
+Position in Basecall file: 637799 Position in fasta(index is n-1): 637799
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): CCA   New Codon Method: CAT
+
+Position in Basecall file: 638455 Position in fasta(index is n-1): 638455
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): CTA   New Codon Method: TAA
+
+Position in Basecall file: 639320 Position in fasta(index is n-1): 639320
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): GTT   New Codon Method: TTT
+
+Position in Basecall file: 640546 Position in fasta(index is n-1): 640546
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGC   New Codon Method: GCT
+
+Position in Basecall file: 640753 Position in fasta(index is n-1): 640753
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTC
+
+Position in Basecall file: 641330 Position in fasta(index is n-1): 641330
+Consensus(file): A Consensus(Fasta): A
+Current Codon Method (grabs correct consensus, incorrect neighbors): AAT   New Codon Method: ATC
+
+Position in Basecall file: 643248 Position in fasta(index is n-1): 643248
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGC   New Codon Method: GCT
+
+Position in Basecall file: 644453 Position in fasta(index is n-1): 644453
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTC
+
+Position in Basecall file: 645436 Position in fasta(index is n-1): 645436
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACA   New Codon Method: CAA
+
+Position in Basecall file: 647355 Position in fasta(index is n-1): 647355
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGA   New Codon Method: GAA
+
+Position in Basecall file: 648499 Position in fasta(index is n-1): 648499
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAT
+
+Position in Basecall file: 650459 Position in fasta(index is n-1): 650459
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAC
+
+Position in Basecall file: 650879 Position in fasta(index is n-1): 650879
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGC   New Codon Method: GCA
+
+Position in Basecall file: 651395 Position in fasta(index is n-1): 651395
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCT   New Codon Method: CTT
+
+Position in Basecall file: 652274 Position in fasta(index is n-1): 652274
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACG   New Codon Method: CGA
+
+Position in Basecall file: 652370 Position in fasta(index is n-1): 652370
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACA   New Codon Method: CAA
+
+Position in Basecall file: 653542 Position in fasta(index is n-1): 653542
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAA
+
+Position in Basecall file: 653542 Position in fasta(index is n-1): 653542
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAA
+
+Position in Basecall file: 656145 Position in fasta(index is n-1): 656145
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGC   New Codon Method: GCT
+
+Position in Basecall file: 657159 Position in fasta(index is n-1): 657159
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGC   New Codon Method: GCA
+
+Position in Basecall file: 662017 Position in fasta(index is n-1): 662017
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCT   New Codon Method: CTT
+
+Position in Basecall file: 663656 Position in fasta(index is n-1): 663656
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCT   New Codon Method: CTG
+
+Position in Basecall file: 663721 Position in fasta(index is n-1): 663721
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGG   New Codon Method: GGT
+
+Position in Basecall file: 667602 Position in fasta(index is n-1): 667602
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCT   New Codon Method: CTG
+
+Position in Basecall file: 668351 Position in fasta(index is n-1): 668351
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAG
+
+Position in Basecall file: 669668 Position in fasta(index is n-1): 669668
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCA   New Codon Method: CAA
+
+Position in Basecall file: 670788 Position in fasta(index is n-1): 670788
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACA   New Codon Method: CAA
+
+Position in Basecall file: 672603 Position in fasta(index is n-1): 672603
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCT   New Codon Method: CTT
+
+Position in Basecall file: 679986 Position in fasta(index is n-1): 679986
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): GTT   New Codon Method: TTT
+
+Position in Basecall file: 684844 Position in fasta(index is n-1): 684844
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACT   New Codon Method: CTA
+
+Position in Basecall file: 690508 Position in fasta(index is n-1): 690508
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTT
+
+Position in Basecall file: 690969 Position in fasta(index is n-1): 690969
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAT
+
+Position in Basecall file: 691383 Position in fasta(index is n-1): 691383
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGA   New Codon Method: GAA
+
+Position in Basecall file: 691534 Position in fasta(index is n-1): 691534
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGA   New Codon Method: GAG
+
+Position in Basecall file: 691708 Position in fasta(index is n-1): 691708
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): GTA   New Codon Method: TAA
+
+Position in Basecall file: 692933 Position in fasta(index is n-1): 692933
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTT
+
+Position in Basecall file: 695941 Position in fasta(index is n-1): 695941
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): CCA   New Codon Method: CAT
+
+Position in Basecall file: 698824 Position in fasta(index is n-1): 698824
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACA   New Codon Method: CAC
+
+Position in Basecall file: 699544 Position in fasta(index is n-1): 699544
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): CCA   New Codon Method: CAA
+
+Position in Basecall file: 700578 Position in fasta(index is n-1): 700578
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): GTT   New Codon Method: TTT
+
+Position in Basecall file: 700618 Position in fasta(index is n-1): 700618
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACA   New Codon Method: CAG
+
+Position in Basecall file: 700747 Position in fasta(index is n-1): 700747
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): GGA   New Codon Method: GAA
+
+Position in Basecall file: 701907 Position in fasta(index is n-1): 701907
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCC   New Codon Method: CCG
+
+Position in Basecall file: 703407 Position in fasta(index is n-1): 703407
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAC
+
+Position in Basecall file: 705464 Position in fasta(index is n-1): 705464
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): GGA   New Codon Method: GAA
+
+Position in Basecall file: 705838 Position in fasta(index is n-1): 705838
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAT
+
+Position in Basecall file: 707246 Position in fasta(index is n-1): 707246
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACA   New Codon Method: CAA
+
+Position in Basecall file: 708334 Position in fasta(index is n-1): 708334
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTT
+
+Position in Basecall file: 712338 Position in fasta(index is n-1): 712338
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): GTT   New Codon Method: TTT
+
+Position in Basecall file: 712955 Position in fasta(index is n-1): 712955
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGC   New Codon Method: GCA
+
+Position in Basecall file: 713653 Position in fasta(index is n-1): 713653
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCA   New Codon Method: CAA
+
+Position in Basecall file: 714052 Position in fasta(index is n-1): 714052
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): GTG   New Codon Method: TGC
+
+Position in Basecall file: 714565 Position in fasta(index is n-1): 714565
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): GGG   New Codon Method: GGG
+
+Position in Basecall file: 715274 Position in fasta(index is n-1): 715274
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGG   New Codon Method: GGA
+
+Position in Basecall file: 720375 Position in fasta(index is n-1): 720375
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAA
+
+Position in Basecall file: 720594 Position in fasta(index is n-1): 720594
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAT
+
+Position in Basecall file: 721662 Position in fasta(index is n-1): 721662
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): ATC   New Codon Method: TCT
+
+Position in Basecall file: 723109 Position in fasta(index is n-1): 723109
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACT   New Codon Method: CTC
+
+Position in Basecall file: 723466 Position in fasta(index is n-1): 723466
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACA   New Codon Method: CAA
+
+Position in Basecall file: 724610 Position in fasta(index is n-1): 724610
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTT
+
+Position in Basecall file: 727128 Position in fasta(index is n-1): 727128
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACC   New Codon Method: CCC
+
+Position in Basecall file: 727328 Position in fasta(index is n-1): 727328
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACT   New Codon Method: CTG
+
+Position in Basecall file: 728007 Position in fasta(index is n-1): 728007
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGG   New Codon Method: GGT
+
+Position in Basecall file: 731438 Position in fasta(index is n-1): 731438
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTT
+
+Position in Basecall file: 732133 Position in fasta(index is n-1): 732133
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACG   New Codon Method: CGC
+
+Position in Basecall file: 733804 Position in fasta(index is n-1): 733804
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGG   New Codon Method: GGG
+
+Position in Basecall file: 736487 Position in fasta(index is n-1): 736487
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCA   New Codon Method: CAT
+
+Position in Basecall file: 738077 Position in fasta(index is n-1): 738077
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGC   New Codon Method: GCC
+
+Position in Basecall file: 738229 Position in fasta(index is n-1): 738229
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAA
+
+Position in Basecall file: 739931 Position in fasta(index is n-1): 739931
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): GCA   New Codon Method: CAA
+
+Position in Basecall file: 744513 Position in fasta(index is n-1): 744513
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): GGT   New Codon Method: GTC
+
+Position in Basecall file: 747858 Position in fasta(index is n-1): 747858
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): CCG   New Codon Method: CGC
+
+Position in Basecall file: 749091 Position in fasta(index is n-1): 749091
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCA   New Codon Method: CAG
+
+Position in Basecall file: 749659 Position in fasta(index is n-1): 749659
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): GTG   New Codon Method: TGA
+
+Position in Basecall file: 751595 Position in fasta(index is n-1): 751595
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGC   New Codon Method: GCA
+
+Position in Basecall file: 751842 Position in fasta(index is n-1): 751842
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAC
+
+Position in Basecall file: 752332 Position in fasta(index is n-1): 752332
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): GCA   New Codon Method: CAA
+
+Position in Basecall file: 755692 Position in fasta(index is n-1): 755692
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCA   New Codon Method: CAT
+
+Position in Basecall file: 758000 Position in fasta(index is n-1): 758000
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACA   New Codon Method: CAC
+
+Position in Basecall file: 759951 Position in fasta(index is n-1): 759951
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTT
+
+Position in Basecall file: 760327 Position in fasta(index is n-1): 760327
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTA
+
+Position in Basecall file: 761490 Position in fasta(index is n-1): 761490
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGG   New Codon Method: GGA
+
+Position in Basecall file: 764884 Position in fasta(index is n-1): 764884
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCA   New Codon Method: CAT
+
+Position in Basecall file: 769966 Position in fasta(index is n-1): 769966
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACA   New Codon Method: CAA
+
+Position in Basecall file: 770689 Position in fasta(index is n-1): 770689
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAT
+
+Position in Basecall file: 771271 Position in fasta(index is n-1): 771271
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGT   New Codon Method: GTT
+
+Position in Basecall file: 771571 Position in fasta(index is n-1): 771571
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACC   New Codon Method: CCA
+
+Position in Basecall file: 772078 Position in fasta(index is n-1): 772078
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGT   New Codon Method: GTT
+
+Position in Basecall file: 772909 Position in fasta(index is n-1): 772909
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACC   New Codon Method: CCT
+
+Position in Basecall file: 774218 Position in fasta(index is n-1): 774218
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTT
+
+Position in Basecall file: 774359 Position in fasta(index is n-1): 774359
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCC   New Codon Method: CCT
+
+Position in Basecall file: 776162 Position in fasta(index is n-1): 776162
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTT
+
+Position in Basecall file: 777359 Position in fasta(index is n-1): 777359
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGG   New Codon Method: GGC
+
+Position in Basecall file: 778817 Position in fasta(index is n-1): 778817
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGC   New Codon Method: GCT
+
+Position in Basecall file: 778837 Position in fasta(index is n-1): 778837
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): CCG   New Codon Method: CGC
+
+Position in Basecall file: 778838 Position in fasta(index is n-1): 778838
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): CGC   New Codon Method: GCT
+
+Position in Basecall file: 778852 Position in fasta(index is n-1): 778852
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): CCG   New Codon Method: CGC
+
+Position in Basecall file: 778853 Position in fasta(index is n-1): 778853
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): CGC   New Codon Method: GCT
+
+Position in Basecall file: 779199 Position in fasta(index is n-1): 779199
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): GCT   New Codon Method: CTT
+
+Position in Basecall file: 779820 Position in fasta(index is n-1): 779820
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): AGT   New Codon Method: GTA
+
+Position in Basecall file: 782021 Position in fasta(index is n-1): 782021
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): GCA   New Codon Method: CAT
+
+Position in Basecall file: 782380 Position in fasta(index is n-1): 782380
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACC   New Codon Method: CCA
+
+Position in Basecall file: 782440 Position in fasta(index is n-1): 782440
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGC   New Codon Method: GCT
+
+Position in Basecall file: 785976 Position in fasta(index is n-1): 785976
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): ACA   New Codon Method: CAA
+
+Position in Basecall file: 787942 Position in fasta(index is n-1): 787942
+Consensus(file): T Consensus(Fasta): T
+Current Codon Method (grabs correct consensus, incorrect neighbors): TTC   New Codon Method: TCA
+
+Position in Basecall file: 790847 Position in fasta(index is n-1): 790847
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGA   New Codon Method: GAT
+
+Position in Basecall file: 791129 Position in fasta(index is n-1): 791129
+Consensus(file): C Consensus(Fasta): C
+Current Codon Method (grabs correct consensus, incorrect neighbors): TCT   New Codon Method: CTC
+
+Position in Basecall file: 791249 Position in fasta(index is n-1): 791249
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): CGA   New Codon Method: GAT
+
+Position in Basecall file: 791908 Position in fasta(index is n-1): 791908
+Consensus(file): G Consensus(Fasta): G
+Current Codon Method (grabs correct consensus, incorrect neighbors): TGT   New Codon Method: GTA
+

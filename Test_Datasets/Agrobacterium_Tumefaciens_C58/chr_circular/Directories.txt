@@ -1,0 +1,14 @@
+Context_Pipeline_Basecall:
+
+
+Path_RefFile <- "/Desktop/Sung_Lab/testdir/Agrobacterium_Tumefaciens_C58/chr_circular/sequence.fasta"
+Path_GBFile <- "/Desktop/Sung_Lab/testdir/Agrobacterium_Tumefaciens_C58/chr_circular/sequence.gbk"
+Path_InFile <-"/Desktop/Sung_Lab/testdir/Agrobacterium_Tumefaciens_C58/chr_circular/BaseCalls.csv"
+Path_Refseq <- "/Desktop/Sung_Lab/testdir/Agrobacterium_Tumefaciens_C58/chr_circular/sequence.fasta"
+
+Output_DataVerifyReport:
+
+path_output <- “/Desktop/Sung_Lab/testdir/output"
+Path_MyLeft <- "/Desktop/Sung_Lab/testdir/output/Left_Context_Core_full.csv"
+Path_MyRight <- "/Desktop/Sung_Lab/testdir/output/Right_Context_Core_full.csv"
+path_refseq <- "/Desktop/Sung_Lab/testdir/Agrobacterium_Tumefaciens_C58/Agrobacterium_Tumefaciens_C58_3610.fasta"

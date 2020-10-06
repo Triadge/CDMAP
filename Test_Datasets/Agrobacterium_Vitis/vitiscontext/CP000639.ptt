@@ -1,0 +1,85 @@
+Agrobacterium vitis S4 plasmid pAtS4a, complete sequence. - 1..78730
+82 proteins
+Location	Strand	Length	PID	Gene	Synonym	Code	COG	Product
+206..1435	+	409	221739574	repA	Avi_9800	-	-	replication protein A
+1481..2518	+	345	221739575	repB	Avi_9801	-	-	replication protein B
+2673..3887	+	404	221739576	repC	Avi_9802	-	-	replication protein C
+4021..4503	-	160	221739577	-	Avi_9804	-	-	helix turn helix transcriptional regulator
+5117..5581	-	154	221739578	-	Avi_9805	-	-	conserved hypothetical protein
+5586..6287	-	233	221739579	parA	Avi_9806	-	-	chromosome partitioning protein
+6996..7397	+	133	221739580	-	Avi_9807	-	-	mob protein
+7399..10161	+	920	221739581	traA	Avi_9808	-	-	Ti-type conjugative transfer relaxase TraA
+10420..12519	-	699	221739582	avhD4	Avi_9810	-	-	conjugative coupling protein
+12516..13538	-	340	221739583	avhB11	Avi_9811	-	-	type IV secretion protein AvhB11
+13519..14727	-	402	221739584	avhB10	Avi_9812	-	-	type IV secretion protein AvhB10
+14727..15536	-	269	221739585	avhB9	Avi_9813	-	-	type IV secretion protein AvhB9
+15533..16225	-	230	221739586	avhB8	Avi_9815	-	-	Type IV secretory pathway component VirB8
+16261..17289	-	342	221739587	avhB6	Avi_9816	-	-	type IV secretion protein AvhB6
+17302..17529	-	75	221739588	-	Avi_9817	-	-	conserved hypothetical protein
+17522..18220	-	232	221739589	-	Avi_9818	-	-	conserved hypothetical protein
+18233..19321	-	362	221739590	avhB1b	Avi_9819	-	-	type IV system transglycosylase
+19318..21777	-	819	221739591	avhB4	Avi_9821	-	-	type IV secretion protein AvhB4
+22081..22431	-	116	221739592	avhB2	Avi_9822	-	-	type IV secrection system pilin protein
+22444..23412	-	322	221739593	avhB1a	Avi_9824	-	-	type IV system transglycosylase
+23570..24178	+	202	221739594	-	Avi_9825	-	-	conserved hypothetical protein
+24175..24714	+	179	221739595	-	Avi_9826	-	-	conserved hypothetical protein
+24711..25415	+	234	221739596	-	Avi_9827	-	-	Micrococcal nuclease (thermonuclease)
+25416..25796	+	126	221739597	-	Avi_9829	-	-	hypothetical protein
+25801..26397	+	198	221739598	-	Avi_9830	-	-	conserved hypothetical protein
+26408..26833	+	141	221739599	-	Avi_9831	-	-	hypothetical protein
+26850..27182	-	110	221739600	-	Avi_9832	-	-	hypothetical protein
+27576..28208	+	210	221739601	-	Avi_9833	-	-	Resolvase Protein
+28344..29264	-	306	221739602	-	Avi_9834	-	-	conserved hypothetical protein
+29463..31016	+	517	221739603	tnp	Avi_9835	-	-	transposase
+31029..31805	+	258	221739604	-	Avi_9836	-	-	transposase
+32043..32372	+	109	221739605	-	Avi_9837	-	-	transposase protein
+32369..33274	+	301	221739606	tnp	Avi_9838	-	-	transposase
+33821..35170	-	449	221739607	-	Avi_9841	-	-	adenylate cyclase protein
+35256..35540	-	94	221739608	-	Avi_9842	-	-	conserved hypothetical protein
+35563..36042	-	159	221739609	copC	Avi_9844	-	-	copper tolerance protein
+36182..36451	-	89	221739610	-	Avi_9845	-	-	conserved hypothetical protein
+36644..37321	+	225	221739611	-	Avi_9846	-	-	two component response regulator
+37308..38681	+	457	221739612	-	Avi_9847	-	-	two component sensor kinase
+38799..39083	-	94	221739613	-	Avi_9848	-	-	conserved hypothetical protein
+39106..39585	-	159	221739614	copC	Avi_9849	-	-	copper tolerance protein
+39618..40967	-	449	221739615	copA	Avi_9850	-	-	multicopper oxidase
+40981..42441	-	486	221739616	copB	Avi_9851	-	-	copper tolerance protein
+42438..42707	-	89	221739617	-	Avi_9852	-	-	conserved hypothetical protein
+42755..43141	-	128	221739618	-	Avi_9853	-	-	conserved hypothetical protein
+43389..43733	+	114	221739619	-	Avi_9854	-	-	hypothetical protein
+43776..44204	+	142	221739620	-	Avi_9856	-	-	conserved hypothetical protein
+44214..44552	+	112	221739621	-	Avi_9857	-	-	conserved hypothetical protein
+44651..46864	-	737	221739622	-	Avi_9859	-	-	copper-translocating P-type ATPase
+47015..47299	-	94	221739623	-	Avi_9861	-	-	hypothetical protein
+47523..48107	+	194	221739624	-	Avi_9862	-	-	cytochrome C-like protein
+48119..48562	-	147	221739625	cueR	Avi_9863	-	-	Cu(I)-responsive transcriptional regulator
+48578..51058	-	826	221739626	-	Avi_9864	-	-	heavy-metal transporting P-type ATPase
+51211..51414	-	67	221739627	-	Avi_9865	-	-	hypothetical protein
+51607..51993	+	128	221739628	-	Avi_9866	-	-	hypothetical protein
+52116..52520	+	134	221739629	-	Avi_9867	-	-	conserved hypothetical protein
+52517..53944	+	475	221739630	-	Avi_9868	-	-	Membrane-fusion protein
+53941..57102	+	1053	221739631	-	Avi_9869	-	-	AcrB/AcrD/AcrF family protein
+57117..57572	+	151	221739632	-	Avi_9870	-	-	conserved hypothetical protein
+57784..58347	-	187	221739633	-	Avi_9871	-	-	conserved hypothetical protein
+58507..58983	-	158	221739634	-	Avi_9872	-	-	conserved hypothetical protein
+59346..59786	-	146	221739635	-	Avi_9873	-	-	hypothetical protein
+59946..60419	+	157	221739636	-	Avi_9874	-	-	polysaccharide inhibition protein
+60578..61432	+	284	221739637	-	Avi_9875	-	-	conserved hypothetical protein
+61815..62087	-	90	221739638	-	Avi_9878	-	-	hypothetical protein
+62304..62609	+	101	221739639	-	Avi_9879	-	-	hypothetical protein
+63491..63730	+	79	221739640	-	Avi_9881	-	-	conserved hypothetical protein
+63730..64164	+	144	221739641	-	Avi_9882	-	-	conserved hypothetical protein
+64503..64832	-	109	221739642	-	Avi_9884	-	-	hypothetical protein
+64947..66536	+	529	221739643	-	Avi_9887	-	-	transmembrane protein
+66526..67527	+	333	221739644	-	Avi_9888	-	-	conserved hypothetical protein
+67980..68315	-	111	221739645	-	Avi_9890	-	-	hypothetical protein
+69538..71475	+	645	221739646	-	Avi_9896	-	-	transcriptional regulator
+71437..71979	-	180	221739647	-	Avi_9897	-	-	hypothetical protein
+72227..73132	-	301	221739648	tnp	Avi_9898	-	-	transposase
+73129..73458	-	109	221739649	-	Avi_9899	-	-	conserved hypothetical protein
+73663..74943	+	426	221739650	repC	Avi_9901	-	-	replication protein C
+74940..75446	+	168	221739651	exoI	Avi_9903	-	-	succinoglycan biosynthesis protein
+75848..76183	+	111	221739652	-	Avi_9904	-	-	conserved hypothetical protein
+76304..76510	+	68	221739653	-	Avi_9906	-	-	hypothetical protein
+76580..77644	+	354	221739654	-	Avi_9907	-	-	cell filamentation protein
+77873..78730	+	285	221739655	ardC	Avi_9909	-	-	antirestriction protein

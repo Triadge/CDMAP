@@ -1,0 +1,3 @@
+https://www.ncbi.nlm.nih.gov/assembly/GCF_000007645.1
+
+Go here to grab the relevant plasmids as needed.

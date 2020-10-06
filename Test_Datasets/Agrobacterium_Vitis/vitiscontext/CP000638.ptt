@@ -1,0 +1,532 @@
+Agrobacterium vitis S4 plasmid pAtS4e, complete sequence. - 1..631775
+529 proteins
+Location	Strand	Length	PID	Gene	Synonym	Code	COG	Product
+70..1296	+	408	221739014	repA	Avi_7000	-	-	replication protein A
+1293..2306	+	337	221739015	repB	Avi_7001	-	-	replication protein B
+2470..3684	+	404	221739016	repC	Avi_7002	-	-	replication protein C
+4003..5256	-	417	221739017	-	Avi_7004	-	-	Flavin-containing monooxygenase
+5807..7513	+	568	221739018	-	Avi_7005	-	-	GGDEF family protein
+7955..9118	-	387	221739019	-	Avi_7008	-	-	phage integrase family protein
+11193..11645	-	150	221739020	-	Avi_7013	-	-	transcriptional regulator
+11936..12985	-	349	221739021	mdh	Avi_7014	-	-	malate dehydrogenase
+13283..14869	+	528	221739022	-	Avi_7015	-	-	ABC transporter substrate binding protein (oligopeptide)
+14987..17008	+	673	221739023	hyuA	Avi_7016	-	-	hydantoin utilization protein
+17011..18726	+	571	221739024	hyuB	Avi_7017	-	-	hydantoin utilization protein
+18723..19625	+	300	221739025	dppC	Avi_7018	-	-	ABC transporter membrane spanning protein (dipeptide)
+19628..20629	+	333	221739026	dppB	Avi_7019	-	-	ABC transporter membrane spanning protein (dipeptide)
+20632..21648	+	338	221739027	-	Avi_7020	-	-	ABC transporter nucleotide binding/ATPase protein (oligopeptide)
+21645..22625	+	326	221739028	-	Avi_7021	-	-	ABC transporter nucleotide binding/ATPase protein (oligopeptide)
+22680..23708	+	342	221739029	-	Avi_7022	-	-	conserved hypothetical protein
+24717..25697	-	326	221739030	-	Avi_7026	-	-	ABC transporter nucleotide binding/ATPase protein (oligopeptide)
+25694..26662	-	322	221739031	-	Avi_7027	-	-	ABC transporter nucleotide binding/ATPase protein (oligopeptide)
+26664..27590	-	308	221739032	-	Avi_7028	-	-	ABC transporter membrane spanning protein (oligopeptide)
+27595..28518	-	307	221739033	-	Avi_7029	-	-	ABC transporter membrane spanning protein (oligopeptide)
+28572..30185	-	537	221739034	-	Avi_7030	-	-	ABC transporter substrate binding protein (oligopeptide)
+30546..31193	+	215	221739035	-	Avi_7032	-	-	transcriptional regulator TetR family
+31376..31669	+	97	221739036	-	Avi_7033	-	-	Hypothetical Protein
+31828..33282	-	484	221739037	-	Avi_7034	-	-	hypothetical cytosolic protein
+33780..35495	+	571	221739038	parB	Avi_7035	-	-	chromosome partitioning protein
+35577..36239	+	220	221739039	-	Avi_7036	-	-	conserved hypothetical protein
+36664..37509	+	281	221739040	-	Avi_7038	-	-	conserved hypothetical protein
+37605..38432	-	275	221739041	-	Avi_7039	-	-	short-chain dehydrogenase protein
+38508..39440	+	310	221739042	-	Avi_7040	-	-	transcriptional regulator AraC family
+39527..39943	-	138	221739043	-	Avi_7041	-	-	hypothetical protein
+40213..40491	-	92	221739044	hupT	Avi_7042	-	-	HNS-type DNA binding protein
+40592..41044	+	150	221739045	-	Avi_7043	-	-	transposase
+41041..41394	+	117	221739046	-	Avi_7044	-	-	transposase
+41440..43098	+	552	221739047	-	Avi_7045	-	-	transposase
+43079..43312	-	77	221739048	-	Avi_7046	-	-	transposase
+43451..43663	-	70	221739049	-	Avi_7047	-	-	conserved hypothetical protein
+43932..44465	-	177	221739050	-	Avi_7050	-	-	hypothetical protein
+44560..45033	-	157	221739051	-	Avi_7051	-	-	hypothetical protein
+45038..46090	-	350	221739052	-	Avi_7052	-	-	conserved hypothetical protein
+46095..47153	-	352	221739053	-	Avi_7053	-	-	hypothetical protein
+47162..48556	-	464	221739054	-	Avi_7054	-	-	conserved hypothetical protein
+48553..49623	-	356	221739055	-	Avi_7055	-	-	conserved hypothetical protein
+49634..51859	-	741	221739056	vgrG	Avi_7056	-	-	vgrG protein
+52241..52570	-	109	221739057	-	Avi_7057	-	-	conserved hypothetical protein
+52567..52872	-	101	221739058	-	Avi_7058	-	-	hypothetical protein
+53348..55315	-	655	221739059	traG	Avi_7061	-	-	Ti-type conjugative transfer system protein TraG
+55302..55547	-	81	221739060	traD	Avi_7062	-	-	conjugal transfer protein Dtr system
+55522..55818	-	98	221739061	traC	Avi_7063	-	-	conjugal transfer protein Dtr system
+56074..59376	+	1100	221739062	traA	Avi_7064	-	-	Ti-type conjugative transfer relaxase TraA
+59394..59903	+	169	221739063	traF	Avi_7065	-	-	conjugative transfer signal peptidase TraF
+59974..61059	+	361	221739064	traB	Avi_7066	-	-	conjugal transfer protein Dtr system
+61071..61721	+	216	221739065	traH	Avi_7067	-	-	conjugal transfer protein Dtr system
+62486..63337	+	283	221739066	-	Avi_7070	-	-	transcriptional regulator AraC family
+63440..64354	+	304	221739067	-	Avi_7072	-	-	conserved hypothetical protein
+64988..65404	+	138	221739068	-	Avi_7073	-	-	transcriptional regulator
+65523..66239	-	238	221739069	-	Avi_7074	-	-	transposase
+66567..67679	-	370	221739070	-	Avi_7075	-	-	major facilitator family transporter
+67729..68790	-	353	221739071	-	Avi_7076	-	-	zinc-binding dehydrogenase
+69237..69911	-	224	221739072	menG	Avi_7077	-	-	demethylmenaquinone methyltransferase
+69942..70892	-	316	221739073	serA	Avi_7079	-	-	D-3-phosphoglycerate dehydrogenase
+71096..71791	+	231	221739074	-	Avi_7080	-	-	Transcriptional regulator
+71843..72802	+	319	221739075	-	Avi_7081	-	-	conserved hypothetical protein
+72799..73260	+	153	221739076	-	Avi_7082	-	-	conserved hypothetical protein
+73292..74800	+	502	221739077	-	Avi_7083	-	-	conserved hypothetical protein
+74891..76069	+	392	221739078	-	Avi_7084	-	-	dehydrogenase
+76152..76820	-	222	221739079	-	Avi_7085	-	-	transposase
+76852..77577	-	241	221739080	ameR	Avi_7086	-	-	transcriptional regulator TetR family
+77781..79088	+	435	221739081	-	Avi_7087	-	-	ABC transporter substrate-binding protein
+79081..79842	+	253	221739082	rbsA	Avi_7088	-	-	ABC transporter nucleotide binding/ATPase protein (ribose)
+79820..80524	+	234	221739083	-	Avi_7089	-	-	ABC transporter nucleotide binding/ATPase protein
+80521..81390	+	289	221739084	-	Avi_7090	-	-	ABC transporter membrane spanning protein (urea/amide)
+81387..82346	+	319	221739085	-	Avi_7091	-	-	ABC transporter nucleotide binding/ATPase protein
+82343..83800	+	485	221739086	-	Avi_7092	-	-	amidase
+83891..84262	+	123	221739087	-	Avi_7093	-	-	transposase
+84346..84654	+	102	221739088	-	Avi_7095	-	-	transposase
+84694..85212	+	172	221739089	-	Avi_7096	-	-	hypothetical protein
+85515..86114	-	199	221739090	rhtB	Avi_7098	-	-	RhtB family transporter
+86119..86688	-	189	221739091	-	Avi_7100	-	-	conserved hypothetical protein
+87943..88314	-	123	221739092	-	Avi_7103	-	-	Transposase and inactivated derivatives IS5 family
+88356..88640	-	94	221739093	-	Avi_7104	-	-	conserved hypothetical protein
+88930..90174	+	414	221739094	-	Avi_7106	-	-	phosphoenolpyruvate synthase-related protein
+90249..91325	+	358	221739095	-	Avi_7108	-	-	conserved hypothetical protein
+91322..91936	+	204	221739096	-	Avi_7109	-	-	conserved hypothetical protein
+91936..92706	+	256	221739097	-	Avi_7110	-	-	transferase
+92703..93350	+	215	221739098	rhtB	Avi_7111	-	-	RhtB family transporter
+93419..94009	+	196	221739099	-	Avi_7112	-	-	conserved hypothetical protein
+94454..95137	-	227	221739100	-	Avi_7114	-	-	transposase
+95236..95781	-	181	221739101	-	Avi_7117	-	-	transposase
+95854..96180	-	108	221739102	-	Avi_7120	-	-	transposase
+96351..97313	-	320	221739103	-	Avi_7121	-	-	transcriptional regulator LysR family
+97429..98709	-	426	221739104	-	Avi_7122	-	-	MFS permease
+98742..99611	-	289	221739105	-	Avi_7123	-	-	D-N-carbamoylase
+99745..100434	-	229	221739106	-	Avi_7125	-	-	hydrolase
+100680..101783	+	367	221739107	-	Avi_7126	-	-	conserved hypothetical protein
+102052..103362	-	436	221739108	-	Avi_7127	-	-	conserved hypothetical protein
+103570..104073	+	167	221739109	-	Avi_7128	-	-	flavoprotein oxidoreductase
+104155..105462	+	435	221739110	-	Avi_7129	-	-	ABC transporter substrate binding protein (spermidine/putrescine)
+105491..106360	+	289	221739111	-	Avi_7130	-	-	ABC transporter membrane spanning protein (spermidine/putrescine)
+106364..107209	+	281	221739112	-	Avi_7131	-	-	ABC transporter membrane spanning protein (spermidine/putrescine)
+107237..108310	+	357	221739113	-	Avi_7132	-	-	ABC transporter nucleotide binding/ATPase protein (spermidine/putrescine)
+108406..109317	-	303	221739114	-	Avi_7134	-	-	Integrase catalytic core
+109395..109688	-	97	221739115	-	Avi_7135	-	-	conserved hypothetical protein
+109685..109978	-	97	221739116	-	Avi_7136	-	-	conserved hypothetical protein
+110468..110992	+	174	221739117	-	Avi_7140	-	-	AraC-like transcriptional regulator
+111121..111663	+	180	221739118	-	Avi_7142	-	-	hypothetical protein
+112177..113175	-	332	221739119	-	Avi_7144	-	-	OmpA family protein
+114361..114690	+	109	221739120	-	Avi_7146	-	-	Restriction endonuclease
+114792..115490	-	232	221739121	-	Avi_7148	-	-	transposase
+115974..117344	+	456	221739122	virH2	Avi_7149	-	-	P-450 monooxygenase
+117341..118090	+	249	221739123	-	Avi_7150	-	-	methyltransferase
+118131..118826	+	231	221739124	-	Avi_7151	-	-	conserved hypothetical protein
+118848..119786	+	312	221739125	-	Avi_7152	-	-	sulfotransferase
+119889..120803	-	304	221739126	-	Avi_7153	-	-	conserved hypothetical protein
+121123..121797	-	224	221739127	-	Avi_7154	-	-	transposase
+122247..123653	+	468	221739128	-	Avi_7155	-	-	nitrilotriacetate monooxygenase
+123779..124573	+	264	221739129	-	Avi_7156	-	-	ABC transporter nucleotide binding/ATPase protein (branched chain amino acid)
+124570..125451	+	293	221739130	-	Avi_7157	-	-	ABC transporter membrane spanning protein (branched chain amino acid)
+125455..126507	+	350	221739131	-	Avi_7158	-	-	ABC transporter membrane spanning protein (branched chain amino acid)
+126525..127853	+	442	221739132	-	Avi_7159	-	-	conserved hypothetical protein
+127916..129265	+	449	221739133	-	Avi_7160	-	-	conserved hypothetical protein
+129417..130217	+	266	221739134	-	Avi_7161	-	-	ABC transporter nucleotide binding/ATPase protein (branched chain amino acid)
+130257..131483	+	408	221739135	-	Avi_7162	-	-	thermophilic desulfurizing enzyme
+131638..132648	+	336	221739136	tauA	Avi_7163	-	-	taurine ABC transporter periplasmic binding protein
+132716..133507	+	263	221739137	-	Avi_7165	-	-	ABC transporter nucleotide binding/ATPase protein
+133570..134355	+	261	221739138	-	Avi_7166	-	-	taurine uptake ABC transporter permease protein
+134438..135508	-	356	221739139	ssuD	Avi_7167	-	-	sulfonate monooxygenase
+135594..136652	-	352	221739140	-	Avi_7168	-	-	conserved hypothetical protein
+136667..137269	-	200	221739141	-	Avi_7169	-	-	conserved hypothetical protein
+137282..137860	-	192	221739142	-	Avi_7170	-	-	conserved hypothetical protein
+137893..138939	-	348	221739143	-	Avi_7171	-	-	monooxygenase
+138936..140579	-	547	221739144	-	Avi_7172	-	-	ABC transporter nucleotide binding/ATPase protein (oligopeptide)
+140576..141454	-	292	221739145	dppC	Avi_7173	-	-	ABC transporter membrane spanning protein (dipeptide)
+141451..142395	-	314	221739146	dppB	Avi_7174	-	-	ABC transporter membrane spanning protein (dipeptide)
+142458..144089	-	543	221739147	-	Avi_7175	-	-	ABC transporter substrate binding protein (oligopeptide)
+144788..145972	-	394	221739148	acd	Avi_7179	-	-	acyl-CoA dehydrogenase
+145969..147003	-	344	221739149	-	Avi_7180	-	-	desulfurizing enzyme
+147070..148698	-	542	221739150	-	Avi_7181	-	-	ABC transporter substrate binding protein (oligopeptide)
+148964..149953	+	329	221739151	-	Avi_7182	-	-	ABC transporter membrane spanning protein (oligopeptide)
+149950..150957	+	335	221739152	-	Avi_7183	-	-	ABC transporter membrane spanning protein (oligopeptide)
+150954..151952	+	332	221739153	-	Avi_7185	-	-	ABC transporter nucleotide binding/ATPase protein (oligopeptide)
+151930..152871	+	313	221739154	-	Avi_7187	-	-	ABC transporter nucleotide binding/ATPase protein (oligopeptide)
+152887..153936	+	349	221739155	-	Avi_7188	-	-	aldo/keto reductase
+153997..155235	+	412	221739156	acd	Avi_7189	-	-	acyl-CoA dehydrogenase
+155286..156047	-	253	221739157	-	Avi_7190	-	-	Nitroreductase
+156158..157852	-	564	221739158	-	Avi_7191	-	-	ABC transporter nucleotide binding/ATPase protein
+157849..158775	-	308	221739159	-	Avi_7192	-	-	ABC transporter membrane spanning protein (oligopeptide)
+158780..159760	-	326	221739160	-	Avi_7193	-	-	ABC transporter membrane spanning protein (oligopeptide)
+159867..161453	-	528	221739161	-	Avi_7194	-	-	ABC transporter substrate binding protein (oligopeptide)
+161669..163000	-	443	221739162	-	Avi_7195	-	-	monooxygenase
+163043..163828	-	261	221739163	-	Avi_7196	-	-	sulfate ester transporter permease protein
+163831..164649	-	272	221739164	-	Avi_7197	-	-	ABC transporter membrane spanning protein (aliphatic sulphonate)
+164673..165746	-	357	221739165	-	Avi_7198	-	-	ABC transporter substrate binding protein (aliphatic sulfonate)
+165813..166649	-	278	221739166	ssuB	Avi_7199	-	-	ABC transporter nucleotide binding/ATPase protein (nitrate/sulfonates)
+166775..168115	-	446	221739167	-	Avi_7200	-	-	nitrilotriacetate monooxygenase
+168138..169769	-	543	221739168	-	Avi_7201	-	-	ABC transporter nucleotide binding/ATPase protein (peptide)
+169766..170638	-	290	221739169	dppC	Avi_7202	-	-	ABC transporter membrane spanning protein (dipeptide)
+170635..171681	-	348	221739170	-	Avi_7203	-	-	ABC transporter membrane spanning protein (dipeptide)
+175062..176063	-	333	221739171	-	Avi_7206	-	-	conserved hypothetical protein
+176317..176943	+	208	221739172	-	Avi_7207	-	-	acetyltransferase
+177000..178025	+	341	221739173	-	Avi_7208	-	-	monooxygenase
+178062..179063	+	333	221739174	-	Avi_7209	-	-	conserved hypothetical protein
+179082..180416	+	444	221739175	-	Avi_7210	-	-	monooxygenase
+181186..182781	-	531	221739176	-	Avi_7212	-	-	ABC transporter substrate binding protein (oligopeptide)
+182799..183137	-	112	221739177	-	Avi_7213	-	-	conserved hypothetical protein
+183191..184789	-	532	221739178	-	Avi_7214	-	-	ABC transporter substrate binding protein (oligopeptide)
+184832..186025	-	397	221739179	-	Avi_7215	-	-	hippurate hydrolase
+186111..187280	-	389	221739180	-	Avi_7216	-	-	monooxygenase
+188026..188994	+	322	221739181	-	Avi_7220	-	-	ABC transporter substrate binding protein (aliphatic sulfonate)
+189020..189868	+	282	221739182	-	Avi_7221	-	-	ABC transporter membrane spanning protein (nitrate/sulfonates)
+189868..190605	+	245	221739183	-	Avi_7222	-	-	ABC transporter nucleotide binding/ATPase protein
+190715..191488	+	257	221739184	nocT	Avi_7224	-	-	ABC transporter substrate binding protein (nopaline)
+191612..192271	+	219	221739185	-	Avi_7225	-	-	ABC transporter membrane spanning protein (amino acid)
+192268..193029	+	253	221739186	nocP	Avi_7227	-	-	ABC transporter nucleotide binding/ATPase protein (nopaline)
+193369..194169	+	266	221739187	-	Avi_7228	-	-	outer membrane lipoprotein
+194247..195314	+	355	221739188	-	Avi_7230	-	-	ABC transporter nucleotide binding/ATPase protein
+195319..195960	+	213	221739189	-	Avi_7231	-	-	ABC transporter membrane spanning protein
+196120..196920	+	266	221739190	-	Avi_7233	-	-	outer membrane lipoprotein
+196911..198065	+	384	221739191	-	Avi_7234	-	-	ABC transporter nucleotide binding/ATPase protein
+198046..198699	+	217	221739192	-	Avi_7235	-	-	ABC transporter membrane spanning protein
+199739..200020	+	93	221739193	-	Avi_7237	-	-	transposase
+200266..200940	+	224	221739194	-	Avi_7238	-	-	transcriptional regulator GntR family
+201032..201883	+	283	221739195	nocT	Avi_7239	-	-	ABC transporter substrate binding protein (nopaline)
+201900..202670	+	256	221739196	nocQ	Avi_7240	-	-	ABC transporter membrane spanning protein (nopaline)
+202667..203359	+	230	221739197	nocM	Avi_7241	-	-	ABC transporter membrane spanning protein (nopaline)
+203401..204996	+	531	221739198	ggt	Avi_7242	-	-	gamma-glutamyltransferase
+205215..205568	-	117	221739199	-	Avi_7245	-	-	phospholipase/Carboxylesterase family protein
+205803..206186	-	127	221739200	-	Avi_7246	-	-	conserved hypothetical protein
+207210..208208	-	332	221739201	-	Avi_7250	-	-	transcriptional regulator AraC family
+208262..209260	-	332	221739202	-	Avi_7251	-	-	conserved hypothetical protein
+209280..210137	-	285	221739203	-	Avi_7252	-	-	ABC transporter membrane spanning protein
+210134..210982	-	282	221739204	-	Avi_7253	-	-	ABC transporter
+210993..212084	-	363	221739205	-	Avi_7254	-	-	ABC transporter nucleotide binding/ATPase protein
+212176..213027	-	283	221739206	-	Avi_7255	-	-	ABC transporter substrate binding protein (glycine-betaine)
+213106..214452	-	448	221739207	-	Avi_7256	-	-	oxidoreductase
+214449..215966	-	505	221739208	dhaL	Avi_7257	-	-	aldehyde dehydrogenase
+215959..216870	-	303	221739209	dapA	Avi_7258	-	-	dihydrodipicolinate synthase
+216867..217577	-	236	221739210	-	Avi_7259	-	-	transcriptional regulator GntR family
+217980..218669	+	229	221739211	-	Avi_7262	-	-	transcriptional regulator GntR family
+218712..219026	-	104	221739212	-	Avi_7263	-	-	transposase
+219073..219225	+	50	221739213	-	Avi_7264	-	-	truncated Tnp
+219320..220255	-	311	221739214	-	Avi_7265	-	-	Ethanolamine kinase
+220271..221236	-	321	221739215	-	Avi_7266	-	-	aminoglycoside phosphotransferase
+221233..222468	-	411	221739216	amaB	Avi_7267	-	-	N-carbamoyl-beta-alanine amidohydrolase
+222521..223282	-	253	221739217	-	Avi_7268	-	-	transcriptional regulator DeoR family
+223338..225182	-	614	221739218	moaD	Avi_7269	-	-	ABC transporter nucleotide binding/ATPase protein
+225182..226102	-	306	221739219	dppC	Avi_7270	-	-	ABC transporter membrane spanning protein (dipeptide)
+226099..227079	-	326	221739220	-	Avi_7271	-	-	ABC transporter membrane spanning protein (oligopeptide)
+227162..228748	-	528	221739221	-	Avi_7272	-	-	ABC-type dipeptide transport system, periplasmic component
+229181..230149	+	322	221739222	-	Avi_7273	-	-	DNA topoisomerase
+230317..233289	+	990	221739223	-	Avi_7274	-	-	conserved hypothetical protein
+233401..233913	-	170	221739224	-	Avi_7275	-	-	conserved hypothetical protein
+234111..235064	+	317	221739225	-	Avi_7276	-	-	conserved hypothetical protein
+235067..235753	+	228	221739226	-	Avi_7277	-	-	conserved hypothetical protein
+235794..236444	-	216	221739227	-	Avi_7278	-	-	Transcriptional regulator
+236582..238144	+	520	221739228	-	Avi_7279	-	-	conserved hypothetical protein
+238155..238655	+	166	221739229	-	Avi_7280	-	-	Electron transport protein SCO1/SenC
+239090..239491	+	133	221739230	-	Avi_7281	-	-	hypothetical protein
+239488..240621	+	377	221739231	-	Avi_7282	-	-	HlyD family secretion protein
+240618..243674	+	1018	221739232	-	Avi_7283	-	-	Acr family transporter
+243791..244750	-	319	221739233	fecR	Avi_7284	-	-	two component sensor kinase
+245080..245622	-	180	221739234	-	Avi_7286	-	-	sigma factor
+245916..246710	-	264	221739235	fecE	Avi_7287	-	-	ABC transporter nucleotide binding/ATPase protein (iron (III) dicitrate)
+246700..247683	-	327	221739236	fecD	Avi_7289	-	-	ABC transporter
+247680..248708	-	342	221739237	fecC	Avi_7290	-	-	ABC transporter membrane spanning protein (iron(III) dicitrate)
+248705..249640	-	311	221739238	fecB	Avi_7292	-	-	ABC transporter membrane spanning protein (iron(III) dicitrate)
+249699..252206	-	835	221739239	-	Avi_7293	-	-	TonB-dependent receptor
+252303..253181	-	292	221739240	-	Avi_7294	-	-	conserved hypothetical protein
+253238..254032	-	264	221739241	grsT	Avi_7295	-	-	thioesterase
+254029..255603	-	524	221739242	mcyB	Avi_7296	-	-	microcystin synthetase B
+255728..263449	-	2573	221739243	-	Avi_7298	-	-	peptide synthetase
+263446..267846	-	1466	221739244	-	Avi_7299	-	-	polyketide synthetase
+267880..268440	-	186	221739245	-	Avi_7300	-	-	conserved hypothetical protein
+268437..269015	-	192	221739246	-	Avi_7301	-	-	hypothetical protein
+269252..270652	-	466	221739247	mcyE	Avi_7303	-	-	polyketide synthase and peptide synthetase
+270649..271539	-	296	221739248	-	Avi_7304	-	-	conserved hypothetical protein
+271520..276040	-	1506	221739249	-	Avi_7306	-	-	peptide synthetase
+276366..278633	+	755	221739250	-	Avi_7308	-	-	polyketide synthetase
+278797..283257	+	1486	221739251	-	Avi_7309	-	-	polyketide synthase
+283302..284369	+	355	221739252	-	Avi_7310	-	-	monooxygenase
+284375..290926	+	2183	221739253	-	Avi_7311	-	-	peptide synthetase
+290930..292306	+	458	221739254	-	Avi_7312	-	-	conserved hypothetical protein
+292394..292912	+	172	221739255	-	Avi_7313	-	-	conserved hypothetical protein
+293638..294453	-	271	221739256	-	Avi_7315	-	-	hypothetical protein
+294618..294815	-	65	221739257	-	Avi_7317	-	-	transposase
+295759..298083	+	774	221739258	-	Avi_7320	-	-	methyl-accepting chemotaxis protein
+298934..299899	-	321	221739259	asg	Avi_7322	-	-	asparaginase
+299936..300754	-	272	221739260	-	Avi_7323	-	-	conserved hypothetical protein
+300840..301742	-	300	221739261	dppC	Avi_7325	-	-	ABC transporter membrane spanning protein (dipeptide)
+301750..302670	-	306	221739262	dppB	Avi_7327	-	-	ABC transporter membrane spanning protein (dipeptide)
+302806..304359	-	517	221739263	dppA	Avi_7328	-	-	ABC transporter substrate binding protein (dipeptide)
+304403..306283	-	626	221739264	-	Avi_7329	-	-	ABC transporter nucleotide binding/ATPase protein
+306321..307262	-	313	221739265	-	Avi_7330	-	-	transcriptional regulator
+307726..308790	+	354	221739266	-	Avi_7332	-	-	Transcriptional regulator/sugar kinase
+308759..309997	-	412	221739267	xylR	Avi_7333	-	-	transcriptional regulator ROK family
+310077..313100	-	1007	221739268	-	Avi_7334	-	-	alpha-D-mannosidase
+313134..313976	-	280	221739269	-	Avi_7335	-	-	ABC transporter membrane spanning protein (sugar)
+313973..314815	-	280	221739270	-	Avi_7336	-	-	ABC transporter, permease protein
+314967..316262	-	431	221739271	-	Avi_7337	-	-	ABC transporter substrate binding protein
+316447..317445	+	332	221739272	-	Avi_7338	-	-	ABC transporter nucleotide binding/ATPase protein (sugar)
+317614..319251	-	545	221739273	attR	Avi_7339	-	-	transacetylase
+319257..321104	-	615	221739274	-	Avi_7340	-	-	conserved hypothetical protein
+321179..322459	-	426	221739275	-	Avi_7341	-	-	sugar ABC transporter sugar-binding protein
+322509..323219	-	236	221739276	-	Avi_7342	-	-	conserved hypothetical protein
+323232..324341	-	369	221739277	-	Avi_7343	-	-	ABC transporter nucleotide binding/ATPase protein
+324356..325528	-	390	221739278	-	Avi_7344	-	-	Unsaturated glucuronyl hydrolase
+325533..326369	-	278	221739279	-	Avi_7346	-	-	ABC transporter membrane spanning protein (sugar)
+326373..327335	-	320	221739280	-	Avi_7347	-	-	ABC transporter membrane spanning protein (sugar)
+327547..329352	+	601	221739281	-	Avi_7349	-	-	conserved hypothetical protein
+329364..330149	+	261	221739282	-	Avi_7350	-	-	conserved hypothetical protein
+330153..331007	-	284	221739283	-	Avi_7351	-	-	transcriptional regulator GntR family
+331026..331283	-	85	221739284	ych	Avi_7352	-	-	conserved hypothetical protein
+331392..331832	-	146	221739285	-	Avi_7353	-	-	conserved hypothetical protein
+332202..333254	+	350	221739286	-	Avi_7355	-	-	ABC transporter nucleotide binding/ATPase protein (sugars)
+333642..335015	+	457	221739287	-	Avi_7356	-	-	ABC transporter, binding protein
+335160..336269	+	369	221739288	-	Avi_7357	-	-	ABC transporter membrane spanning protein (sugar)
+336280..337200	+	306	221739289	-	Avi_7358	-	-	ABC transporter membrane spanning protein
+337242..337697	+	151	221739290	-	Avi_7360	-	-	conserved hypothetical protein
+337708..338634	+	308	221739291	rbsK	Avi_7361	-	-	ribokinase
+338738..339718	+	326	221739292	-	Avi_7362	-	-	xylose isomerase
+339924..340874	+	316	221739293	-	Avi_7364	-	-	ABC transporter substrate binding protein
+340939..342459	+	506	221739294	rbsA	Avi_7365	-	-	ABC transporter nucleotide binding/ATPase protein (ribose)
+342479..343456	+	325	221739295	rbsC	Avi_7366	-	-	ABC transporter membrane spanning protein (ribose)
+343453..344328	+	291	221739296	-	Avi_7367	-	-	transcriptional repressor of rpiB expression; transcriptional repressor of ribose catabolism (RpiR/YebK family)
+344325..345224	+	299	221739297	-	Avi_7369	-	-	ribokinase
+345322..346077	-	251	221739298	-	Avi_7370	-	-	transcriptional regulator
+346190..347104	+	304	221739299	-	Avi_7371	-	-	zinc-binding oxidoreductase
+347511..348617	+	368	221739300	-	Avi_7373	-	-	conserved hypothetical protein
+348707..350341	-	544	221739301	-	Avi_7374	-	-	ribitol kinase
+350398..351126	-	242	221739302	rdh	Avi_7375	-	-	ribitol 2-dehydrogenase
+351152..352411	-	419	221739303	xylH	Avi_7376	-	-	ABC transporter membrane spanning protein (xylose)
+352408..353241	-	277	221739304	xylG	Avi_7377	-	-	ABC transporter nucleotide binding/ATPase protein (xylose)
+353313..354359	-	348	221739305	xylF	Avi_7378	-	-	ABC transporter substrate binding protein (xylose)
+354596..355639	+	347	221739306	-	Avi_7379	-	-	transcriptional regulator LacI family
+356152..356562	+	136	221739307	-	Avi_7380	-	-	conserved hypothetical protein
+356732..357940	-	402	221739308	-	Avi_7381	-	-	permease
+358001..358990	-	329	221739309	-	Avi_7382	-	-	transcriptional regulator AraC family
+359928..360227	+	99	221739310	nrdH	Avi_7384	-	-	glutaredoxin protein
+360238..360654	+	138	221739311	nrdI	Avi_7386	-	-	nrdI protein
+360696..362777	+	693	221739312	-	Avi_7387	-	-	ribonucleoside-diphosphate reductase alpha subunit
+362792..363781	+	329	221739313	nrdF	Avi_7388	-	-	ribonucleoside-diphosphate reductase 2 beta chain
+364029..364340	-	103	221739314	-	Avi_7389	-	-	transcriptional regulator
+364439..365530	+	363	221739315	-	Avi_7390	-	-	xenobiotic reductase A
+366219..367574	+	451	221739316	gatA	Avi_7392	-	-	glutamyl-tRNA amidotransferase subunit A
+367608..368393	+	261	221739317	-	Avi_7393	-	-	ABC transporter substrate binding protein (amino acid)
+368464..369186	+	240	221739318	-	Avi_7394	-	-	ABC transporter membrane spanning protein
+369188..369874	+	228	221739319	-	Avi_7395	-	-	ABC transporter membrane spanning protein
+369971..370864	+	297	221739320	-	Avi_7396	-	-	Transcriptional regulator
+371039..372187	-	382	221739321	-	Avi_7397	-	-	Selenocysteine lyase
+372196..373212	-	338	221739322	-	Avi_7398	-	-	ornithine cyclodeaminase
+373498..374628	+	376	221739323	-	Avi_7399	-	-	oxidoreductase
+374625..374975	+	116	221739324	-	Avi_7400	-	-	conserved hypothetical protein
+375396..376295	+	299	221739325	-	Avi_7402	-	-	Transcriptional regulator
+376370..377011	+	213	221739326	-	Avi_7403	-	-	conserved hypothetical protein
+377643..378932	+	429	221739327	-	Avi_7405	-	-	Acyl-CoA dehydrogenase
+378983..379618	+	211	221739328	-	Avi_7406	-	-	4-hydroxyphenylacetate 3-monooxygenase reductase component
+379820..382147	+	775	221739329	-	Avi_7407	-	-	ferrienterobactin-like protein
+382376..383233	-	285	221739330	-	Avi_7409	-	-	Transcriptional regulator
+383454..384209	+	251	221739331	-	Avi_7410	-	-	arylmalonate decarboxylase
+384226..385377	+	383	221739332	-	Avi_7411	-	-	Acetyl-CoA acetyltransferase
+385841..387226	+	461	221739333	-	Avi_7413	-	-	ScoB
+387340..387768	+	142	221739334	-	Avi_7414	-	-	hypothetical protein
+388188..389435	-	415	221739335	-	Avi_7416	-	-	Permeases of the major facilitator superfamily
+389768..390919	+	383	221739336	-	Avi_7417	-	-	oxidoreductase
+391027..391692	+	221	221739337	-	Avi_7418	-	-	gamma-carboxymuconolactone decarboxylase subunit
+391694..392398	+	234	221739338	-	Avi_7419	-	-	conserved hypothetical protein
+392484..393329	+	281	221739339	-	Avi_7421	-	-	oxidoreductase
+393334..393894	+	186	221739340	-	Avi_7422	-	-	conserved hypothetical protein
+393954..394808	+	284	221739341	hpcE	Avi_7423	-	-	fumarylacetoacetate (FAA) hydrolase family protein
+395057..396568	-	503	221739342	-	Avi_7425	-	-	monooxygenase FAD-binding
+396552..398033	-	493	221739343	-	Avi_7426	-	-	2-methylcitrate dehydratase family protein
+398288..398731	+	147	221739344	-	Avi_7427	-	-	Conserved hypothetical protein
+398827..399360	+	177	221739345	-	Avi_7428	-	-	ring-cleavage extradiol dioxygenase
+399505..400440	+	311	221739346	-	Avi_7430	-	-	fumarylacetoacetate (FAA) hydrolase family protein
+400596..401369	+	257	221739347	-	Avi_7431	-	-	Transcriptional regulator
+401388..401936	+	182	221739348	-	Avi_7432	-	-	conserved hypothetical protein
+401961..403052	-	363	221739349	-	Avi_7433	-	-	ABC transporter membrane spanning protein (branched chain amino acid)
+403063..403926	-	287	221739350	-	Avi_7434	-	-	ABC transporter membrane spanning protein (branched chain amino acid)
+403913..404638	-	241	221739351	-	Avi_7436	-	-	ABC transporter
+404635..405354	-	239	221739352	-	Avi_7437	-	-	ABC transporter nucleotide binding/ATPase protein
+405413..406807	-	464	221739353	-	Avi_7438	-	-	ABC transporter substrate-binding protein
+407029..408786	-	585	221739354	-	Avi_7439	-	-	2,4-dichlorophenol hydroxylase
+408815..409888	-	357	221739355	macA	Avi_7440	-	-	maleylacetate reductase
+409990..410940	+	316	221739356	-	Avi_7441	-	-	transcriptional regulator LysR family
+410951..411283	-	110	221739357	-	Avi_7442	-	-	hypothetical protein
+411297..412133	-	278	221739358	-	Avi_7443	-	-	dioxygenase
+413058..416144	-	1028	221739359	-	Avi_7446	-	-	alpha-D-mannosidase
+416575..417717	+	380	221739360	-	Avi_7450	-	-	extracellular solute-binding protein
+417721..418590	+	289	221739361	potB	Avi_7451	-	-	ABC transporter membrane spanning protein
+418593..419408	+	271	221739362	-	Avi_7452	-	-	ABC transporter membrane spanning protein
+419448..420491	+	347	221739363	afuC	Avi_7453	-	-	ABC transporter nucleotide binding/ATPase protein (iron)
+420492..421757	-	421	221739364	-	Avi_7454	-	-	transcriptional regulator ROK family
+421804..422682	-	292	221739365	-	Avi_7455	-	-	conserved hypothetical protein
+422937..424013	+	358	221739366	-	Avi_7457	-	-	conserved hypothetical protein
+424178..424789	-	203	221739367	-	Avi_7458	-	-	conserved hypothetical protein
+424795..425244	-	149	221739368	-	Avi_7459	-	-	transcriptional regulator
+425400..425609	-	69	221739369	-	Avi_7461	-	-	conserved hypothetical protein
+427750..429228	-	492	221739370	-	Avi_7466	-	-	conserved hypothetical protein
+429225..430457	-	410	221739371	-	Avi_7467	-	-	conserved hypothetical protein
+430710..431300	+	196	221739372	-	Avi_7470	-	-	transposase
+431762..432781	+	339	221739373	-	Avi_7472	-	-	transcriptional regulator LacI family
+432816..433775	+	319	221739374	-	Avi_7473	-	-	ABC transporter nucleotide binding/ATPase protein
+433772..434587	+	271	221739375	-	Avi_7475	-	-	ABC transporter nucleotide binding/ATPase protein
+434584..435588	+	334	221739376	-	Avi_7476	-	-	ABC transporter membrane spanning protein (sugar)
+435592..436659	+	355	221739377	-	Avi_7477	-	-	resiniferatoxin-binding phosphotriesterase-related protein
+436690..437460	+	256	221739378	-	Avi_7478	-	-	conserved hypothetical protein
+437466..438362	-	298	221739379	rbsK	Avi_7479	-	-	ribokinase
+438409..439251	+	280	221739380	-	Avi_7481	-	-	conserved hypothetical protein
+439257..440552	+	431	221739381	amaB	Avi_7482	-	-	N-carbamoyl-beta-alanine amidohydrolase
+440590..443673	-	1027	221739382	-	Avi_7483	-	-	Acr family transporter
+443670..444725	-	351	221739383	-	Avi_7484	-	-	HlyD family secretion protein
+444788..446260	-	490	221739384	nodT	Avi_7487	-	-	nodulation protein T precursor
+446416..447102	+	228	221739385	chvI	Avi_7488	-	-	two component response regulator
+447102..448373	+	423	221739386	-	Avi_7490	-	-	Signal transduction histidine kinase
+449507..450397	-	296	221739387	gstR	Avi_7497	-	-	transcriptional regulator LysR family
+450527..451267	-	246	221739388	-	Avi_7498	-	-	hypothetical protein
+451681..452448	-	255	221739389	-	Avi_7500	-	-	transposase
+452804..453727	-	307	221739390	pecM	Avi_7502	-	-	regulator protein pecM
+454438..455295	-	285	221739391	orfB	Avi_7504	-	-	IS3 family transposase
+455324..455677	-	117	221739392	-	Avi_7505	-	-	conserved hypothetical protein
+455701..456381	-	226	221739393	nocM	Avi_7506	-	-	ABC transporter membrane spanning protein (nopaline)
+456383..457096	-	237	221739394	nocQ	Avi_7507	-	-	ABC transporter membrane spanning protein (nopaline)
+457157..457975	-	272	221739395	-	Avi_7508	-	-	ABC transporter substrate binding protein (amino acid)
+458014..458790	-	258	221739396	nocP	Avi_7509	-	-	ABC transporter nucleotide binding/ATPase protein (nopaline)
+458809..460212	-	467	221739397	bioA	Avi_7510	-	-	adenosylmethionine-8-amino-7-oxononanoate transaminase
+460437..460913	+	158	221739398	-	Avi_7513	-	-	transcriptional regulator AsnC family
+461338..461610	+	90	221739399	-	Avi_7514	-	-	transposase
+462221..463141	+	306	221739400	-	Avi_7515	-	-	carboxyphosphonoenolpyruvate phosphonomutase (CPEP Phosphonomutase)
+463236..464933	+	565	221739401	-	Avi_7516	-	-	ABC transporter substrate binding protein (oligopeptide)
+464930..465883	+	317	221739402	dppB	Avi_7517	-	-	ABC transporter membrane spanning protein (dipeptide)
+465891..466778	+	295	221739403	dppC	Avi_7518	-	-	ABC transporter membrane spanning protein (dipeptide)
+466778..467803	+	341	221739404	-	Avi_7520	-	-	ABC transporter nucleotide binding/ATPase protein (oligopeptide)
+467800..468792	+	330	221739405	moaD	Avi_7522	-	-	ABC transporter nucleotide binding/ATPase protein
+468870..470054	+	394	221739406	-	Avi_7524	-	-	aromatic-amino-acid transaminase
+470060..471931	-	623	221739407	nocR	Avi_7526	-	-	transcriptional regulator LysR family
+472246..473613	+	455	221739408	-	Avi_7527	-	-	3-octaprenyl-4-hydroxybenzoate carboxy-lyase
+473610..474185	+	191	221739409	-	Avi_7528	-	-	3-polyprenyl-4-hydroxybenzoate decarboxylase
+474294..475919	+	541	221739410	dppA	Avi_7529	-	-	ABC transporter substrate binding protein (dipeptide)
+475985..476917	+	310	221739411	-	Avi_7530	-	-	carboxyphosphonoenolpyruvate phosphonomutase
+476889..478061	+	390	221739412	dppB	Avi_7531	-	-	ABC transporter membrane spanning protein (dipeptide)
+478058..478978	+	306	221739413	dppC	Avi_7532	-	-	ABC transporter membrane spanning protein (dipeptide)
+478980..479993	+	337	221739414	-	Avi_7533	-	-	ABC transporter nucleotide binding/ATPase protein (oligopeptide)
+479986..480963	+	325	221739415	-	Avi_7536	-	-	ABC transporter nucleotide binding/ATPase protein (oligopeptide)
+480974..481495	+	173	221739416	-	Avi_7537	-	-	hypothetical protein
+481492..482868	+	458	221739417	-	Avi_7538	-	-	allantoinase protein
+482873..484132	+	419	221739418	amaB	Avi_7539	-	-	N-carbamoyl-beta-alanine amidohydrolase
+484241..485854	+	537	221739419	hutH	Avi_7540	-	-	histidine ammonia-lyase
+485953..486312	+	119	221739420	-	Avi_7541	-	-	transposase
+486526..488442	-	638	221739421	-	Avi_7543	-	-	conserved hypothetical protein
+488445..489587	-	380	221739422	-	Avi_7544	-	-	von Willebrand factor type A (vWA) domain-containing protein
+489584..493573	-	1329	221739423	aceF	Avi_7546	-	-	dihydrolipoamide acetyltransferase
+493596..495890	-	764	221739424	-	Avi_7548	-	-	conserved hypothetical protein
+495898..496989	-	363	221739425	-	Avi_7549	-	-	moxR-like ATPase
+497289..498467	-	392	221739426	purA	Avi_7550	-	-	adenylosuccinate synthetase
+498464..499396	-	310	221739427	-	Avi_7551	-	-	conserved hypothetical protein
+499389..500414	-	341	221739428	-	Avi_7552	-	-	hypothetical protein
+500590..501249	+	219	221739429	-	Avi_7553	-	-	conserved hypothetical protein
+501813..502559	-	248	221739430	-	Avi_7554	-	-	Conserved hypothetical protein
+503466..505427	+	653	221739431	vgrG	Avi_7557	-	-	vgrG protein
+505592..506602	+	336	221739432	-	Avi_7558	-	-	hypothetical protein
+506592..507974	+	460	221739433	-	Avi_7559	-	-	phospholipase A1
+507987..509033	+	348	221739434	-	Avi_7560	-	-	conserved hypothetical protein
+509109..509534	+	141	221739435	-	Avi_7561	-	-	conserved hypothetical protein
+510082..510786	-	234	221739436	-	Avi_7563	-	-	conserved hypothetical protein
+510783..511328	-	181	221739437	-	Avi_7564	-	-	ECF family sigma factor
+511533..512321	+	262	221739438	-	Avi_7565	-	-	conserved hypothetical protein
+512660..513391	+	243	221739439	tnp	Avi_7566	-	-	transposase
+513930..514610	-	226	221739440	-	Avi_7569	-	-	conserved hypothetical protein
+514622..515998	-	458	221739441	-	Avi_7570	-	-	glucose 6-phosphate dehydrogenase
+515995..517008	-	337	221739442	-	Avi_7571	-	-	6-phosphogluconate dehydrogenase
+517027..519432	-	801	221739443	-	Avi_7572	-	-	glucan 1,4-alpha-glucosidase
+519622..521025	-	467	221739444	-	Avi_7573	-	-	transcriptional regulator GntR family
+521364..521846	+	160	221739445	-	Avi_7575	-	-	conserved hypothetical protein
+521926..522969	+	347	221739446	-	Avi_7576	-	-	amidohydrolase
+523043..524014	+	323	221739447	-	Avi_7577	-	-	Biotin synthase-related enzyme
+524011..524553	+	180	221739448	-	Avi_7578	-	-	GCN5 family N-acetyltransferase
+524556..525542	+	328	221739449	-	Avi_7579	-	-	selenophosphate synthetase-related protein
+525563..526696	+	377	221739450	-	Avi_7580	-	-	WbdA; mannosyl transferase A
+526698..526976	+	92	221739451	-	Avi_7582	-	-	conserved hypothetical protein
+526988..528259	+	423	221739452	-	Avi_7583	-	-	flavin-containing monooxygenase
+528320..529129	+	269	221739453	-	Avi_7584	-	-	yype IIA topoisomerase (DNA gyrase/topo II, topoisomerase IV) B subunit
+529444..530520	+	358	221739454	-	Avi_7585	-	-	Catalase
+530551..532887	+	778	221739455	fdhF	Avi_7586	-	-	formate dehydrogenase H alpha subunit
+532931..533443	-	170	221739456	-	Avi_7587	-	-	acetyltransferase
+533454..534329	-	291	221739457	-	Avi_7588	-	-	conserved hypothetical protein
+534339..535175	-	278	221739458	-	Avi_7589	-	-	conserved hypothetical protein
+535272..536615	-	447	221739459	-	Avi_7590	-	-	ABC transporter substrate binding protein (sugar)
+536612..537439	-	275	221739460	-	Avi_7591	-	-	ABC transporter membrane spanning protein
+537439..538359	-	306	221739461	-	Avi_7592	-	-	ABC transporter
+538343..539536	-	397	221739462	-	Avi_7593	-	-	ABC transporter nucleotide binding/ATPase protein
+539865..540536	+	223	221739463	-	Avi_7595	-	-	transcriptional regulator TetR family
+540758..541576	+	272	221739464	prxC	Avi_7597	-	-	non-heme chloroperoxidase
+541652..542314	-	220	221739465	-	Avi_7599	-	-	conserved hypothetical protein
+542316..543740	-	474	221739466	pepQ	Avi_7600	-	-	proline dipeptidase
+543769..544590	-	273	221739467	-	Avi_7601	-	-	ABC transporter membrane spanning protein
+544583..545410	-	275	221739468	-	Avi_7602	-	-	ABC transporter membrane spanning protein
+545420..546460	-	346	221739469	-	Avi_7603	-	-	ABC transporter substrate binding protein
+546481..547722	-	413	221739470	-	Avi_7604	-	-	ABC transporter nucleotide binding/ATPase protein
+548168..549157	+	329	221739471	-	Avi_7606	-	-	ABC transporter substrate binding protein (amino acid)
+549161..550033	+	290	221739472	-	Avi_7608	-	-	ABC transporter membrane spanning protein (amino acid)
+550112..551242	+	376	221739473	-	Avi_7610	-	-	conserved hypothetical protein
+551525..552277	+	250	221739474	-	Avi_7611	-	-	transcriptional regulator GntR family
+552863..553261	-	132	221739475	-	Avi_7612	-	-	nikR protein
+553410..554990	+	526	221739476	nikA	Avi_7613	-	-	nickel ABC transporter periplasmic nickel-binding protein
+554994..555938	+	314	221739477	nikB	Avi_7614	-	-	nickel ABC transporter permease subunit NikB
+555935..556810	+	291	221739478	nikC	Avi_7616	-	-	nickel ABC transporter permease subunit NikC
+556807..557595	+	262	221739479	nikD	Avi_7617	-	-	nickel import ATP-binding protein NikD
+557592..558386	+	264	221739480	nikE	Avi_7618	-	-	nickel import ATP-binding protein NikE
+558560..558955	+	131	221739481	-	Avi_7619	-	-	conserved hypothetical protein
+559070..559768	+	232	221739482	fnrN	Avi_7621	-	-	transcriptional activator Crp family
+559787..561076	+	429	221739483	-	Avi_7622	-	-	ABC transporter substrate binding protein (iron)
+561073..562137	+	354	221739484	-	Avi_7623	-	-	ABC transporter membrane spanning protein (iron)
+562134..562919	+	261	221739485	-	Avi_7625	-	-	ABC transporter
+562916..563839	+	307	221739486	-	Avi_7626	-	-	conserved hypothetical protein
+563836..564495	+	219	221739487	sco1	Avi_7627	-	-	electron transport protein
+564492..565277	+	261	221739488	-	Avi_7628	-	-	intracellular protease/amidase
+565611..566639	-	342	221739489	moaA	Avi_7629	-	-	molybdenum cofactor biosynthesis protein A
+566633..567988	-	451	221739490	-	Avi_7630	-	-	conserved hypothetical protein
+567985..568290	-	101	221739491	fdxA	Avi_7631	-	-	ferredoxin
+568363..570489	-	708	221739492	-	Avi_7633	-	-	reductase
+570675..571589	+	304	221739493	-	Avi_7634	-	-	transcriptional regulator AraC family
+572212..573078	+	288	221739494	-	Avi_7635	-	-	AraC-type DNA-binding domain-containing protein
+573139..574389	-	416	221739495	-	Avi_7637	-	-	Acyl-CoA dehydrogenase
+574970..576937	+	655	221739496	-	Avi_7641	-	-	conserved hypothetical protein
+577013..578740	-	575	221739497	-	Avi_7643	-	-	sensory methylation accepting chemotaxis protein
+579230..580588	+	452	221739498	-	Avi_7645	-	-	conserved hypothetical protein
+580634..582223	+	529	221739499	-	Avi_7646	-	-	TPR repeat-containing protein
+582859..584745	+	628	221739500	acoR	Avi_7648	-	-	transcriptional regulator
+584910..585983	+	357	221739501	-	Avi_7649	-	-	zinc-binding dehydrogenase
+586099..587901	+	600	221739502	-	Avi_7650	-	-	flavin-containing monooxygenase
+588203..588877	-	224	221739503	menG	Avi_7652	-	-	demethylmenaquinone methyltransferase
+589053..589952	+	299	221739504	-	Avi_7653	-	-	Transcriptional regulator
+590128..590547	+	139	221739505	accB	Avi_7654	-	-	acetyl-CoA carboxylase biotin carboxyl carrier protein
+590544..591917	+	457	221739506	accC	Avi_7655	-	-	acetyl-CoA carboxylase biotin carboxylase
+591914..592357	+	147	221739507	-	Avi_7656	-	-	conserved hypothetical protein
+592357..593067	+	236	221739508	-	Avi_7657	-	-	conserved hypothetical protein
+593064..594062	+	332	221739509	-	Avi_7658	-	-	conserved hypothetical protein
+594078..594845	+	255	221739510	-	Avi_7659	-	-	conserved hypothetical protein
+594894..596108	+	404	221739511	aatA	Avi_7660	-	-	aspartate aminotransferase A
+596173..597078	-	301	221739512	nac	Avi_7661	-	-	transcriptional regulator LysR family
+597318..598070	+	250	221739513	-	Avi_7662	-	-	short-chain dehydrogenase
+598067..598774	+	235	221739514	-	Avi_7663	-	-	ABC transporter membrane spanning protein (amino acid)
+598771..599523	+	250	221739515	-	Avi_7664	-	-	ABC transporter membrane spanning protein (amino acid)
+599529..600296	+	255	221739516	-	Avi_7665	-	-	ABC transporter nucleotide binding/ATPase protein
+600370..601209	+	279	221739517	-	Avi_7667	-	-	ABC transporter substrate binding protein (amino acid)
+601422..601793	+	123	221739518	-	Avi_7669	-	-	transposase
+601790..602185	+	131	221739519	-	Avi_7671	-	-	transposase
+602286..602615	-	109	221739520	-	Avi_7673	-	-	methyl-accepting chemotaxis protein
+602711..604411	-	566	221739521	-	Avi_7674	-	-	oxidoreductase
+604414..605730	-	438	221739522	-	Avi_7675	-	-	conserved hypothetical protein
+605730..607205	-	491	221739523	-	Avi_7676	-	-	FAD dependent oxidoreductase
+607733..608221	+	162	221739524	-	Avi_7677	-	-	hypothetical protein
+608583..609776	+	397	221739525	-	Avi_7679	-	-	Permeases of the major facilitator superfamily
+609978..611372	+	464	221739526	-	Avi_7680	-	-	porin B
+611605..612105	-	166	221739527	-	Avi_7681	-	-	CbaR
+612135..613373	-	412	221739528	-	Avi_7682	-	-	ferredoxin reductase
+613702..614919	-	405	221739529	-	Avi_7683	-	-	cytochrome P450 hydroxylase
+615296..615505	-	69	221739530	-	Avi_7685	-	-	transposase
+615820..617247	-	475	221739531	attK	Avi_7686	-	-	NAD-dependent succinate aldehyde dehydrogenase
+617309..618811	-	500	221739532	fadD	Avi_7687	-	-	long-chain-fatty-acid-CoA-ligase
+619051..620067	-	338	221739533	-	Avi_7688	-	-	transcriptional regulatory protein
+620258..621793	+	511	221739534	mccB	Avi_7689	-	-	3-methylcrotonoyl-CoA carboxylase beta subunit
+621801..622601	+	266	221739535	-	Avi_7690	-	-	Enoyl-CoA hydratase/isomerase family protein
+622613..624601	+	662	221739536	accC	Avi_7691	-	-	acetyl-CoA carboxylase biotin carboxylase
+624612..625535	+	307	221739537	hmgL	Avi_7692	-	-	hydroxymethylglutaryl-CoA lyase
+626117..626932	-	271	221739538	-	Avi_7693	-	-	transcriptional regulator MerR family
+627075..628355	+	426	221739539	argD	Avi_7694	-	-	acetylornithine aminotransferase
+628382..628708	-	108	221739540	-	Avi_7695	-	-	conserved hypothetical protein
+629087..630115	+	342	221739541	-	Avi_7698	-	-	IS1111A/IS1328/IS1533 family transposase
+630217..631296	-	359	221739542	orfB	Avi_7700	-	-	IS3 family transposase

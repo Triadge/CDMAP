@@ -1,0 +1,208 @@
+Agrobacterium vitis S4 plasmid pTiS4, complete sequence. - 1..258824
+205 proteins
+Location	Strand	Length	PID	Gene	Synonym	Code	COG	Product
+136..1251	+	371	221738763	repA	Avi_8000	-	-	replication protein A
+1336..2331	+	331	221738764	repB	Avi_8001	-	-	replication protein B
+2487..3731	+	414	221738765	repC	Avi_8002	-	-	replication protein C
+3966..5258	+	430	221738766	-	Avi_8003	-	-	hypothetical protein
+5296..6183	-	295	221738767	-	Avi_8004	-	-	hypothetical protein
+6341..7270	+	309	221738768	-	Avi_8005	-	-	hypothetical protein
+7357..8493	-	378	221738769	-	Avi_8006	-	-	integrase protein
+9562..10257	+	231	221738770	-	Avi_8008	-	-	conserved hypothetical protein
+10347..10919	-	190	221738771	-	Avi_8010	-	-	hypothetical protein
+11011..11868	+	285	221738772	-	Avi_8011	-	-	transposase protein
+11908..12624	+	238	221738773	-	Avi_8012	-	-	transposase protein
+12803..13006	+	67	221738774	-	Avi_8013	-	-	hypothetical protein
+13035..13523	+	162	221738775	-	Avi_8014	-	-	conserved hypothetical protein
+13818..14705	+	295	221738776	-	Avi_8015	-	-	Ku protein
+14709..15530	+	273	221738777	-	Avi_8016	-	-	Ku protein
+15594..18275	-	893	221738778	ligD	Avi_8017	-	-	DNA ligase D
+18618..19502	-	294	221738779	-	Avi_8018	-	-	transposase
+19976..20953	+	325	221738780	-	Avi_8019	-	-	dehydrogenase/flavin-dependent oxidoreductase protein
+21013..22674	+	553	221738781	-	Avi_8020	-	-	trehalose synthase
+23158..23997	-	279	221738782	-	Avi_8022	-	-	conserved hypothetical protein
+24955..26739	+	594	221738783	-	Avi_8025	-	-	sensory methylation accepting chemotaxis protein
+27093..27371	-	92	221738784	-	Avi_8027	-	-	HNS-type DNA binding protein
+28128..28448	+	106	221738785	nolR	Avi_8029	-	-	transcriptional regulator ArsR family
+29340..30140	+	266	221738786	-	Avi_8032	-	-	potential exonuclease
+30726..31265	-	179	221738787	tnp	Avi_8035	-	-	transposase
+32520..33272	-	250	221738788	-	Avi_8042	-	-	transcriptional regulator AraC family
+33343..34059	+	238	221738789	-	Avi_8044	-	-	transposase
+34845..35393	-	182	221738790	traG	Avi_8047	-	-	Ti-type conjugative transfer system protein TraG
+35380..35595	-	71	221738791	traD	Avi_8048	-	-	conjugal transfer protein Dtr system
+35600..35896	-	98	221738792	traC	Avi_8049	-	-	conjugal transfer protein Dtr system
+40885..41259	-	124	221738793	-	Avi_8059	-	-	transposase
+44012..44956	-	314	221738794	-	Avi_8066	-	-	conserved hypothetical protein
+44953..45393	-	146	221738795	exsI	Avi_8067	-	-	transcriptional regulator
+45390..47018	-	542	221738796	-	Avi_8068	-	-	GGDEF family protein
+47843..48883	+	346	221738797	-	Avi_8070	-	-	transposase
+49695..49979	-	94	221738798	-	Avi_8072	-	-	transposase
+49976..51265	-	429	221738799	-	Avi_8073	-	-	conserved hypothetical protein
+51395..51682	-	95	221738800	-	Avi_8074	-	-	transcriptional regulator
+51718..52392	-	224	221738801	-	Avi_8075	-	-	conserved hypothetical protein
+52672..53013	+	113	221738802	-	Avi_8076	-	-	hypothetical protein
+52985..54193	+	402	221738803	-	Avi_8077	-	-	conserved hypothetical protein
+54336..54938	+	200	221738804	-	Avi_8078	-	-	conserved hypothetical protein
+55167..56579	+	470	221738805	-	Avi_8079	-	-	helicase SNF2 family
+56800..57684	+	294	221738806	-	Avi_8080	-	-	transposase
+57688..61323	+	1211	221738807	-	Avi_8083	-	-	helicase
+61659..64496	-	945	221738808	-	Avi_8085	-	-	hypothetical protein
+64493..65224	-	243	221738809	rzcA	Avi_8086	-	-	rhizobiocin/RTX toxin
+65582..66406	-	274	221738810	-	Avi_8089	-	-	PEP phosphonomutase
+68595..69068	+	157	221738811	-	Avi_8094	-	-	conserved hypothetical protein
+69065..69952	+	295	221738812	-	Avi_8095	-	-	conserved hypothetical protein
+69949..70353	+	134	221738813	-	Avi_8097	-	-	conserved hypothetical protein
+70699..71298	+	199	221738814	-	Avi_8098	-	-	conserved hypothetical protein
+71614..72540	+	308	221738815	ardC	Avi_8099	-	-	antirestriction protein
+73428..73613	-	61	221738816	-	Avi_8103	-	-	transposase
+73595..74479	-	294	221738817	-	Avi_8104	-	-	transposase
+74734..75630	-	298	221738818	-	Avi_8105	-	-	IS1111A/IS1328/IS1533 family transposase
+77849..78151	-	100	221738819	-	Avi_8111	-	-	conserved hypothetical protein
+78540..79766	+	408	221738820	-	Avi_8114	-	-	integrase/recombinase
+79742..80680	+	312	221738821	xerC	Avi_8115	-	-	site-specific tyrosine recombinase XerC
+80677..81684	+	335	221738822	-	Avi_8116	-	-	integrase/recombinase
+82014..82316	+	100	221738823	-	Avi_8119	-	-	conserved hypothetical protein
+82457..82654	+	65	221738824	-	Avi_8120	-	-	conserved hypothetical protein
+82794..83042	+	82	221738825	-	Avi_8121	-	-	conserved hypothetical protein
+83145..83423	-	92	221738826	-	Avi_8123	-	-	HNS-type DNA binding protein
+83507..83815	-	102	221738827	-	Avi_8126	-	-	conserved hypothetical protein
+83870..84310	-	146	221738828	yci	Avi_8127	-	-	nuclease
+84307..86271	-	654	221738829	traG	Avi_8128	-	-	Ti-type conjugative transfer system protein TraG
+86258..86473	-	71	221738830	traD	Avi_8129	-	-	conjugal transfer protein Dtr system
+86478..86774	-	98	221738831	traC	Avi_8130	-	-	conjugal transfer protein Dtr system
+87030..90332	+	1100	221738832	traA	Avi_8131	-	-	Ti-type conjugative transfer relaxase TraA
+90329..90859	+	176	221738833	traF	Avi_8132	-	-	conjugative transfer signal peptidase TraF
+92094..92723	+	209	221738834	traH	Avi_8135	-	-	conjugal transfer protein Dtr system
+92879..93325	+	148	221738835	-	Avi_8136	-	-	hypothetical protein
+93351..93785	+	144	221738836	-	Avi_8137	-	-	conserved hypothetical protein
+94123..94431	+	102	221738837	traM	Avi_8138	-	-	transcriptional repressor
+94839..95522	-	227	221738838	traR	Avi_8140	-	-	transcriptional regulator
+95892..96776	-	294	221738839	alr	Avi_8142	-	-	alanine racemase
+96911..97372	+	153	221738840	-	Avi_8143	-	-	transcriptional regulator
+97789..98604	-	271	221738841	-	Avi_8145	-	-	transcriptional regulator IclR family
+98782..99897	+	371	221738842	-	Avi_8146	-	-	spermidine/putrescine binding protein of ABC transporter
+100330..101070	+	246	221738843	-	Avi_8147	-	-	ABC transporter nucleotide binding/ATPase protein
+101072..101953	+	293	221738844	potB	Avi_8148	-	-	ABC transporter membrane spanning protein
+101950..102750	+	266	221738845	-	Avi_8149	-	-	ABC transporter
+102871..104217	+	448	221738846	bioA	Avi_8150	-	-	adenosylmethionine-8-amino-7-oxononanoate transaminase
+104805..105662	+	285	221738847	potB	Avi_8152	-	-	ABC transporter membrane spanning protein
+105659..106453	+	264	221738848	-	Avi_8156	-	-	ABC transporter
+106492..107529	+	345	221738849	potF	Avi_8157	-	-	ABC transporter substrate binding protein (putrescine)
+107614..108747	+	377	221738850	potG	Avi_8158	-	-	ABC transporter nucleotide binding/ATPase protein (putrescine)
+108866..110350	+	494	221738851	attK	Avi_8160	-	-	NAD-dependent succinate aldehyde dehydrogenase
+110875..112443	+	522	221738852	dfpA	Avi_8162	-	-	ABC transporter substrate binding protein (peptide)
+112588..113337	-	249	221738853	-	Avi_8163	-	-	transcriptional regulator IclR family
+113659..115041	-	460	221738854	-	Avi_8165	-	-	oxidoreductase
+115013..115870	-	285	221738855	-	Avi_8166	-	-	conserved hypothetical protein
+115983..117338	-	451	221738856	-	Avi_8168	-	-	conserved protein
+117493..118275	-	260	221738857	-	Avi_8169	-	-	ABC transporter membrane spanning protein
+118272..119141	-	289	221738858	potB	Avi_8171	-	-	ABC transporter membrane spanning protein
+119141..120235	-	364	221738859	afuC	Avi_8172	-	-	ABC transporter nucleotide binding/ATPase protein (iron)
+120250..121284	-	344	221738860	-	Avi_8173	-	-	ABC transporter substrate binding protein (spermidine/putrescine)
+121315..123072	-	585	221738861	hyuB	Avi_8174	-	-	hydantoin utilization protein
+123085..125130	-	681	221738862	hyuA	Avi_8176	-	-	hydantoin utilization protein
+125585..126352	+	255	221738863	-	Avi_8178	-	-	Transcriptional regulator
+126581..127522	+	313	221738864	-	Avi_8180	-	-	ABC transporter membrane spanning protein (oligopeptide)
+127519..128400	+	293	221738865	-	Avi_8181	-	-	ABC transporter membrane spanning protein
+128400..130190	+	596	221738866	-	Avi_8183	-	-	ABC transporter nucleotide binding/ATPase protein
+130199..131530	+	443	221738867	-	Avi_8184	-	-	MmgE/PrpD family protein
+131825..132874	+	349	221738868	adhP	Avi_8187	-	-	alcohol dehydrogenase
+132911..134464	+	517	221738869	-	Avi_8188	-	-	aldehyde dehydrogenase
+137201..137929	+	242	221738870	-	Avi_8194	-	-	T-DNA oncoprotein
+138220..139356	-	378	221738871	nos	Avi_8195	-	-	D-nopaline dehydrogenase
+141732..142943	+	403	221738872	repA	Avi_8198	-	-	replication protein A
+142940..143977	+	345	221738873	repB	Avi_8200	-	-	replication protein B
+144222..145484	+	420	221738874	repC	Avi_8201	-	-	replication protein C
+145481..146581	-	366	221738875	-	Avi_8202	-	-	transposase
+148205..150673	-	822	221738876	virD5	Avi_8208	-	-	virA/G regulated protein
+150781..152772	-	663	221738877	virD4	Avi_8210	-	-	virA/G regulated protein
+152830..155502	-	890	221738878	virD3	Avi_8211	-	-	virA/G regulated protein
+155516..156727	-	403	221738879	virD2	Avi_8212	-	-	endonuclease
+156754..157200	-	148	221738880	virD1	Avi_8213	-	-	virA/G regulated topoisomerase
+157457..158152	+	231	221738881	virC1	Avi_8214	-	-	virA/G regulated protein
+158149..158763	+	204	221738882	virC2	Avi_8215	-	-	virA/G regulated protein
+158885..159610	-	241	221738883	virG	Avi_8217	-	-	two component response regulator
+159841..160875	-	344	221738884	virB11	Avi_8218	-	-	P-type DNA transfer ATPase VirB11
+160909..162030	-	373	221738885	virB10	Avi_8219	-	-	component of type IV secretion system
+162030..162908	-	292	221738886	virB9	Avi_8220	-	-	P-type conjugative transfer protein VirB9
+162905..163618	-	237	221738887	virB8	Avi_8221	-	-	component of type IV secretion system
+163605..163772	-	55	221738967	virB7	Avi_8336	-	-	VirB7
+163800..164687	-	295	221738888	virB6	Avi_8222	-	-	component of type IV secretion system
+164747..165415	-	222	221738889	virB5	Avi_8223	-	-	component of type IV secretion system
+165443..167812	-	789	221738890	virB4	Avi_8224	-	-	component of type IV secretion system
+167812..168138	-	108	221738891	virB3	Avi_8225	-	-	VirB3
+168135..168500	-	121	221738892	virB2	Avi_8226	-	-	VirB2
+168516..169232	-	238	221738893	virB1	Avi_8227	-	-	component of type IV secretion system
+170524..170877	+	117	221738894	-	Avi_8230	-	-	transposase
+170939..172600	+	553	221738895	-	Avi_8231	-	-	transposase
+172907..173212	-	101	221738896	-	Avi_8233	-	-	conserved hypothetical protein
+174077..174439	-	120	221738897	-	Avi_8237	-	-	transposase
+174421..174783	-	120	221738898	-	Avi_8238	-	-	transposase
+175275..177296	-	673	221738899	virE3	Avi_8242	-	-	virA/G regulated protein
+177363..179033	-	556	221738900	virE2	Avi_8243	-	-	exported virulence protein
+179047..179238	-	63	221738901	virE1	Avi_8244	-	-	protein secretion chaperone
+181933..182286	+	117	221738902	-	Avi_8248	-	-	transposase
+182348..184009	+	553	221738903	-	Avi_8249	-	-	transposase
+184278..186821	-	847	221738904	virA	Avi_8250	-	-	two component sensor kinase
+187013..188221	-	402	221738905	virH1	Avi_8251	-	-	P-450 monooxygenase
+188557..189786	+	409	221738906	-	Avi_8253	-	-	phage integrase family protein
+189783..190805	+	340	221738907	tnp	Avi_8254	-	-	transposase
+191202..191570	-	122	221738908	tnp	Avi_8255	-	-	transposase
+191686..192522	-	278	221738909	-	Avi_8256	-	-	reverse transcriptase-like protein
+192645..192974	-	109	221738910	-	Avi_8257	-	-	integrase/recombinase
+192978..193862	-	294	221738911	-	Avi_8258	-	-	transposase
+194083..194823	-	246	221738912	-	Avi_8259	-	-	integrase/recombinase
+194813..195790	-	325	221738913	-	Avi_8260	-	-	integrase/recombinase
+195790..196767	-	325	221738914	-	Avi_8262	-	-	integrase/recombinase
+197080..197853	-	257	221738915	-	Avi_8264	-	-	18S rRNA intron 1 protein
+197920..198693	+	257	221738916	-	Avi_8265	-	-	hypothetical protein
+198912..199241	-	109	221738917	-	Avi_8266	-	-	conserved hypothetical protein
+200377..200997	+	206	221738918	-	Avi_8269	-	-	protein 6b
+201537..202619	-	360	221738919	-	Avi_8271	-	-	D-vitopine dehydrogenase
+203032..203541	+	169	221738920	-	Avi_8272	-	-	insertion sequence ATP-binding protein
+203849..204409	+	186	221738921	tnp	Avi_8273	-	-	transposase
+205056..206207	+	383	221738922	-	Avi_8275	-	-	ATP-dependent DNA ligase
+206271..206633	-	120	221738923	-	Avi_8276	-	-	conserved hypothetical protein
+207335..207958	+	207	221738924	-	Avi_8278	-	-	virP
+208159..209580	-	473	221738925	tnp	Avi_8279	-	-	transposase
+209856..210158	+	100	221738926	-	Avi_8280	-	-	conserved hypothetical protein
+210169..211389	-	406	221738927	-	Avi_8282	-	-	transposase for insertion sequence element isrm3
+213627..215015	-	462	221738928	tms2	Avi_8287	-	-	indole acetamide hydrolase
+215346..217517	+	723	221738929	tms1	Avi_8288	-	-	tryptophan 2-monooxygenase
+218818..219702	-	294	221738930	-	Avi_8291	-	-	transposase
+219847..220458	-	203	221738931	istA	Avi_8292	-	-	IS21 family transposase
+221625..222335	+	236	221738932	ipt	Avi_8294	-	-	isopentenyl transferase
+222853..223242	-	129	221738933	-	Avi_8295	-	-	D-vitopine dehydrogenase
+223484..223786	-	100	221738934	-	Avi_8296	-	-	D-vitopine dehydrogenase
+224691..225107	+	138	221738935	-	Avi_8298	-	-	Hypothetical Protein
+225258..225950	-	230	221738936	traR	Avi_8300	-	-	transcriptional regulator
+226174..227568	-	464	221738937	noxA	Avi_8301	-	-	D-nopaline dehydrogenase
+227851..228921	-	356	221738938	noxB	Avi_8303	-	-	D-nopaline dehydrogenase
+228990..229787	-	265	221738939	-	Avi_8304	-	-	ABC transporter
+229784..230641	-	285	221738940	attA2	Avi_8305	-	-	ABC transporter membrane spanning protein (mannopine)
+230638..231681	-	347	221738941	-	Avi_8306	-	-	ABC transporter nucleotide binding/ATPase protein
+231828..232862	-	344	221738942	-	Avi_8307	-	-	ABC transporter substrate-binding protein
+232967..233869	+	300	221738943	nocR	Avi_8309	-	-	transcriptional regulator LysR family
+234022..235884	-	620	221738944	moaD	Avi_8310	-	-	ABC transporter nucleotide binding/ATPase protein
+235881..236738	-	285	221738945	dppC	Avi_8311	-	-	ABC transporter membrane spanning protein (dipeptide)
+236735..237688	-	317	221738946	-	Avi_8312	-	-	ABC transporter membrane spanning protein (oligopeptide)
+237843..239393	-	516	221738947	-	Avi_8313	-	-	ABC transporter substrate binding protein (oligopeptide)
+239982..240278	+	98	221738948	-	Avi_8314	-	-	uncharacterized NAD(FAD)-dependent dehydrogenase
+240275..241684	+	469	221738949	noxA	Avi_8316	-	-	D-nopaline dehydrogenase
+241677..242030	+	117	221738950	-	Avi_8317	-	-	Endoribonuclease L-PSP
+242167..243891	-	574	221738951	hyuB	Avi_8319	-	-	hydantoin utilization protein
+243894..245924	-	676	221738952	hyuA	Avi_8320	-	-	hydantoin utilization protein
+246018..247160	-	380	221738953	noxB	Avi_8321	-	-	D-nopaline dehydrogenase
+247266..248156	+	296	221738954	nocR	Avi_8322	-	-	transcriptional regulator LysR family
+248211..249524	-	437	221738955	trbI	Avi_8323	-	-	conjugal transfer protein
+249537..250013	-	158	221738956	trbH	Avi_8324	-	-	conjugal transfer protein
+250013..250867	-	284	221738957	trbG	Avi_8325	-	-	P-type conjugative transfer protein TrbG
+250884..251546	-	220	221738958	trbF	Avi_8326	-	-	conjugal transfer protein
+251561..252589	-	342	221738959	trbL	Avi_8328	-	-	P-type conjugative transfer protein TrbL
+252739..252966	-	75	221738960	trbK	Avi_8329	-	-	entry-exclusion protein
+252963..253772	-	269	221738961	trbJ	Avi_8330	-	-	P-type conjugative transfer protein TrbJ
+253744..256206	-	820	221738962	trbE	Avi_8331	-	-	conjugal transfer protein
+256217..256516	-	99	221738963	trbD	Avi_8332	-	-	conjugal transfer protein
+256509..256913	-	134	221738964	trbC	Avi_8333	-	-	conjugal transfer protein
+256903..257874	-	323	221738965	trbB	Avi_8334	-	-	P-type conjugative transfer ATPase TrbB
+257871..258509	-	212	221738966	traI	Avi_8335	-	-	autoinducer synthesis protein

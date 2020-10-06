@@ -1,0 +1,38 @@
+Agrobacterium radiobacter K84 plasmid pAgK84, complete sequence. - 1..44420
+35 proteins
+Location	Strand	Length	PID	Gene	Synonym	Code	COG	Product
+311..1801	+	496	221728506	agnG	Arad_15024	-	-	Agrocin 84 efflux transporter
+2185..3624	+	479	221728507	agnF	Arad_15025	-	-	hypothetical protein
+3774..4778	-	334	221728508	agnE2	Arad_15026	-	-	Possible pyruvate kinase activity
+4793..5716	-	307	221728509	agnE1	Arad_15027	-	-	hypothetical protein
+6595..7473	+	292	221728510	agnD1	Arad_15028	-	-	phosphoenolpyruvate binding protein
+8483..9211	+	242	221728517	agnD3	Arad_15036	-	-	short-chain dehydrogenase
+9248..10282	-	344	221728511	agnC7	Arad_15030	-	-	heme d1 biosynthesis protein-like protein
+10279..11304	-	341	221728512	agnC6	Arad_15031	-	-	phytanoil-CoA alpha hydroxylase protein
+11282..12340	-	352	221728513	agnC5	Arad_15032	-	-	MccF-like protein
+12340..13251	-	303	221728514	agnC4	Arad_15033	-	-	methylpentanamide moiety of agrocin 84 synthesis protein
+13254..14003	-	249	221728515	agnC3	Arad_15034	-	-	S-adenosylmethionine-dependent methyltransferase protein
+13990..14691	-	233	221728516	agnC2	Arad_15035	-	-	2,3-dihydro-2,3-dihydroxybenzoate dehydrogenase protein
+14708..15943	-	411	221728483	agnC1	Arad_15001	-	-	hypothetical protein
+16354..18798	-	814	221728484	agnB2	Arad_15002	-	-	Agrocin 84-resistant leucyl-tRNA synthetase
+18808..19629	-	273	221728485	-	Arad_15003	-	-	S-adenosylmethionine-dependent methyltransferase protein
+19646..20707	-	353	221728486	agnA	Arad_15004	-	-	Agrocin84-synthetase
+20991..21566	-	191	221728487	-	Arad_15005	-	-	conserved hypothetical protein
+21785..22651	-	288	221728488	-	Arad_15006	-	-	resolvase protein
+22960..23706	+	248	221728489	-	Arad_15007	-	-	S-adenosylmethionine-dependent methyltransferase protein
+23760..25610	-	616	221728490	-	Arad_15008	-	-	ABC transporter ATPase protein
+25719..26162	-	147	221728491	-	Arad_15009	-	-	NUDIX-like protein
+26184..26660	-	158	221728492	-	Arad_15010	-	-	NUDIX hydrolase protein
+26764..29673	-	969	221728493	tn7	Arad_15011	-	-	Transposase
+29700..30206	+	168	221728494	-	Arad_15012	-	-	hypothetical protein
+30203..30757	+	184	221728495	-	Arad_15013	-	-	YagA-like protein
+30814..32808	+	664	221728496	-	Arad_15014	-	-	plasmid stabilization protein
+33553..34263	+	236	221728497	repA	Arad_15015	-	-	replication protein A
+34470..35084	+	204	221728498	-	Arad_15016	-	-	hypothetical protein
+35447..36118	+	223	221728499	parA	Arad_15017	-	-	plasmid partitioning protein
+36548..37465	-	305	221728500	-	Arad_15018	-	-	nucleotidyltransferase protein
+37462..37764	-	100	221728501	-	Arad_15019	-	-	hypothetical protein
+37754..39418	-	554	221728502	traG	Arad_15020	-	-	Ti-type conjugative transfer system protein TraG
+39415..39738	-	107	221728503	-	Arad_15021	-	-	mobilization protein C
+39735..40562	-	275	221728504	-	Arad_15022	-	-	conserved hypothetical protein
+41257..44391	+	1044	221728505	traA	Arad_15023	-	-	conjugal transfer protein A

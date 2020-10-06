@@ -1,0 +1,179 @@
+Agrobacterium radiobacter K84 plasmid pAtK84b, complete sequence. - 1..184668
+176 proteins
+Location	Strand	Length	PID	Gene	Synonym	Code	COG	Product
+50..1402	+	450	221727863	-	Arad_14000	-	-	nitrilotriacetate monooxygenase
+1392..2357	+	321	221727864	-	Arad_14001	-	-	ABC transporter substrate binding protein (nitrate/sulfonate)
+2370..3176	+	268	221727865	-	Arad_14002	-	-	ABC transporter permease (nitrate/sulfonate)
+3186..4004	+	272	221727866	-	Arad_14003	-	-	ABC transporter ATP-binding protein (nitrate/sulfonate)
+4001..4948	+	315	221727867	-	Arad_14004	-	-	LysR family transcriptional regulator
+4980..6581	+	533	221727868	-	Arad_14005	-	-	sulfurtransferase (incomplete)
+6595..7089	+	164	221727869	-	Arad_14006	-	-	cupin domain protein
+7246..7830	-	194	221727870	-	Arad_14007	-	-	hypothetical protein
+8355..8978	-	207	221727871	-	Arad_14009	-	-	hypothetical protein
+9226..9858	-	210	221727872	-	Arad_14011	-	-	hypothetical protein
+10194..10436	-	80	221727873	-	Arad_14013	-	-	hypothetical protein
+10467..10718	+	83	221727874	-	Arad_14014	-	-	hypothetical protein
+11251..11631	+	126	221727875	-	Arad_14016	-	-	hydrolase
+11766..12356	+	196	221727876	-	Arad_14017	-	-	conserved hypothetical protein
+12458..12625	-	55	221727877	-	Arad_14018	-	-	hypothetical protein
+12693..13076	+	127	221727878	-	Arad_14019	-	-	transposase
+13151..13636	+	161	221727879	-	Arad_14020	-	-	transposase
+13608..14012	-	134	221727880	-	Arad_14021	-	-	hypothetical protein
+14079..15539	+	486	221727881	-	Arad_14022	-	-	conserved hypothetical protein
+15744..16268	-	174	221727882	-	Arad_14025	-	-	DinB family protein
+16369..17157	+	262	221727883	-	Arad_14026	-	-	TetR family transcriptional regulatory protein
+17291..17872	-	193	221727884	-	Arad_14027	-	-	hypothetical protein
+17881..18399	-	172	221727885	-	Arad_14028	-	-	MarR family transcriptional regulator protein
+18540..19292	+	250	221727886	-	Arad_14029	-	-	short chain dehydrogenase protein
+21045..21797	+	250	221727887	-	Arad_14034	-	-	conserved hypothetical protein
+21811..23229	+	472	221727888	-	Arad_14035	-	-	conserved hypothetical protein
+23226..26489	+	1087	221727889	dnaE	Arad_14038	-	-	DNA polymerase III subunit alpha
+26724..27842	+	372	221727890	-	Arad_14039	-	-	conserved hypothetical protein
+28124..28537	-	137	221727891	-	Arad_14040	-	-	conserved hypothetical protein
+28601..29680	+	359	221727892	-	Arad_14041	-	-	conserved hypothetical protein
+29641..30249	-	202	221727893	-	Arad_14043	-	-	cell filamentation protein
+30234..30695	-	153	221727894	-	Arad_14044	-	-	HTH-Family Transcriptional Regulator
+31083..31952	-	289	221727895	-	Arad_14047	-	-	conserved hypothetical protein
+32220..37301	+	1693	221727896	-	Arad_14048	-	-	SNF-2-family methyltransferase
+37534..39417	+	627	221727897	-	Arad_14050	-	-	chromosome partitioning protein
+39514..39987	+	157	221727898	-	Arad_14051	-	-	conserved hypothetical protein
+40302..40871	+	189	221727899	-	Arad_14052	-	-	conserved hypothetical protein
+40847..41176	+	109	221727900	-	Arad_14053	-	-	conserved hypothetical protein
+41173..41382	+	69	221727901	-	Arad_14054	-	-	conserved hypothetical protein
+41402..41707	-	101	221727902	-	Arad_14056	-	-	alkylphosphonate uptake protein
+41694..41981	-	95	221727903	-	Arad_14058	-	-	hypothetical protein
+42220..42819	+	199	221727904	-	Arad_14059	-	-	conserved hypothetical protein
+43127..44059	+	310	221727905	-	Arad_14062	-	-	antirestriction protein
+44056..44520	+	154	221727906	-	Arad_14063	-	-	conserved hypothetical protein
+44808..45155	+	115	221727907	-	Arad_14065	-	-	conserved hypothetical protein
+45311..46036	-	241	221727908	-	Arad_14066	-	-	methyltransferase
+46087..46608	-	173	221727909	-	Arad_14068	-	-	DNA topology modulation protein
+46605..47234	-	209	221727910	-	Arad_14069	-	-	resolvase
+47351..48550	-	399	221727911	-	Arad_14071	-	-	TniQ protein
+48547..49437	-	296	221727912	tniB	Arad_14072	-	-	tranposase complex protein
+49443..51146	-	567	221727913	-	Arad_14074	-	-	TniA transposase
+51346..52092	-	248	221727914	-	Arad_14075	-	-	S-adenosylmethionine-dependent methyltransferase
+52261..52566	+	101	221727915	-	Arad_14076	-	-	resolvase protein
+52651..53301	+	216	221727916	-	Arad_14079	-	-	conserved hypothetical protein
+53625..53795	+	56	221727917	-	Arad_14080	-	-	conserved hypothetical protein
+53837..54115	-	92	221727918	hns	Arad_14082	-	-	HNS-type DNA binding protein
+54253..54510	-	85	221727919	-	Arad_14085	-	-	conserved hypothetical protein
+54750..55217	-	155	221727920	-	Arad_14088	-	-	nuclease
+55217..55639	-	140	221727921	-	Arad_14089	-	-	conserved hypothetical protein
+55612..57588	-	658	221727922	traG	Arad_14091	-	-	Ti-type conjugative transfer system protein TraG
+57575..57790	-	71	221727923	traD	Arad_14092	-	-	Dtr conjugal transfer protein
+57795..58247	-	150	221727924	-	Arad_14093	-	-	Dtr conjugal transfer protein
+58322..61654	+	1110	221727925	traA	Arad_14094	-	-	conjugal transfer protein A
+61651..62178	+	175	221727926	traF	Arad_14095	-	-	conjugative transfer signal peptidase TraF
+62195..63364	+	389	221727927	traB	Arad_14096	-	-	conserved hypothetical protein
+63378..64007	+	209	221727928	traH	Arad_14097	-	-	Dtr conjugal transfer protein
+64020..64925	-	301	221727929	-	Arad_14098	-	-	Transcriptional regulator
+65130..65885	+	251	221727930	-	Arad_14100	-	-	ABC transporter ATP-binding protein
+65875..66573	+	232	221727931	-	Arad_14101	-	-	conserved hypothetical protein
+66592..67380	+	262	221727932	-	Arad_14102	-	-	ABC transporter substrate binding protein (amino acid)
+67390..68697	+	435	221727933	-	Arad_14103	-	-	nitrilotriacetate monooxygenase protein
+68793..70121	+	442	221727934	-	Arad_14104	-	-	nitrilotriacetate monooxygenase protein
+71040..71348	+	102	221727935	traM	Arad_14106	-	-	quorum sensing antiactivator protein
+71745..72050	-	101	221727936	-	Arad_14109	-	-	conserved hypothetical protein
+72100..72804	-	234	221727937	traR	Arad_14110	-	-	conjugal transfer regulatory protein
+72925..74391	-	488	221727938	-	Arad_14112	-	-	Sucrose phosphorylase-like protein
+74553..75584	-	343	221727939	galM	Arad_14113	-	-	aldose epimerase
+75626..77284	-	552	221727940	-	Arad_14114	-	-	Na+/phosphate symporter
+77656..78654	-	332	221727941	-	Arad_14118	-	-	conserved hypothetical protein
+78651..79547	-	298	221727942	-	Arad_14120	-	-	myo-inositol catabolism protein
+79570..80097	-	175	221727943	-	Arad_14121	-	-	conserved hypothetical protein
+80298..81116	-	272	221727944	accG	Arad_14122	-	-	conserved hypothetical protein
+81109..81909	-	266	221727945	accF	Arad_14123	-	-	agrocinopine phosphodiesterase
+82002..82799	-	265	221727946	accF	Arad_14125	-	-	agrocinopine phosphodiesterase
+82896..83786	-	296	221727947	accE	Arad_14126	-	-	ABC transporter permease protein
+83783..84709	-	308	221727948	accD	Arad_14127	-	-	ABC transporter permease protein
+84703..85575	-	290	221727949	accC	Arad_14128	-	-	ABC transporter ATP-binding protein
+85572..86432	-	286	221727950	accB	Arad_14129	-	-	ABC transporter ATP-binding protein (oligopeptide/dipeptide)
+86443..88002	-	519	221727951	accA	Arad_14130	-	-	oligopeptide ABC transpoter oligopeptide-binding protein
+88192..88965	-	257	221727952	accR	Arad_14131	-	-	transcriptional repressor
+89452..91020	-	522	221727953	accA	Arad_14132	-	-	oligopeptide ABC transpoter oligopeptide-binding protein
+91213..91986	-	257	221727954	accR	Arad_14133	-	-	transcriptional repressor
+92467..93360	-	297	221727955	accE	Arad_14137	-	-	ABC transporter permease protein
+93360..94292	-	310	221727956	accD	Arad_14138	-	-	ABC transporter permease protein
+94295..95020	-	241	221727957	gdpD	Arad_14139	-	-	glycerophospho diester phosphodiesterase protein
+95017..95856	-	279	221727958	-	Arad_14140	-	-	ABC-type oligopeptide transport system, ATPase component
+95853..96881	-	342	221727959	-	Arad_14141	-	-	ABC transporter ATP-binding protein
+96881..98527	-	548	221727960	accA	Arad_14142	-	-	oligopeptide ABC transpoter oligopeptide-binding protein
+98738..99382	+	214	221727961	chsB	Arad_14143	-	-	mannopine synthesis-like protein
+99387..100409	+	340	221727962	-	Arad_14145	-	-	SmoC-like regulatory protein
+100444..101148	-	234	221727963	traR	Arad_14146	-	-	conjugal transfer regulatory protein
+101444..102748	-	434	221727964	-	Arad_14149	-	-	conserved hypothetical protein
+102768..103880	-	370	221727965	-	Arad_14151	-	-	ornithine cyclodeaminase
+103877..104959	-	360	221727966	-	Arad_14152	-	-	NAD/NADP octopine/nopaline dehydrogenase
+105036..106043	-	335	221727967	rocF	Arad_14153	-	-	arginase
+106040..107458	-	472	221727968	noxA	Arad_14154	-	-	conserved hypothetical protein
+107745..108863	-	372	221727969	noxB	Arad_14155	-	-	D-nopaline dehydrogenase
+109466..111502	+	678	221727970	-	Arad_14157	-	-	hydantoin utilization protein A
+111506..113461	+	651	221727971	-	Arad_14159	-	-	hydantoin utilization protein B
+113580..114500	-	306	221727972	-	Arad_14160	-	-	LysR-like Transcriptional Regulator
+114615..115340	-	241	221727973	nocM	Arad_14161	-	-	ABC transporter membrane spanning protein (opine)
+115342..116052	-	236	221727974	nocQ	Arad_14163	-	-	nopaline ABC transporter
+116125..116976	-	283	221727975	nocT	Arad_14164	-	-	nopaline binding protein of ABC transporter
+117042..117815	-	257	221727976	nocP	Arad_14165	-	-	opine permease ATP-binding protein
+118036..118971	+	311	221727977	nocR	Arad_14166	-	-	nopaline catabolism transcriptional regulator protein
+119203..120513	-	436	221727978	trbI	Arad_14167	-	-	conserved hypothetical protein
+120526..121002	-	158	221727979	trbH	Arad_14168	-	-	conjugal transfer protein
+121002..121892	-	296	221727980	trbG	Arad_14169	-	-	Conjugal Transfer Protein TrbG
+121874..122536	-	220	221727981	trbF	Arad_14170	-	-	conjugal transfer protein
+122551..123747	-	398	221727982	trbL	Arad_14172	-	-	P-type conjugative transfer protein TrbL
+123741..123959	-	72	221727983	trbK	Arad_14173	-	-	entry-exclusion protein
+123956..124765	-	269	221727984	trbJ	Arad_14175	-	-	P-type conjugative transfer protein TrbJ
+124737..127205	-	822	221727985	trbE	Arad_14177	-	-	conjugal transfer protein
+127216..127515	-	99	221727986	trbD	Arad_14178	-	-	conjugal transfer protein
+127508..127915	-	135	221727987	trbC	Arad_14179	-	-	conjugal transfer prepropilin
+127905..128876	-	323	221727988	trbB	Arad_14181	-	-	P-type conjugative transfer ATPase TrbB
+128873..129511	-	212	221727989	traI	Arad_14182	-	-	autoinducer synthesis protein
+129854..131089	+	411	221727990	repA	Arad_14184	-	-	replication protein A
+131319..132329	+	336	221727991	repB	Arad_14185	-	-	replication protein B
+132544..133863	+	439	221727992	repC	Arad_14186	-	-	replication protein C
+133872..134984	-	370	221727993	-	Arad_14187	-	-	DNA Invertase
+135096..136205	+	369	221727994	-	Arad_14188	-	-	conserved hypothetical protein
+136388..138898	-	836	221727995	-	Arad_14190	-	-	helicase
+139101..140288	-	395	221727996	-	Arad_14191	-	-	hypothetical protein
+140522..141238	+	238	221727997	-	Arad_14192	-	-	conserved hypothetical protein
+141247..141831	+	194	221727998	-	Arad_14193	-	-	conserved hypothetical protein
+141834..142826	+	330	221727999	-	Arad_14194	-	-	conserved hypothetical protein
+142924..143325	+	133	221728000	-	Arad_14196	-	-	conserved hypothetical protein
+143354..143746	-	130	221728001	-	Arad_14197	-	-	conserved hypothetical protein
+143750..144043	-	97	221728002	-	Arad_14198	-	-	hypothetical protein
+144069..144965	-	298	221728003	-	Arad_14199	-	-	LysR family transcriptional regulator
+145084..145956	+	290	221728004	-	Arad_14200	-	-	phenazine biosynthetic protein
+145999..146274	-	91	221728005	-	Arad_14201	-	-	conserved hypothetical protein
+146388..147329	+	313	221728006	-	Arad_14202	-	-	ABC transporter permease protein (nitrate/sulfonates)
+147326..148129	+	267	221728007	-	Arad_14203	-	-	ABC transporter ATP-binding protein (nitrate/sulfonates)
+148156..149118	+	320	221728008	-	Arad_14204	-	-	ABC transporter substrate binding protein (nitrate/sulfonate)
+149132..150562	+	476	221728009	-	Arad_14205	-	-	monooxygenase protein
+150685..151932	+	415	221728010	-	Arad_14206	-	-	periplasmic binding protein/LacI transcriptional regulator
+151929..153506	+	525	221728011	-	Arad_14207	-	-	ABC transporter ATP-binding protein
+153503..154498	+	331	221728012	-	Arad_14208	-	-	ABC transporter, membrane spanning protein
+154495..154650	+	51	221728013	-	Arad_14209	-	-	hypothetical protein
+154644..155525	+	293	221728014	-	Arad_14210	-	-	nitrilotriacetate monooxygenase
+155522..156769	+	415	221728015	-	Arad_14211	-	-	nitrilotriacetate monooxygenase
+156927..157697	+	256	221728016	-	Arad_14213	-	-	2-deoxy-D-gluconate 3-dehydrogenase
+157857..159482	+	541	221728017	-	Arad_14214	-	-	dehydrogenase oxidoreductase
+159617..160531	-	304	221728018	-	Arad_14216	-	-	haloalkane dehalogenase
+160528..161151	-	207	221728019	-	Arad_14218	-	-	conserved hypothetical protein
+161291..162496	-	401	221728020	-	Arad_14219	-	-	acyl-CoA dehydrogenase
+162550..163167	-	205	221728021	-	Arad_14221	-	-	conserved hypothetical protein
+163276..164334	-	352	221728022	-	Arad_14222	-	-	ABC transporter permease (ribose)
+164321..165907	-	528	221728023	-	Arad_14223	-	-	ABC transporter ATP-binding protein
+165904..167211	-	435	221728024	-	Arad_14224	-	-	ABC transporter substrate binding protein (ribose)
+167344..168174	-	276	221728025	-	Arad_14225	-	-	Zn-dependent hydrolase
+168254..169462	-	402	221728026	-	Arad_14226	-	-	acyl-CoA dehydrogenase
+169550..171145	-	531	221728027	-	Arad_14227	-	-	ABC transporter substrate binding protein (peptide)
+171203..172873	-	556	221728028	-	Arad_14229	-	-	ABC transporter ATP-binding protein (peptide)
+172870..173811	-	313	221728029	-	Arad_14230	-	-	ABC transporter permease protein (peptide)
+173811..174812	-	333	221728030	-	Arad_14231	-	-	ABC transporter permease protein (peptide)
+174794..176281	-	495	221728031	-	Arad_14232	-	-	monooxygenase
+176292..177518	-	408	221728032	-	Arad_14234	-	-	conserved hypothetical protein
+177515..178852	-	445	221728033	-	Arad_14235	-	-	nitrilotriacetate monooxygenase
+178916..179941	+	341	221728034	-	Arad_14236	-	-	LysR family transcriptional regulator
+179987..180616	+	209	221728035	-	Arad_14238	-	-	conserved hypothetical protein
+180609..180869	+	86	221728036	-	Arad_14239	-	-	hypothetical protein
+180866..181852	+	328	221728037	-	Arad_14240	-	-	ATPase
+181856..184366	+	836	221728038	-	Arad_14241	-	-	conserved hypothetical protein
