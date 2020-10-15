@@ -687,16 +687,16 @@ write.csv(Gdown_Comp_Mut_Matrix_Right, "Gdown_RevCompliment_Context_Mutations_Ri
 #=================================#
 
 
-setwd(Path_correlate_Chromosome)
-output_name <- paste(organism, "_Mut_Clockwise_Chromosome.csv", sep = "")
-write.csv(Mut_Matrix_Total, output_name)
-output_name <- paste(organism, "_Mut_Counterclockwise_Chromosome.csv", sep = "")
-write.csv(Mut_Matrix_Total, output_name)
+#setwd(Path_correlate_Chromosome)
+#output_name <- paste(organism, "_Mut_Clockwise_Chromosome.csv", sep = "")
+#write.csv(Mut_Matrix_Total, output_name)
+#output_name <- paste(organism, "_Mut_Counterclockwise_Chromosome.csv", sep = "")
+#write.csv(Mut_Matrix_Total, output_name)
 
-setwd(Path_correlate_Lcore)
-output_name <- paste(organism, "_Mutations_Lcore.csv", sep = "")
-write.csv(Mut_Matrix_Left, output_name)
+#setwd(Path_correlate_Lcore)
+#output_name <- paste(organism, "_Mutations_Lcore.csv", sep = "")
+#write.csv(Mut_Matrix_Left, output_name)
 
-setwd(Path_correlate_Rcore)
-output_name <- paste(organism, "_Mutations_Rcore.csv", sep = "")
-write.csv(Mut_Matrix_Right, output_name)
+#setwd(Path_correlate_Rcore)
+#output_name <- paste(organism, "_Mutations_Rcore.csv", sep = "")
+#write.csv(Mut_Matrix_Right, output_name)

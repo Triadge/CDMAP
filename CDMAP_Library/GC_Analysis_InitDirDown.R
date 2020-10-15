@@ -4,25 +4,24 @@ path_to_scripts <- "/Users/triadge/Desktop/CDMP_Output/R_workspace/Context_Proje
 
 if(flag == "Home")
 {
-  path_to_FASTA  <- "/Users/triadge/Desktop/CDMP_Output/GC_directory/FASTA"
+  path_to_FASTA  <- "/Users/triadge/Desktop/CDMP_Output/testdir/GC_directory/FASTA"
   path_to_scripts <- "/Users/triadge/Desktop/CDMP_Output/R_workspace/Context_Project/Context_Pipeline_0.1.0"
   
-  path_to_chrome  <- "/Users/triadge/Desktop/CDMP_Output/Correlation_Repository/Chromosome"
-  path_to_Lcore  <- "/Users/triadge/Desktop/CDMP_Output/Correlation_Repository/Lcore"
-  path_to_Rcore <- "/Users/triadge/Desktop/CDMP_Output/Correlation_Repository/Rcore"
-  path_to_Lcore_Rep  <- "/Users/triadge/Desktop/CDMP_Output/Correlation_Repository/Lcore_Replichore"
-  path_to_Rcore_Rep <- "/Users/triadge/Desktop/CDMP_Output/Correlation_Repository/Rcore_Replichore"
+  path_to_chrome  <- "/Users/triadge/Desktop/CDMP_Output/Correlation_Repository/Downstream/Chromosome"
+  path_to_Lcore  <- "/Users/triadge/Desktop/CDMP_Output/Correlation_Repository/Downstream/Lcore"
+  path_to_Rcore <- "/Users/triadge/Desktop/CDMP_Output/Correlation_Repository/Downstream/Rcore"
+  path_to_Lcore_Rep  <- "/Users/triadge/Desktop/CDMP_Output/Correlation_Repository/Downstream/Lcore_Replichore"
+  path_to_Rcore_Rep <- "/Users/triadge/Desktop/CDMP_Output/Correlation_Repository/Downstream/Rcore_Replichore"
   
-  path_to_RevComp_chrome  <- "/Users/triadge/Desktop/CDMP_Output/Correlation_Repository/RevComp_Chromosome"
-  path_to_RevComp_Lcore  <- "/Users/triadge/Desktop/CDMP_Output/Correlation_Repository/RevComp_Lcore"
-  path_to_RevComp_Rcore <- "/Users/triadge/Desktop/CDMP_Output/Correlation_Repository/RevComp_Rcore"
-  path_to_RevComp_Lcore_Rep  <- "/Users/triadge/Desktop/CDMP_Output/Correlation_Repository/RevComp_Lcore_Replichore"
-  path_to_RevComp_Rcore_Rep <- "/Users/triadge/Desktop/CDMP_Output/Correlation_Repository/RevComp_Rcore_Replichore"
+  path_to_RevComp_chrome  <- "/Users/triadge/Desktop/CDMP_Output/Correlation_Repository/Downstream/RevComp_Chromosome"
+  path_to_RevComp_Lcore  <- "/Users/triadge/Desktop/CDMP_Output/Correlation_Repository/Downstream/RevComp_Lcore"
+  path_to_RevComp_Rcore <- "/Users/triadge/Desktop/CDMP_Output/Correlation_Repository/Downstream/RevComp_Rcore"
+  path_to_RevComp_Lcore_Rep  <- "/Users/triadge/Desktop/CDMP_Output/Correlation_Repository/Downstream/RevComp_Lcore_Replichore"
+  path_to_RevComp_Rcore_Rep <- "/Users/triadge/Desktop/CDMP_Output/Correlation_Repository/Downstream/RevComp_Rcore_Replichore"
   
-  
-  #path_to_chrome_rate  <- "/Users/triadge/Desktop/CDMP_Output/Correlation_Repository/Chromosome_Rates"
-  #path_to_Lcore_rate  <- "/Users/triadge/Desktop/CDMP_Output/Correlation_Repository/Lcore_Rates"
-  #path_to_Rcore_rate <- "/Users/triadge/Desktop/CDMP_Output/Correlation_Repository/Rcore_Rates"
+  #path_to_chrome_rate  <- "/Users/triadge/Desktop/CDMP_Output/Correlation_Repository/Downstream/Chromosome_Rates"
+  #path_to_Lcore_rate  <- "/Users/triadge/Desktop/CDMP_Output/Correlation_Repository/Downstream/Lcore_Rates"
+  #path_to_Rcore_rate <- "/Users/triadge/Desktop/CDMP_Output/Correlation_Repository/Downstream/Rcore_Rates"
 }
 
 if(flag == "Guest")

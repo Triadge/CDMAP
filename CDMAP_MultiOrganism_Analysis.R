@@ -1,6 +1,6 @@
 #Heatmap Correlations in R using dynamic directories
 
-packages <- c("seqinr", "BiocManager", "pracma", "beepr", "lattice", "tidyverse", "vcfR", "stringr", "reshape2", "Scales")
+packages <- c("seqinr", "BiocManager", "pracma", "beepr", "lattice", "tidyverse", "vcfR", "stringr", "reshape2", "scales")
 package.check <- lapply(
   packages,
   FUN = function(x) {
@@ -13,87 +13,78 @@ package.check <- lapply(
 BiocManager::install("genbankr")
 library("genbankr")
 
-source("GC_Analysis_CreateDir.r")
+username <- Sys.info()[7]
 
-setwd(path_to_scripts)
+MainDir <- paste("/Users/", username, "/Desktop/CDMAP", sep = "")
+LibDir <- paste("/Users/", username, "/Desktop/CDMAP/CDMAP_Library", sep = "")
+UserOutput <- paste("/Users/", username, sep ="")
+
+
+
+
+setwd(LibDir)
+source("GC_Analysis_InitDirTriplet.r")
 path_analyze <- path_to_chrome
+setwd(LibDir)
 source("GCcontent.r")
-#path_analyze_rates <- path_to_chrome_rate
-setwd(path_to_scripts)
-name_addon <- "Chromosome"
-source("Correlation_Script.r")
-#source("ChiSquare_Script.r")
+setwd(LibDir)
+source("GC_Analysis.R")
 
-setwd(path_to_scripts)
-path_analyze <- path_to_RevComp_chrome
-source("GCcontent.r")
-#path_analyze_rates <- path_to_chrome_rate
-setwd(path_to_scripts)
-name_addon <- "Counterclockwise_Chromosome"
-source("Correlation_Script.r")
+######## Upstream Analysis ##################
+setwd(LibDir)
+source("GC_Analysis_InitDirUpA.r")
+path_analyze <- path_to_chrome
+setwd(LibDir)
+source("GC_Analysis.R")
 
-#----- insert mutation simulation, and proportion graphing scripts here
-#==========#
+setwd(LibDir)
+source("GC_Analysis_InitDirUpC.r")
+path_analyze <- path_to_chrome
+setwd(LibDir)
+source("GC_Analysis.R")
 
-#==Left Replichore Analysis==#
-setwd(path_to_scripts)
-path_analyze <- path_to_Lcore
-#path_analyze_rates <- path_to_Lcore_rate
-name_addon <- "Left_Replichore"
-source("Correlation_Script.r")
-##source("ChiSquare_Script.r")
+setwd(LibDir)
+source("GC_Analysis_InitDirUpG.r")
+path_analyze <- path_to_chrome
+setwd(LibDir)
+source("GC_Analysis.R")
 
-setwd(path_to_scripts)
-path_analyze <- path_to_RevComp_Lcore
-##path_analyze_rates <- path_to_Lcore_rate
-name_addon <- "Left_Replichore_ReverseCompliment"
-source("Correlation_Script.r")
-##source("ChiSquare_Script.r")
+setwd(LibDir)
+source("GC_Analysis_InitDirUpT.r")
+path_analyze <- path_to_chrome
+setwd(LibDir)
+source("GC_Analysis.R")
 
-setwd(path_to_scripts)
-path_analyze <- path_to_Lcore_Rep
-##path_analyze_rates <- path_to_Lcore_rate
-name_addon <- "Left_Replichore_RepSpecific"
-source("Correlation_Script.r")
 
-setwd(path_to_scripts)
-path_analyze <- path_to_RevComp_Lcore_Rep
-##path_analyze_rates <- path_to_Lcore_rate
-name_addon <- "Left_Replichore_RepSpecific_ReverseCompliment"
-source("Correlation_Script.r")
+######## End Upstream Analysis ##################
 
-#----- insert mutation simulation, and proportion graphing scripts here
-#==========#
+######## Downstream Analysis ##################
+setwd(LibDir)
+source("GC_Analysis_InitDirDownA.r")
+path_analyze <- path_to_chrome
+setwd(LibDir)
+source("GC_Analysis.R")
 
-#==Right Replichore Analysis==#
-setwd(path_to_scripts)
-path_analyze <- path_to_Rcore
-##path_analyze_rates <- path_to_Rcore_rate
-name_addon <- "Right Replichore"
-source("Correlation_Script.r")
-##source("ChiSquare_Script.r")
-#----- insert mutation simulation, and proportion graphing scripts here
+setwd(LibDir)
+source("GC_Analysis_InitDirDownC.r")
+path_analyze <- path_to_chrome
+setwd(LibDir)
+source("GC_Analysis.R")
 
-setwd(path_to_scripts)
-path_analyze <- path_to_RevComp_Rcore
-#path_analyze_rates <- path_to_Rcore_rate
-name_addon <- "Right_Replichore_ReverseCompliment"
-source("Correlation_Script.r")
-#source("ChiSquare_Script.r")
+setwd(LibDir)
+source("GC_Analysis_InitDirDownG.r")
+path_analyze <- path_to_chrome
+setwd(LibDir)
+source("GC_Analysis.R")
 
-setwd(path_to_scripts)
-path_analyze <- path_to_Rcore_Rep
-#path_analyze_rates <- path_to_Rcore_rate
-name_addon <- "Right_Replichore_RepSpecific"
-source("Correlation_Script.r")
+setwd(LibDir)
+source("GC_Analysis_InitDirDownT.r")
+path_analyze <- path_to_chrome
+setwd(LibDir)
+source("GC_Analysis.R")
 
-setwd(path_to_scripts)
-path_analyze <- path_to_RevComp_Rcore_Rep
-#path_analyze_rates <- path_to_Rcore_rate
-name_addon <- "Right_Replichore_RepSpecific_ReverseCompliment"
-source("Correlation_Script.r")
-#==========#
 
+######## END Downstream Analysis ##################
 
 
 

@@ -3,15 +3,15 @@
 #Script that determines whether I am working at home or in the cubicle and constructs the strings variables to access files and directories
 
 #organism <- "test"
-#setwd("/Users/triadge/desktop/Sung_Lab/testdir/")
-#setwd("/Users/dpatto12/Desktop/Sung_Lab/testdir/")
+#setwd("/Users/triadge/desktop/CDMAP/Test_Datasets/")
+#setwd("/Users/dpatto12/Desktop/CDMAP/Test_Datasets/")
 
-Path_wd <- "/Desktop/Sung_Lab/testdir"
-#Path_to_scripts <- "/Desktop/Sung_Lab/R_workspace/Context_Project/Context_Pipeline_0.1.0"
-Path_to_scripts <- "/Desktop/CDMAP_Release_v1/CDMAP_Library"
+Path_wd <- "/Desktop/CDMAP/Test_Datasets"
+#Path_to_scripts <- "/Desktop/CDMAP/R_workspace/Context_Project/Context_Pipeline_0.1.0"
+Path_to_scripts <- "/Desktop/CDMAP/CDMAP_Library"
 
-#CHANGE THESE TO SWAP DIRECTORIES BASED ON LOCATION, AND TO OUTPUT OUTSIDE OF TESTDIR
-Path_output <- "/Desktop/CDMAP_Output/Output_Directory"
+#CHANGE THESE TO SWAP DIRECTORIES BASED ON LOCATION, AND TO OUTPUT OUTSIDE OF Test_Datasets
+Path_output <- "/Desktop/CDMAP_Output/"
 Path_output_organism <- paste(Path_output, "/", organism, sep = "")
 Path_correlate_repo <- "/Desktop/CDMAP_Output/Correlation_Repository"
 
@@ -26,16 +26,16 @@ Path_correlate_repo_down  <- paste(Path_correlate_repo, "Downstream", sep = "/")
 Path_correlate_repo_up  <- paste(Path_correlate_repo, "Upstream", sep = "/")
 
 #### DEBUGGING AND DATASET TESTING DIRECTORIES########
-#Path_output <- "/Desktop/Sung_Lab/testdir/Scratch_Output"
-#Path_correlate_repo <- "/Desktop/Sung_Lab/testdir/Scratch_Correlation"
-#Path_correlate_triplet <- "/Desktop/Sung_Lab/testdir/Scratch_Correlation/triplet"
-#Path_correlate_repo_down <- "/Desktop/Sung_Lab/testdir/Scratch_Correlation/Downstream"
-#Path_correlate_repo_up <- "/Desktop/Sung_Lab/testdir/Scratch_Correlation/Upstream"
+#Path_output <- "/Desktop/CDMAP/Test_Datasets/Scratch_Output"
+#Path_correlate_repo <- "/Desktop/CDMAP/Test_Datasets/Scratch_Correlation"
+#Path_correlate_triplet <- "/Desktop/CDMAP/Test_Datasets/Scratch_Correlation/triplet"
+#Path_correlate_repo_down <- "/Desktop/CDMAP/Test_Datasets/Scratch_Correlation/Downstream"
+#Path_correlate_repo_up <- "/Desktop/CDMAP/Test_Datasets/Scratch_Correlation/Upstream"
 
-Path_RefFile <- "/Desktop/Sung_Lab/testdir/VF/chr2/CP000021.fasta"
-Path_GBFile <- "/Desktop/Sung_Lab/testdir/VF/chr2/CP000021.gbk"
-Path_InFile <-"/Desktop/Sung_Lab/testdir/VF/chr2/mutant_chr2_basecalls.csv"
-Path_Refseq <- "/Desktop/Sung_Lab/testdir/VF/chr2/CP000021.fasta"
+Path_RefFile <- "/Desktop/CDMAP/Test_Datasets/VF/chr2/CP000021.fasta"
+Path_GBFile <- "/Desktop/CDMAP/Test_Datasets/VF/chr2/CP000021.gbk"
+Path_InFile <-"/Desktop/CDMAP/Test_Datasets/VF/chr2/mutant_chr2_basecalls.csv"
+Path_Refseq <- "/Desktop/CDMAP/Test_Datasets/VF/chr2/CP000021.fasta"
 
 ######################################################
 
