@@ -1,14 +1,14 @@
 Context_Pipeline_Basecall:
 
 
-Path_RefFile <- "/Desktop/Sung_Lab/testdir/Teredinibacter_turnerae_T7901/CP001614.fasta"
-Path_GBFile <- "/Desktop/Sung_Lab/testdir/Teredinibacter_turnerae_T7901/CP001614.gbk"
-Path_InFile <- "/Desktop/Sung_Lab/testdir/Teredinibacter_turnerae_T7901/Basecalls.csv"
-Path_refseq <- "/Desktop/Sung_Lab/testdir/Teredinibacter_turnerae_T7901/CP001614.fasta"
+Path_RefFile <- "/Desktop/CDMAP/Test_Datasets/Teredinibacter_turnerae_T7901/CP001614.fasta"
+Path_GBFile <- "/Desktop/CDMAP/Test_Datasets/Teredinibacter_turnerae_T7901/CP001614.gbk"
+Path_InFile <- "/Desktop/CDMAP/Test_Datasets/Teredinibacter_turnerae_T7901/Basecalls.csv"
+Path_Refseq <- "/Desktop/CDMAP/Test_Datasets/Teredinibacter_turnerae_T7901/CP001614.fasta"
 
 Output_DataVerifyReport:
 
-path_output <- “/Desktop/Sung_Lab/testdir/output"
-Path_MyLeft <- "/Desktop/Sung_Lab/testdir/output/Left_Context_Core_full.csv"
-Path_MyRight <- "/Desktop/Sung_Lab/testdir/output/Right_Context_Core_full.csv"
-path_refseq <- "/Desktop/Sung_Lab/testdir/"
+path_output <- “/Desktop/CDMAP/Test_Datasets/output"
+Path_MyLeft <- "/Desktop/CDMAP/Test_Datasets/output/Left_Context_Core_full.csv"
+Path_MyRight <- "/Desktop/CDMAP/Test_Datasets/output/Right_Context_Core_full.csv"
+path_refseq <- "/Desktop/CDMAP/Test_Datasets/"

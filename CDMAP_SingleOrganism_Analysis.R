@@ -26,10 +26,12 @@ package.check <- lapply(
 )
 BiocManager::install("genbankr")
 library("genbankr") # BiocManager package for genbank file parsing and manipulation
-#library("seqinr") #oriloc, sequence analysis
-#library("beepr") # notifications
-#library("lattice") #data visualization for single organism pipeline and correlation
-#library("pracma") #numerical analysis scripts
+
+username <- Sys.info()[7]
+User <- paste("/User/", username, sep ="")
+MainDir <- paste("/Users/", username, "/Desktop/CDMAP", sep = "")
+LibDir <- paste("/Users/", username, "/Desktop/CDMAP/CDMAP_Library", sep = "")
+
 #========================================#
 
 
@@ -38,7 +40,6 @@ library("genbankr") # BiocManager package for genbank file parsing and manipulat
 #========================================#
 #name of the organism for file naming purposes
 organism <- readline("What is the name of the organism (and chromosome number)?")
-
 BaseCheck <- c("basecall", "base call", "Base call","Base Call")
 VCFCheck <- c("vcf", "Vcf", "VCF")
 VcfOrBaseCall <- readline("Do you have a VCF file or a Mutation Base Call file?")
@@ -46,20 +47,53 @@ VcfOrBaseCall <- readline("Do you have a VCF file or a Mutation Base Call file?"
 #/Users/triadge/Desktop/CDMAP_Release_v1/CDMAP_Library
 
 #Section 1: intaking the data
-DirCheck <- readline("Are you at home or work, or guest usage?")
-if(DirCheck == 'home')
+DirCheck <- readline("Do you use Default or Customized Directories for CDMAP?")
+DefaultCheck <- c("Default", "default", "Def", "def")
+CustomCheck <- c("Custom", "custom", "Customized", "customized")
+MasterCheck <- c("Triadge", "triadge")
+
+if(any(grepl(DirCheck, DefaultCheck, ignore.case = TRUE)))
 {
-  #setwd("/Users/triadge/Desktop/Sung_Lab/R_workspace/Context_Project/Context_Pipeline_0.1.0")
-  setwd("/Users/triadge/Desktop/CDMAP/CDMAP_Library")
+  setwd(LibDir)
   source("DirectoryCheck.r")
 }
-if(DirCheck == 'work')
+
+if(any(grepl(DirCheck, MasterCheck, ignore.case = TRUE)))
 {
-  #setwd("/Users/dpatto12/Desktop/Sung_Lab/R_workspace/Context_Project/Context_Pipeline_0.1.0")
-  setwd("/Users/triadge/Desktop/CDMAP/CDMAP_Library")
+  setwd(LibDir)
   source("DirectoryCheck.r")
 }
-if(DirCheck == 'guest')
+
+if(any(grepl(DirCheck, DefaultCheck, ignore.case = TRUE)))
+{
+  Path_to_scripts <- LibDir
+  Path_wd <- MainDir
+  Path_output <- readline("Where do you want to output your data?")
+  Path_RefFile <- readline("What is your reference sequence? (please provide the full Path)")
+  Path_GBFile <- readline("What is your Genbank file? (please provide the full Path)")
+  Path_correlate_repo <- readline("Where would you like to store multi-organism output?")
+  
+  if(any(grepl(VcfOrBaseCall, VCFCheck, ignore.case = TRUE)))
+  {
+    Path_InFile <- readline("What is your VCF File? (please provide the full Path)")
+  }
+  if(any(grepl(VcfOrBaseCall, BaseCheck, ignore.case = TRUE)))
+  {
+    Path_InFile <- readline("What is your Base Call File? (please provide the full Path)")
+  }
+  
+  Path_output_organism <- paste(Path_output, "/", organism, "/", sep = "")
+  Path_output_triplet <- paste(Path_output_organism, "Triplet", sep = "")
+  Path_output_upstream <- paste(Path_output_organism, "Upstream", sep = "")
+  Path_output_downstream <- paste(Path_output_organism, "Downstream", sep = "")
+  
+  Path_correlate_triplet  <- paste(Path_correlate_repo, "triplet", sep = "/")
+  Path_correlate_repo_down  <- paste(Path_correlate_repo, "Downstream", sep = "/")
+  Path_correlate_repo_up  <- paste(Path_correlate_repo, "Upstream", sep = "/")
+  
+}
+
+if(any(grepl(DirCheck, CustomCheck, ignore.case = TRUE)))
 {
   Path_to_scripts <- readline("Where is your CDMAP Library Located?")
   Path_wd <- readline("What is your Working Directory?")
@@ -86,6 +120,7 @@ if(DirCheck == 'guest')
   Path_correlate_triplet  <- paste(Path_correlate_repo, "triplet", sep = "/")
   Path_correlate_repo_down  <- paste(Path_correlate_repo, "Downstream", sep = "/")
   Path_correlate_repo_up  <- paste(Path_correlate_repo, "Upstream", sep = "/")
+  
  }
 
 
@@ -163,8 +198,6 @@ term_pos <- which.min(ori_ref$skew) #find the position of the terminus of replic
 term_value <- ori_ref$skew[term_pos] #value of the terminii
 term_bp <- term_pos*1000 #base pair position of the terminus of replication
 
-ori_bp <- as.numeric(ori_bp) #coercion of the ORI and TERM to numeric values for future operations
-term_bp <- as.numeric(term_bp)
 
 #generates a dummy indices vector based on the length of the reference sequence
 RefSeq_inds <<- c()
@@ -193,10 +226,13 @@ for(i in 1:len_refseq)
 # term_bp <- 2199319
 
 #Use for Linear Chromosomes only
-#ori_pos <- 0
-#ori_bp <- 0 
-#term_pos <- len_refseq/2
-#term_bp <- len_refseq/2
+# ori_pos <- 0
+# ori_bp <- 0
+# term_pos <- len_refseq/2
+# term_bp <- len_refseq/2
+
+ori_bp <- as.numeric(ori_bp) #coercion of the ORI and TERM to numeric values for future operations
+term_bp <- as.numeric(term_bp)
 
 setwd(Path_to_scripts)
 source("generateContextCounts.r")
@@ -252,7 +288,8 @@ write.csv(query_Rcore_full, "Right_Context_Core_Full.csv")
 #======================#
 
 starttime <- Sys.time()
-
+GC_counter <- 0
+CodingRegionSize <<- 0
 setwd(Path_to_scripts)
 source("GWTC.r")
 setwd(Path_to_scripts)
@@ -263,7 +300,7 @@ source("GC4C.r")
 endtime <- Sys.time()
 runtime <- endtime - starttime
 
-print(paste("The total runtime forGC4C calculation: ", runtime, sep = ""))
+print(paste("The total runtime for GC4C calculation: ", runtime, sep = ""))
 #=======================#
 
 
@@ -457,6 +494,11 @@ source("RevCompliment_MutationRate.r")
 setwd(Path_to_scripts)
 source("Context_Data_Visualization.R")
 setwd(Path_to_scripts)
+## =================== ##
+CodingRegionPercent <- CodingRegionSize/len_refseq
+CodonGCcontent <- GC_counter/CodingRegionSize
+CodonGCcontent <- CodonGCcontent * 100
+CodonATcontent <- 100 - CodonGCcontent
 source("Config_Dump.R")
 
 ## =================== ##

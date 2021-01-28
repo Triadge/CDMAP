@@ -15,11 +15,11 @@ d <- data.frame(output_data_matrix)
 #d <- data.frame(GC_corr_matrix)
 d <- t(output_data_matrix)
 dlin <- linspace(min(d), max(d), n = 20)
-
+dlin <- round(dlin, digits = 3)
 
 setwd(path_correlate_output)
 
-png(output_pic_name, width = 1280, height = 1080, units = "px")
+png(output_pic_name, width = 1280, height = 1080, units = "px", res = 150)
 
 
 

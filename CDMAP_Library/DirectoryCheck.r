@@ -11,7 +11,8 @@ Path_wd <- "/Desktop/CDMAP/Test_Datasets"
 Path_to_scripts <- "/Desktop/CDMAP/CDMAP_Library"
 
 #CHANGE THESE TO SWAP DIRECTORIES BASED ON LOCATION, AND TO OUTPUT OUTSIDE OF Test_Datasets
-Path_output <- "/Desktop/CDMAP_Output/"
+Path_MainRepo <- "/Desktop/CDMAP_Output/"
+Path_output <- "/Desktop/CDMAP_Output/Output_Directory"
 Path_output_organism <- paste(Path_output, "/", organism, sep = "")
 Path_correlate_repo <- "/Desktop/CDMAP_Output/Correlation_Repository"
 
@@ -32,16 +33,21 @@ Path_correlate_repo_up  <- paste(Path_correlate_repo, "Upstream", sep = "/")
 #Path_correlate_repo_down <- "/Desktop/CDMAP/Test_Datasets/Scratch_Correlation/Downstream"
 #Path_correlate_repo_up <- "/Desktop/CDMAP/Test_Datasets/Scratch_Correlation/Upstream"
 
-Path_RefFile <- "/Desktop/CDMAP/Test_Datasets/VF/chr2/CP000021.fasta"
-Path_GBFile <- "/Desktop/CDMAP/Test_Datasets/VF/chr2/CP000021.gbk"
-Path_InFile <-"/Desktop/CDMAP/Test_Datasets/VF/chr2/mutant_chr2_basecalls.csv"
-Path_Refseq <- "/Desktop/CDMAP/Test_Datasets/VF/chr2/CP000021.fasta"
+
 
 ######################################################
 
-if(DirCheck == 'home')
+if(any(grepl(DirCheck, MasterCheck, ignore.case = TRUE)))
 {
+  #### Direct file Access Mode#####
+  Path_RefFile <- "/Desktop/CDMAP/Test_Datasets/Kineococcus_radiotolerans_SRS30216/chr1/CP000750.fasta"
+  Path_GBFile <- "/Desktop/CDMAP/Test_Datasets/Kineococcus_radiotolerans_SRS30216/chr1/CP000750.gbk"
+  Path_InFile <-"/Desktop/CDMAP/Test_Datasets/Kineococcus_radiotolerans_SRS30216/chr1/Kineococcous_Basecalls.csv"
+  Path_Refseq <- "/Desktop/CDMAP/Test_Datasets/Kineococcus_radiotolerans_SRS30216/chr1/CP000750.fasta"
+  ##################################
+
   Path_home <- "/Users/triadge"
+  Path_MainRepo <- paste(Path_home, Path_MainRepo, sep ="")
   Path_wd <- paste(Path_home, Path_wd, sep = "")
   Path_to_scripts <- paste(Path_home, Path_to_scripts, sep = "")
   Path_output <- paste(Path_home, Path_output, sep = "")
@@ -59,23 +65,25 @@ if(DirCheck == 'home')
   Path_correlate_repo_down <- paste(Path_home, Path_correlate_repo_down, sep = "")
 }
 
-if(DirCheck == 'work')
-{  
-  Path_work <- "/Users/dpatto12"
-  Path_wd <- paste(Path_work, Path_wd, sep = "")
-  Path_to_scripts <- paste(Path_work, Path_to_scripts, sep = "")
-  Path_output <- paste(Path_work, Path_output, sep = "")
-  Path_output_organism <- paste(Path_work, Path_output_organism, sep = "")
-  Path_output_triplet <- paste(Path_work, Path_output_triplet, sep = "")
-  Path_output_upstream <- paste(Path_work, Path_output_upstream, sep = "")
-  Path_output_downstream <- paste(Path_work, Path_output_downstream, sep = "")
-  Path_RefFile <- paste(Path_work, Path_RefFile, sep = "")
-  Path_GBFile <- paste(Path_work, Path_GBFile, sep = "")
-  Path_InFile <- paste(Path_work, Path_InFile, sep = "")
-  Path_Refseq <- paste(Path_work, Path_Refseq, sep = "")
-  Path_correlate_repo <- paste(Path_work, Path_correlate_repo, sep = "")
-  Path_correlate_triplet <- paste(Path_work, Path_correlate_triplet, sep = "")
-  Path_correlate_repo_up <- paste(Path_work, Path_correlate_repo_up, sep = "")
-  Path_correlate_repo_down <- paste(Path_work, Path_correlate_repo_down, sep = "")
+if(any(grepl(DirCheck, DefaultCheck, ignore.case = TRUE)) | any(grepl(DirCheck, CustomCheck, ignore.case = TRUE)))
+{
+  Path_home <- username
+  Path_MainRepo <- paste(Path_home, Path_MainRepo, sep ="")
+  Path_wd <- paste(Path_home, Path_wd, sep = "")
+  Path_to_scripts <- paste(Path_home, Path_to_scripts, sep = "")
+  Path_output <- paste(Path_home, Path_output, sep = "")
+  Path_output_organism <- paste(Path_home, Path_output_organism, sep = "")
+  Path_output_triplet <- paste(Path_home, Path_output_triplet, sep = "")
+  Path_output_upstream <- paste(Path_home, Path_output_upstream, sep = "")
+  Path_output_downstream <- paste(Path_home, Path_output_downstream, sep = "")
+  Path_RefFile <- paste(Path_home, Path_RefFile, sep = "")
+  Path_GBFile <- paste(Path_home, Path_GBFile, sep = "")
+  Path_InFile <- paste(Path_home, Path_InFile, sep = "")
+  Path_Refseq <- paste(Path_home, Path_Refseq, sep = "")
+  Path_correlate_repo <- paste(Path_home, Path_correlate_repo, sep = "")
+  Path_correlate_triplet <- paste(Path_home, Path_correlate_triplet, sep = "")
+  Path_correlate_repo_up <- paste(Path_home, Path_correlate_repo_up, sep = "")
+  Path_correlate_repo_down <- paste(Path_home, Path_correlate_repo_down, sep = "")
 }
+
 

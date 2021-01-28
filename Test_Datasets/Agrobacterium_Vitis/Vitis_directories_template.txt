@@ -2,13 +2,13 @@ Context_Pipeline_Basecall:
 
 path_wd <- "/Desktop/Sung_Lab/testdir"
 path_to_scripts <- "/Desktop/Sung_Lab/R_workspace/Context_Project/Context_Pipeline_0.1.0"
-path_output <- "/Desktop/Sung_Lab/testdir/output"
+path_output <- "/Desktop/CDMAP/Test_Datasets/output"
 
 Chromosome 1:
-Path_RefFile <- "/Desktop/Sung_Lab/testdir/Agrobacterium_Vitis/Agrobacterium_VitisS4_Chr1_SRA.fasta"
-Path_GBFile <- "/Desktop/Sung_Lab/testdir/Agrobacterium_Vitis/Agrobacterium_VitisS4_Chr1_SRA.gbk"
-Path_InFile <- "/Desktop/Sung_Lab/testdir/Agrobacterium_Vitis/Vitis_Chr1.csv"
-Path_Refseq <- "/Desktop/Sung_Lab/testdir/Agrobacterium_Vitis/Agrobacterium_VitisS4_Chr1_SRA.fasta"
+  Path_RefFile <- "/Desktop/CDMAP/Test_Datasets/Agrobacterium_Vitis/Agrobacterium_VitisS4_Chr1_SRA.fasta"
+  Path_GBFile <- "/Desktop/CDMAP/Test_Datasets/Agrobacterium_Vitis/Agrobacterium_VitisS4_Chr1_SRA.gbk"
+  Path_InFile <- "/Desktop/CDMAP/Test_Datasets/Agrobacterium_Vitis/Vitis_Chr1.csv"
+  Path_Refseq <- "/Desktop/CDMAP/Test_Datasets/Agrobacterium_Vitis/Agrobacterium_VitisS4_Chr1_SRA.fasta"
 
 #Use for Linear Chromosomes only (agro_vitis_Chr1)
 # ori_pos <- 336.131
@@ -17,10 +17,10 @@ Path_Refseq <- "/Desktop/Sung_Lab/testdir/Agrobacterium_Vitis/Agrobacterium_Viti
 # term_bp <- 2199319
 
 Chromosome 2:
-Path_RefFile <- "/Desktop/Sung_Lab/testdir/Agrobacterium_Vitis/Agrobacterium_VitisS4_Chr2_SRA.fasta"
-Path_GBFile <- "/Desktop/Sung_Lab/testdir/Agrobacterium_Vitis/Agrobacterium_VitisS4_Chr2_SRA.gbk"
-Path_InFile <- "/Desktop/Sung_Lab/testdir/Agrobacterium_Vitis/Vitis_Chr2.csv"
-Path_Refseq <- "/Desktop/Sung_Lab/testdir/Agrobacterium_Vitis/Agrobacterium_VitisS4_Chr2_SRA.fasta"
+Path_RefFile <- "/Desktop/CDMAP/Test_Datasets/Agrobacterium_Vitis/Agrobacterium_VitisS4_Chr2_SRA.fasta"
+Path_GBFile <- "/Desktop/CDMAP/Test_Datasets/Agrobacterium_Vitis/Agrobacterium_VitisS4_Chr2_SRA.gbk"
+Path_InFile <- "/Desktop/CDMAP/Test_Datasets/Agrobacterium_Vitis/Vitis_Chr2.csv"
+Path_Refseq <- "/Desktop/CDMAP/Test_Datasets/Agrobacterium_Vitis/Agrobacterium_VitisS4_Chr2_SRA.fasta"
 
 #Use for Linear Chromosomes only (agro_vitis_Chr2)
 # ori_pos <- .918

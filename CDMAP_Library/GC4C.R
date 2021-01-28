@@ -351,14 +351,17 @@ dir.create(path_GC4C_output_Left)
 dir.create(path_GC4C_output_Right)
 
 #Grab the Gene start and end locations, and the Gene feature length
+
 for(i in 1:featlength)
 {
   geneFeature_matrix[i,1] <- startindex[i] #i-1 is used since we skip the first feature in the GBK file, but still
   # have to store gene feature information in the first row position.
   geneFeature_matrix[i,2] <- endindex[i]   
   geneFeature_matrix[i,3] <- featlengthindex[i]
-}
 
+}
+CodingRegionSize <- sum(featlengthindex)
+print(paste("Final Size: ", CodingRegionSize, sep = ""))
 
 
 

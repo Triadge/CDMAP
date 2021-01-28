@@ -6,6 +6,11 @@
 #For reach directory, CDMAP checks if the directory exists, then proceeds to create it if it does not exist.
 
 #create the macro output directory for all output media if it does not exist
+if(!(dir.exists(Path_MainRepo)))
+{
+  dir.create(Path_MainRepo)
+}
+
 if(!(dir.exists(Path_output)))
 {
   dir.create(Path_output) #creates the base level output directory for all organisms

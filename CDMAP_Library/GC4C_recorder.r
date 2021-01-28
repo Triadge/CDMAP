@@ -20,6 +20,23 @@ LeftNuc <- gene_arr[iter-1]
 MiddleNuc <- gene_arr[iter]
 RightNuc <- gene_arr[iter+1]
 
+GC_Check <-  c("C", "c", "G", "g")
+
+if(any(grepl(LeftNuc, GC_Check, ignore.case = TRUE)))
+{
+  GC_counter <- GC_counter + 1
+}
+if(any(grepl(MiddleNuc, GC_Check, ignore.case = TRUE)))
+{
+  GC_counter <- GC_counter + 1
+}
+if(any(grepl(RightNuc, GC_Check, ignore.case = TRUE)))
+{
+  GC_counter <- GC_counter + 1
+}
+
+
+
 rowswitch <- paste(LeftNuc, RightNuc, sep = "")
 colswitch <- MiddleNuc
 
