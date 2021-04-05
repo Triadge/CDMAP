@@ -5,6 +5,37 @@
 # sites upstream and downstream of each gene. We take the Genbank file, and for each Gene in the genbank
 # file, we compute the 3mer, 4mer (up), and 4mer(down) triplet counts for each chromosome.
 
+#DevNotes
+#=========================
+#currently resolving count differences in previous work of codon usage papers, taking the output reference fasta sequence for the coding
+#usage feature and re-translating back to amino acid sequence for comparison
+
+#testobj1 <- Cleaned reference fasta sequence
+#testobj2 <- reference amino acid sequence
+
+#command to split and unlist them
+#testsplit1 <- unlist(strsplit(testobj1, ""))
+
+#It turns out that we need to seperate codon usage out into '+' (forward) and '-' (reverse) strand orientation features, and recombine them
+#with respect to a given 5->3 or 3->5 orientation.
+
+#we retrieve this information with the command;
+# orientation <- OrganismGB$FEATURES[[i]]$strand
+
+#then implement the following logic
+
+#if(orientation == '+')
+#{
+  #run forward pipeline
+#}
+#if(orientation == '-')
+#{
+  #run reverse orientation pipeline
+#}
+
+
+#=========================
+
 starttime <- Sys.time()
 
 cols <- c("T", "G", "C",	"A")
@@ -93,6 +124,11 @@ geneFeature_matrix <- matrix(0L, nrow = featlength, ncol = 3) #Base matrix for s
 gene_cols <- c("Coding Region Start Position", "Coding Region End Position", "Coding Region Length")
 colnames(geneFeature_matrix) <- gene_cols
 
+#======== DEV NOTES ==========
+#use this feature to extract the gene coding features 
+# OrganismGB$FEATURES[[i]]$type
+#if 'gene', then execute, if not 'gene', then i+1
+#=============================
 
 
 flagcheck <<- ''
@@ -105,12 +141,26 @@ for(i in  1:featlength)
     #print("skipping first entry")
     next()
   }
-  #print(i)
-  matobj <- data.matrix(OrganismGB[["FEATURES"]][[i]]) #extracting an individual gene feature from the data frame
+  featuretype <- OrganismGB$FEATURES[[i]]$type
+  print(paste("feature #: ", i, " feature type: ", featuretype, sep = ""))
+  
+  #Index the start and end of each gene feature in the Genbank file, skipping the first entry
+  #Checks for duplicate entry in the startindex array, if true skips to next entry in gbk file
+  if(featuretype != "gene") #is.element(featend, endindex)
+  {
+    print(paste("Feature", i, "skipped. Is not a gene", sep = " "))
+    next()
+  }
 
+  matobj <- data.matrix(OrganismGB[["FEATURES"]][[i]]) #extracting an individual gene feature from the data frame
+  #matobj <- testlist[[1]]$type
+  
+  #Grab the start and end position of the coding region
   featstart <- as.numeric(matobj[1,2]) #gene nucleotide start position
   featend <- as.numeric(matobj[1,3]) #gene nucelotide end position
+
   
+  #Boolean Structure to assign to left and right replichore
   if(ori_bp < term_bp)
   {
     Bool1 <- isTRUE(featstart >= ori_bp && featstart <= term_bp) #Right Core
@@ -137,21 +187,27 @@ for(i in  1:featlength)
       flagcheck <- "Left"
     }
   }
- 
-  
-  #Index the start and end of each gene feature in the Genbank file, skipping the first entry
-  if(is.element(featstart, startindex)) #is.element(featend, endindex)
-  {
-    next()
-  }
-  else
-  {
+
+
   startindex <- c(startindex, featstart) 
   endindex <- c(endindex, featend) 
   
-  upNuc <- RefSeq_arr[featstart-1] #leftmost upstream nucleotide position
-  downNuc <- RefSeq_arr[featend+1] # rightmost downstream nucleotide position
+  if(featstart == 1)
+  {
+    upNuc <- RefSeq_arr[length(RefSeq_arr)] 
+    downNuc <- RefSeq_arr[featend+1]
+  } else if(featend == length(RefSeq_arr))
+  {
+    upNuc <- RefSeq_arr[featstart-1] 
+    downNuc <- RefSeq_arr[1]
+  }else
+  {
+  upNuc <- RefSeq_arr[featstart-1] #leftmost upstream nucleotide 4mer position in gene coding region
+  downNuc <- RefSeq_arr[featend+1] # rightmost downstream nucleotide 4mer position in gene coding region
+  }
   
+  
+  #Checks for null reference, skips if a null reference is induced
   if(identical(upNuc, character(0)) | identical(downNuc, character(0)) ) #is.element(featend, endindex)
   {
     next()
@@ -159,11 +215,25 @@ for(i in  1:featlength)
 
   
   gene_arr <- RefSeq_arr[featstart:featend] #isolation of a specific gene feature
-  gene_end <- length(gene_arr)-1 #!!!!!!!!!!!!!!!!! THIS IS AN ISSUE
+  gene_end <- length(gene_arr)-1 
   featlengthindex <- c(featlengthindex, length(gene_arr)) #length of the gene feature
   print(paste("Replichore: ", flagcheck, sep = ""))
   print(paste("analyzing feature ", as.character(i), " with length: ", as.character(length(gene_arr)), sep = ""))
 
+  setwd(Path_text_output)
+  options(max.print=999999)
+  gc3cOrgobj <- paste(organism, "Nucleotide_Coding_Regions", sep = "_")
+  #zz <- file(gc3cOrgobj,"w")
+  sink(gc3cOrgobj, append = TRUE)
+  print(paste("Replichore: ", flagcheck, sep = ""))
+  print(paste("start position: ", featstart, " End Position: ", featend, sep = ""))
+  print(paste("analyzing feature ", as.character(i), " with length: ", as.character(length(gene_arr)), sep = ""))
+  print(gene_arr)
+  sink()
+  #close(gc3cOrgobj)
+  
+  
+  #checks for null reference, skips if null detected
   if(is.na(upNuc))
   {
     i <- i+1
@@ -174,6 +244,8 @@ for(i in  1:featlength)
     i <- i+1
     next
   }  
+  
+  #checks if an ambiguous nucleotide 'N' assigned, if true, it skips it
   
   if(upNuc != 'A' & upNuc != 'T' & upNuc != 'C' & upNuc != 'G')
   {
@@ -186,22 +258,23 @@ for(i in  1:featlength)
     next
   }
   
-  j <- 2
+  
+  j <- 2 #iterator instantiated with respect to center nucleotide, grabs j-1 and j+1 for left and right nucleotide.
   while(j <= gene_end)
-  #for(j in 1:end)
   {
     iter <- j
     
     #triplet code# ========
     #source("GC3C.r") - DEPRECIATED
     #4fold sites===========
+    setwd(Path_to_scripts)
     source("GC4C_recorder.r")
     #======================
-    
+  
 
-    j <- j+3 #changed from j+2, to j+3, this may fix it.
+    j <- j+3 #iterates by 3, so it checks with respect to each nucleotide triplet.
   }
-  }
+  
   
 }
 
@@ -233,7 +306,7 @@ GC3C_doesNotEqual <- function(x){
                         FALSE
 }
 
-if(GC3C_up != GC3C_down)
+if(sum(GC3C_up) != sum(GC3C_down))
 {
   GC3C_doesNotEqual()
 }
@@ -244,7 +317,7 @@ if(GC3C_up != GC3C_down)
 #==============================
 output_GC3C <- paste("GC3C_", organism, ".csv", sep = "")
 output_GC3C_CUB <- paste("GC3C_", organism,"_CUB", ".txt", sep = "")
-output_genePos <- paste("GenePositions_", organism, ".txt", sep = "")
+output_genePos <- paste("GenePositions_", organism, ".csv", sep = "")
 
 #=========== UPSTREAM =======#
 output_Aup_Left <- paste("GC4C_Aup_Left_", organism, ".csv", sep = "")

@@ -78,12 +78,12 @@ for(row in 1:nrow(Sung_Matrix))
   {
     GWTC_count <- as.numeric(GWTC_Current[row, col]) #Chromosome GWTC for a given Codon
     MutationRatio_Chromosome[row, col] <- Sung_Matrix[row, col]/GWTC_count #mutant/codon site ratio
-    Sung_MutChrome[row, col] <- Sung_Matrix[row, col]/(generations*GWTC_count) #Base Substitution Mutation rate
-    Base_MutChrome[row, full_col] <- Mut_Matrix_Total_Current[row, col]/(generations*GWTC_count)
+    Sung_MutChrome[row, col] <- Sung_Matrix[row, col]/(generations*GWTC_count*malines) #Base Substitution Mutation rate
+    Base_MutChrome[row, full_col] <- Mut_Matrix_Total_Current[row, col]/(generations*GWTC_count*malines)
     #print(full_col+1)
-    Base_MutChrome[row, full_col+1] <- Mut_Matrix_Total_Current[row, col+1]/(generations*GWTC_count)
+    Base_MutChrome[row, full_col+1] <- Mut_Matrix_Total_Current[row, col+1]/(generations*GWTC_count*malines)
     #print(full_col+2)
-    Base_MutChrome[row, full_col+2] <- Mut_Matrix_Total_Current[row, col+2]/(generations*GWTC_count)
+    Base_MutChrome[row, full_col+2] <- Mut_Matrix_Total_Current[row, col+2]/(generations*GWTC_count*malines)
     full_col <- full_col+3
   }
   full_col <- 1
@@ -100,12 +100,12 @@ for(row in 1:nrow(Sung_Matrix_Left))
     GWTC_Left_Count <- as.numeric(GWTC_Left_Current[row, col]) #Left Replichore GWTC
     MutationRatio_Left[row, col] <- Sung_Matrix_Left[row, col]/GWTC_count #mutant/codon site ratio (Chromosome-Wide)
     MutationRatio_LeftRep[row, col] <- Sung_Matrix_Left[row, col]/GWTC_Left_Count #mutant/codon site ratio (Left Replichore Specific)
-    Sung_MutLeft[row, col] <- Sung_Matrix_Left[row, col]/(generations*GWTC_count) #Base Substitution Mutation Rate (Left/chromosome codon GWTC)
-    Sung_MutLeftRep[row, col] <- Sung_Matrix_Left[row, col]/(generations*GWTC_Left_Count) #Base Substitution Mutation Rate (Left/Left Rep codon GWTC)
+    Sung_MutLeft[row, col] <- Sung_Matrix_Left[row, col]/(generations*GWTC_count*malines) #Base Substitution Mutation Rate (Left/chromosome codon GWTC)
+    Sung_MutLeftRep[row, col] <- Sung_Matrix_Left[row, col]/(generations*GWTC_Left_Count*malines) #Base Substitution Mutation Rate (Left/Left Rep codon GWTC)
 
-    Base_MutLeft[row, full_col] <- Mut_Matrix_Left_Current[row, col]/(generations*GWTC_Left_Count)
-    Base_MutLeft[row, full_col+1] <- Mut_Matrix_Left_Current[row, col+1]/(generations*GWTC_Left_Count)
-    Base_MutLeft[row, full_col+2] <- Mut_Matrix_Left_Current[row, col+2]/(generations*GWTC_Left_Count)
+    Base_MutLeft[row, full_col] <- Mut_Matrix_Left_Current[row, col]/(generations*GWTC_Left_Count*malines)
+    Base_MutLeft[row, full_col+1] <- Mut_Matrix_Left_Current[row, col+1]/(generations*GWTC_Left_Count*malines)
+    Base_MutLeft[row, full_col+2] <- Mut_Matrix_Left_Current[row, col+2]/(generations*GWTC_Left_Count*malines)
     full_col <- full_col+3
     }
   full_col <- 1
@@ -122,12 +122,12 @@ for(row in 1:nrow(Sung_Matrix_Right))
     GWTC_Right_Count <- as.numeric(GWTC_Right_Current[row, col]) #Right Replichore GWTC
     MutationRatio_Right[row, col] <- Sung_Matrix_Right[row, col]/GWTC_count #mutant/codon site ratio (Right,Chromosome-Wide)
     MutationRatio_RightRep[row, col] <- Sung_Matrix_Right[row, col]/GWTC_Right_Count #mutant/codon site ratio (Left Replichore Specific)
-    Sung_MutRight[row, col] <- Sung_Matrix_Right[row, col]/(generations*GWTC_count) #Base Substitution Mutation Rate (Right/Chromosome codon GWTC)
-    Sung_MutRightRep[row, col] <- Sung_Matrix_Right[row, col]/(generations*GWTC_Right_Count) #Base Substitution Mutation Rate (Right/Right Rep codon GWTC)
+    Sung_MutRight[row, col] <- Sung_Matrix_Right[row, col]/(generations*GWTC_count*malines) #Base Substitution Mutation Rate (Right/Chromosome codon GWTC)
+    Sung_MutRightRep[row, col] <- Sung_Matrix_Right[row, col]/(generations*GWTC_Right_Count*malines) #Base Substitution Mutation Rate (Right/Right Rep codon GWTC)
    
-    Base_MutRight[row, full_col] <- Mut_Matrix_Right_Current[row, col]/(generations*GWTC_Right_Count)
-    Base_MutRight[row, full_col+1] <- Mut_Matrix_Right_Current[row, col+1]/(generations*GWTC_Right_Count)
-    Base_MutRight[row, full_col+2] <- Mut_Matrix_Right_Current[row, col+2]/(generations*GWTC_Right_Count)
+    Base_MutRight[row, full_col] <- Mut_Matrix_Right_Current[row, col]/(generations*GWTC_Right_Count*malines)
+    Base_MutRight[row, full_col+1] <- Mut_Matrix_Right_Current[row, col+1]/(generations*GWTC_Right_Count*malines)
+    Base_MutRight[row, full_col+2] <- Mut_Matrix_Right_Current[row, col+2]/(generations*GWTC_Right_Count*malines)
     full_col <- full_col +3
   }
   full_col <- 1

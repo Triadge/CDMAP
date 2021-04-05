@@ -40,10 +40,21 @@ Path_correlate_repo_up  <- paste(Path_correlate_repo, "Upstream", sep = "/")
 if(any(grepl(DirCheck, MasterCheck, ignore.case = TRUE)))
 {
   #### Direct file Access Mode#####
-  Path_RefFile <- "/Desktop/CDMAP/Test_Datasets/Kineococcus_radiotolerans_SRS30216/chr1/CP000750.fasta"
-  Path_GBFile <- "/Desktop/CDMAP/Test_Datasets/Kineococcus_radiotolerans_SRS30216/chr1/CP000750.gbk"
-  Path_InFile <-"/Desktop/CDMAP/Test_Datasets/Kineococcus_radiotolerans_SRS30216/chr1/Kineococcous_Basecalls.csv"
-  Path_Refseq <- "/Desktop/CDMAP/Test_Datasets/Kineococcus_radiotolerans_SRS30216/chr1/CP000750.fasta"
+  # Path_RefFile <- "/Desktop/CDMAP/Test_Datasets/Covid19/NC_045512.2.fasta"
+  # Path_GBFile <- "/Desktop/CDMAP/Test_Datasets/Covid19/sequence.gb"
+  # Path_InFile <-"/Desktop/CDMAP/Test_Datasets/Covid19/covid_PointMut.csv"
+  # Path_Refseq <- "/Desktop/PhD_Thesis/Covid19/NC_045512.2.fasta"
+  
+  Path_RefFile <- "/Desktop/CDMAP/Test_Datasets/Mesoplasma_Florum/AE017263.fasta"
+  Path_GBFile <- "/Desktop/CDMAP/Test_Datasets/Mesoplasma_Florum/AE017263.gbk"
+  Path_InFile <-"/Desktop/CDMAP/Test_Datasets/Mesoplasma_Florum/Mesoplasma_Florum_WT.csv"
+  Path_Refseq <- "/Desktop/CDMAP/Test_Datasets/Mesoplasma_Florum/AE017263.fasta"
+  
+  # Path_RefFile <- "/Desktop/CDMAP/Test_Datasets/bacillus/Bacillus_3610.fasta"
+  # Path_GBFile <- "/Desktop/CDMAP/Test_Datasets/bacillus/NC000964.gbk"
+  # Path_InFile <-"/Desktop/CDMAP/Test_Datasets/bacillus/Bacillus_WT.csv"
+  # Path_Refseq <- "/Desktop/CDMAP/Test_Datasets/bacillus/Bacillus_3610.fasta"
+  
   ##################################
 
   Path_home <- "/Users/triadge"

@@ -1,25 +1,26 @@
 
 
-if(iter == 2)
+if(iter == 2) #assigns upNuc to up if its the first 4mer in analysis
 {
   up <- upNuc
-}else
+}else 
 {
-  up <- gene_arr[iter-2]
+  up <- gene_arr[iter-2] #Assigns upstream 4mer wrt triplet
 }
 
-if(iter == gene_end)
+if(iter == gene_end) #assigns downNuc to down if its the last 4mer in analysis
 {
-  down <- downNuc
+  down <- downNuc 
 }else
 {
-  down <- gene_arr[iter+2]
+  down <- gene_arr[iter+2]  #Assigns downstream 4mer wrt triplet
 }
 
-LeftNuc <- gene_arr[iter-1]
-MiddleNuc <- gene_arr[iter]
-RightNuc <- gene_arr[iter+1]
+LeftNuc <- gene_arr[iter-1] #left neighbor nucleotide
+MiddleNuc <- gene_arr[iter] #center nucleotide
+RightNuc <- gene_arr[iter+1] #right neighbor nucelotide
 
+#GC content checker
 GC_Check <-  c("C", "c", "G", "g")
 
 if(any(grepl(LeftNuc, GC_Check, ignore.case = TRUE)))
@@ -37,9 +38,10 @@ if(any(grepl(RightNuc, GC_Check, ignore.case = TRUE)))
 
 
 
-rowswitch <- paste(LeftNuc, RightNuc, sep = "")
-colswitch <- MiddleNuc
+rowswitch <- paste(LeftNuc, RightNuc, sep = "") #row matrix assignment operator
+colswitch <- MiddleNuc #column matrix assignment operator
 
+#null reference checker. checking the 5mer block for null references
 if(is.na(LeftNuc))
 {
   j <- j+3
@@ -67,7 +69,7 @@ if(is.na(down))
 }
 
 
-
+#checks the nucleotide triplets for non-ambiguous entries, skips if not atcg
 if(LeftNuc != 'A' & LeftNuc != 'T' & LeftNuc != 'C' & LeftNuc != 'G')
 {
   j <- j+3
@@ -85,7 +87,7 @@ if(RightNuc != 'A' & RightNuc != 'T' & RightNuc != 'C' & RightNuc != 'G')
 }
 
 
-
+#Row matrix assignment operator for 3mer
 rowiter <- switch(rowswitch,
                   "TT" = 1,
                   "TG" = 2,
@@ -104,14 +106,14 @@ rowiter <- switch(rowswitch,
                   "AC" = 15,
                   "AA" = 16
 )
-
+#column assignment operator
 coliter <- switch(colswitch,
                   "T" = 1,
                   "G" = 2,
                   "C" = 3,
                   "A" = 4
 )
-
+#row and column complement converters
 row_comp <- switch(rowswitch,
                    "TT" = 'AA',
                    "TG" = 'CA',
@@ -163,11 +165,18 @@ comp_coliter <- switch(col_comp,
                   "A" = 4
 )
 
+#manually extracts and increments the entry in the matrix, then reassigns it to i,j
 increment <- as.integer(GC3C[rowiter,coliter])
 increment <- increment + 1
 GC3C[rowiter, coliter] <- increment 
 
+#checks the upstream and downstream nucleotide, and whether
+#it sits on the right or left replichore and updates the corresponding matrix and updates it.
 
+#Retrieves to temporary matrix based on left/right, and corresponding up/down nucleotide
+
+#Upstream
+#===========================================
 if(flagcheck == 'Left')
 {
   if(up == "T")
@@ -191,7 +200,6 @@ if(flagcheck == 'Left')
     comp_upstream_matrix <- GC4C_Aup_Left_Comp
   }
 }
-
 if(flagcheck == 'Right')
 {
   if(up == "T")
@@ -215,7 +223,7 @@ if(flagcheck == 'Right')
     comp_upstream_matrix <- GC4C_Aup_Right_Comp
   }
 }
-
+#Extracts and updates the corresponding i,j value of each matrix
 increment <- as.integer(upstream_matrix[rowiter,coliter])
 increment <- increment + 1
 upstream_matrix[rowiter, coliter] <- increment 
@@ -224,6 +232,7 @@ comp_increment <- as.integer(comp_upstream_matrix[comp_rowiter, comp_coliter])
 comp_increment <- comp_increment + 1
 comp_upstream_matrix[comp_rowiter, comp_coliter] <- comp_increment 
 
+#reassigns it to original matrix in updated form
 if(flagcheck == 'Left')
 {
   if(up == "T")
@@ -247,7 +256,10 @@ if(flagcheck == 'Left')
     GC4C_Aup_Left_Comp <- comp_upstream_matrix
   }
 }
+#===========================================
 
+#Downstream
+#===========================================
 if(flagcheck == 'Right')
 {
   if(up == "T")

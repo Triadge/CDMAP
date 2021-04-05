@@ -74,6 +74,12 @@ if(param_flag == 2)
   mutrate_count <- readline("please input the numeric scalar for mutation rate calculations: ")
 }
 
+if(param_flag == 4)
+{
+  mut_count <- 1
+  triplet_count <- 1e2
+  mutrate_count <- 1e2
+}
 
 #BaseSubstitution and Raw Triplet Counts
 for(i in 1:length(data_counts))
@@ -108,6 +114,6 @@ for(i in 1:length(data_rates))
   output_data_matrix <- get(matrix_name)
   Path_image_output <-  Path_rates_output
   matrix_name_graph <- paste(as.character(data_rates[i]), "(Scaled to ", mutrate_count, ")", sep =" ")
-  output_data_matrix <- output_data_matrix*mutrate_count
+  output_data_matrix <- output_data_matrix*mutrate_count #Rate is multiplied by scalar so it's visible on heatmap
   source("lattice_visualizer.R")
 }

@@ -1,3 +1,6 @@
+#DevNote: Figure out and debug rate calcuation for covid19!!!
+
+
 cols <- c("T→G", "T→C", "T→A",	"G→T",	"G→C",	"G→A",	"C→T",	"C→G",	"C→A",	"A→T",	"A→G",	"A→C")
 rows <- c("T[X-->Y]T", "T[X-->Y]G","T[X-->Y]C","T[X-->Y]A","G[X-->Y]T","G[X-->Y]G","G[X-->Y]C","G[X-->Y]A",
           "C[X-->Y]T","C[X-->Y]G","C[X-->Y]C","C[X-->Y]A", "A[X-->Y]T","A[X-->Y]G", "A[X-->Y]C","A[X-->Y]A")
@@ -116,20 +119,20 @@ Rcore_Frame <- data.frame(query_Rcore_full)
 #================
 i <<- 1
 
-while(i <= length(Lcore_Frame$Position))
+while(i < length(Lcore_Frame$Position))
 {
   codeRegion <- FALSE
-  #print(i)
-  #print(length(query_Lcore_full[i,]))
-  #print(query_Lcore_full[i,3])
-  #print(query_Lcore_full[i,6])
+  #print(paste("iteratior: ", i, sep = ''))
+  #print(paste(" mutation row: ",query_Lcore_full[i,], sep = ""))
+  #print(paste("Left neighbor: ", query_Lcore_full[i,3], sep = ''))
+  #print(paste("Right neighbor: ", query_Lcore_full[i,6], sep = ''))
   position <- as.integer(Lcore_Frame$Position[i])
   row_switch1 <- Lcore_Frame$Left1[i]
   row_switch2 <- Lcore_Frame$Right1[i]
   rowswitch <- paste(row_switch1, row_switch2, sep = '')
   
-  #print(query_Lcore_full[i,4])
-  #print(query_Lcore_full[i,5])
+  print(query_Lcore_full[i,4])
+  print(query_Lcore_full[i,5])
   col_switch1 <- Lcore_Frame$Original[i]
   col_switch2 <- Lcore_Frame$Mutation[i]
   colswitch <- paste(col_switch1, col_switch2, sep = '')
@@ -249,15 +252,20 @@ while(i <= length(Lcore_Frame$Position))
   
 
     #print(i)
-    start <- as.numeric(startindex[i])
-    end <- as.numeric(endindex[i])
+  j <- 1
+  for(j in 1:length(startindex))
+  {
+    start <- as.numeric(startindex[j])
+    end <- as.numeric(endindex[j])
     if(start < position && position < end)
     {
+      #print("Inisde a coding region!")
       codeRegion <- TRUE
       increment <- as.integer(GC3C_Mut_Matrix_Left[rowiter,coliter])
       increment <- increment + 1
       GC3C_Mut_Matrix_Left[rowiter, coliter] <- increment
     }
+  }
     #print(as.character(codeRegion))
     
   
@@ -351,7 +359,7 @@ while(i <= length(Lcore_Frame$Position))
 #================
 i <<- 1
 
-while(i <= length(Rcore_Frame$Position))
+while(i < length(Rcore_Frame$Position))
 {
   #print(i)
   #print(length(query_Lcore_full))
@@ -482,15 +490,19 @@ while(i <= length(Rcore_Frame$Position))
   Comp_Mut_Matrix_Right[comp_rowiter, comp_coliter] <- comp_increment       #record in Left Replichore Reverse Compliment Matrix
   
   ##check to see if its in a coding region#
-  #print(i)
-  start <- as.numeric(startindex[i])
-  end <- as.numeric(endindex[i])
-  if(start < position && position < end)
+  j <- 1
+  for(j in 1:length(startindex))
   {
-    codeRegion <- TRUE
-    increment <- as.integer(GC3C_Mut_Matrix_Right[rowiter,coliter])
-    increment <- increment + 1
-    GC3C_Mut_Matrix_Right[rowiter, coliter] <- increment
+    start <- as.numeric(startindex[j])
+    end <- as.numeric(endindex[j])
+    if(start < position && position < end)
+    {
+      print("Inisde a coding region!")
+      codeRegion <- TRUE
+      increment <- as.integer(GC3C_Mut_Matrix_Right[rowiter,coliter])
+      increment <- increment + 1
+      GC3C_Mut_Matrix_Right[rowiter, coliter] <- increment
+    }
   }
   #print(as.character(codeRegion))
   
