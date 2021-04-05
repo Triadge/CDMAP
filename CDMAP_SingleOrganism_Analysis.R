@@ -124,8 +124,6 @@ if(any(grepl(DirCheck, CustomCheck, ignore.case = TRUE)))
  }
 
 
-#generations <- 5819 #DEP
-#param_flag <- 1 #DEFAULT DEBUG
 
 generations <- readline("How many generations did you carry out your experiment? ")
 malines <- readline("How many Mutation Accumulation Lines were run during your experiment? ")

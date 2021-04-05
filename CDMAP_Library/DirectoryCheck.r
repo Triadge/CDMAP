@@ -57,7 +57,10 @@ if(any(grepl(DirCheck, MasterCheck, ignore.case = TRUE)))
   
   ##################################
 
-  Path_home <- "/Users/triadge"
+  #Dynamically grab the user path information
+  Path_home <- paste("/Users/", Sys.info()[["user"]], "/", sep = "")
+  
+  
   Path_MainRepo <- paste(Path_home, Path_MainRepo, sep ="")
   Path_wd <- paste(Path_home, Path_wd, sep = "")
   Path_to_scripts <- paste(Path_home, Path_to_scripts, sep = "")

@@ -33,6 +33,8 @@
   #run reverse orientation pipeline
 #}
 
+#Then after each strand has been tablulated, They both need to be converted into their opposite matrices (5-3/ 3-5) and then
+#merged with the other half.
 
 #=========================
 
