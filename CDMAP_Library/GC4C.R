@@ -153,7 +153,7 @@ for(i in  1:featlength)
     print(paste("Feature", i, "skipped. Is not a gene", sep = " "))
     next()
   }
-
+  dataobj <- OrganismGB[["FEATURES"]][[i]]
   matobj <- data.matrix(OrganismGB[["FEATURES"]][[i]]) #extracting an individual gene feature from the data frame
   #matobj <- testlist[[1]]$type
   
@@ -260,17 +260,42 @@ for(i in  1:featlength)
     next
   }
   
+  orientation <- OrganismGB$FEATURES[[i]]$strand
+  
+  if(orientation == '+')
+  {
+    setwd(Path_to_scripts)
+    print("Strand in the forward '+' Orientation")
+  }
+  if(orientation == '-')
+  {
+    setwd(Path_to_scripts)
+    print("Strand in the reverse '-' Orientation")
+  }
+  
   
   j <- 2 #iterator instantiated with respect to center nucleotide, grabs j-1 and j+1 for left and right nucleotide.
   while(j <= gene_end)
   {
     iter <- j
     
-    #triplet code# ========
-    #source("GC3C.r") - DEPRECIATED
+    #Leading and Lagging# ========
+    if(orientation == '+')
+    {
+      setwd(Path_to_scripts)
+      #print("Strand in the forward '+' Orientation")
+      source("GC4C_recorder_Forward.r")
+    }
+    if(orientation == '-')
+    {
+      setwd(Path_to_scripts)
+      #print("Strand in the reverse '-' Orientation")
+      source("GC4C_recorder_Reverse.r")
+    }
+
     #4fold sites===========
-    setwd(Path_to_scripts)
-    source("GC4C_recorder.r")
+    #setwd(Path_to_scripts)
+    #source("GC4C_recorder.r")
     #======================
   
 
@@ -304,7 +329,8 @@ GC3C_up <- GC4C_Aup+GC4C_Cup+GC4C_Gup+GC4C_Tup
 GC3C_down <- GC4C_Adown+GC4C_Cdown+GC4C_Gdown+GC4C_Tdown
 
 GC3C_doesNotEqual <- function(x){
-                        stop("GC3C UP DOES NOT MATCH GC3C DOWN!")
+                        nucdiff <- sum(GC3C_up)-sum(GC3C_down)
+                        warning("Warning: there is a ", nucdiff, "nucleotide difference between upstream and downstream coding matrices.")
                         FALSE
 }
 

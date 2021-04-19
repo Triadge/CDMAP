@@ -190,13 +190,13 @@ if(any(grepl(VcfOrBaseCall, VCFCheck, ignore.case = TRUE)))
   #featend <- as.numeric(matobj[1,3]) #end of replication origin region
 #}
 
-# ori_ref <- oriloc(gbk = Path_GBFile) #this generates the oriloc data, this is a test variable
-# ori_pos <- which.max(ori_ref$skew) # find the position of the origin of replication
-# ori_bp <- ori_pos*1000   #base pair position of the origin of replication
-# ori_value <- ori_ref$skew[ori_pos] #value of the origination position
-# term_pos <- which.min(ori_ref$skew) #find the position of the terminus of replication
-# term_value <- ori_ref$skew[term_pos] #value of the terminii
-# term_bp <- term_pos*1000 #base pair position of the terminus of replication
+ori_ref <- oriloc(gbk = Path_GBFile) #this generates the oriloc data, this is a test variable
+ori_pos <- which.max(ori_ref$skew) # find the position of the origin of replication
+ori_bp <- ori_pos*1000   #base pair position of the origin of replication
+ori_value <- ori_ref$skew[ori_pos] #value of the origination position
+term_pos <- which.min(ori_ref$skew) #find the position of the terminus of replication
+term_value <- ori_ref$skew[term_pos] #value of the terminii
+term_bp <- term_pos*1000 #base pair position of the terminus of replication
 
 
 #generates a dummy indices vector based on the length of the reference sequence
@@ -226,10 +226,10 @@ for(i in 1:len_refseq)
 # term_bp <- 2199319
 
 #Use for Linear Chromosomes only
- ori_pos <- 0
- ori_bp <- 0
- term_pos <- len_refseq/2
- term_bp <- len_refseq/2
+ # ori_pos <- 0
+ # ori_bp <- 0
+ # term_pos <- len_refseq/2
+ # term_bp <- len_refseq/2
 
 ori_bp <- as.numeric(ori_bp) #coercion of the ORI and TERM to numeric values for future operations
 term_bp <- as.numeric(term_bp)

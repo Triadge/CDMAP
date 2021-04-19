@@ -76,7 +76,7 @@ for(row in 1:nrow(Sung_Matrix))
 {
   for(col in 1:ncol(Sung_Matrix)) 
   {
-    GWTC_count <- as.numeric(GWTC_Current[row, col]) #Chromosome GWTC for a given Codon CHECK THIS VALUE NEXT!!!
+    GWTC_count <- as.numeric(GWTC_Current[row, col]) #Chromosome GWTC for a given Codon
     MutationRatio_Chromosome[row, col] <- Sung_Matrix[row, col]/GWTC_count #mutant/codon site ratio
     Sung_MutChrome[row, col] <- Sung_Matrix[row, col]/(generations*GWTC_count*malines) #Base Substitution Mutation rate
     Base_MutChrome[row, full_col] <- Mut_Matrix_Total_Current[row, col]/(generations*GWTC_count*malines)
@@ -84,7 +84,7 @@ for(row in 1:nrow(Sung_Matrix))
     Base_MutChrome[row, full_col+1] <- Mut_Matrix_Total_Current[row, col+1]/(generations*GWTC_count*malines)
     #print(full_col+2)
     Base_MutChrome[row, full_col+2] <- Mut_Matrix_Total_Current[row, col+2]/(generations*GWTC_count*malines)
-    full_col <- full_col+3
+    full_col <- full_col+2
   }
   full_col <- 1 #reset for the next row calculations until all rows calculated.
 }
@@ -106,7 +106,7 @@ for(row in 1:nrow(Sung_Matrix_Left))
     Base_MutLeft[row, full_col] <- Mut_Matrix_Left_Current[row, col]/(generations*GWTC_Left_Count*malines)
     Base_MutLeft[row, full_col+1] <- Mut_Matrix_Left_Current[row, col+1]/(generations*GWTC_Left_Count*malines)
     Base_MutLeft[row, full_col+2] <- Mut_Matrix_Left_Current[row, col+2]/(generations*GWTC_Left_Count*malines)
-    full_col <- full_col+3
+    full_col <- full_col+2
     }
   full_col <- 1
 }
