@@ -12,7 +12,8 @@ colnames(Base_Test) <- cols
 
 TestGWTC <- GWTC
 TestMutCount <- Mut_Matrix_Total
-TestDivisor <- TestGWTC*generations*malines
+TestDivisor <- as.matrix(TestGWTC*generations*malines)
+
 
 num_triplets <- 64
 full_col <- 1
@@ -25,15 +26,25 @@ for(row in 1:nrow(Sung_Matrix))
     print(paste("GWTC: ", GWTC_Current[row,col], sep = ""))
     print(paste("generations: ", generations, sep = ""))
     print(paste("MA lines: ", malines, sep = ""))
-    print(paste("Test divisor (product of the 3): ",TestDivisor[row, col]))
-    Base_Test[row, full_col] <- TestMutCount[row, col]/TestDivisor[row, col]
-    print(paste("column: ", full_col, sep = ""))
-    Base_Test[row, full_col+1] <- TestMutCount[row, col+1]/TestDivisor[row, col]
-    print(paste("column: ", full_col+1, sep = ""))
-    Base_Test[row, full_col+2] <- TestMutCount[row, col+2]/TestDivisor[row, col]
-    print(paste("column: ", full_col+2, sep = ""))
-    full_col <- full_col+3
     
+    if((malines*GWTC_Current[row,col]*generations) == as.numeric(testdivisor[row, col]))
+    {
+    print(paste("Test divisor (product of the 3): ",TestDivisor[row, col]))
+      print(paste("column: ", full_col, "Mutations: ", TestMutCount[row, col], "Test Divisor: ", TestDivisor[row, col], sep = ""))
+    Base_Test[row, full_col] <- TestMutCount[row, col]/TestDivisor[row, col]
+    Print(paste("Mutation Rate: ", Base_Test[row, full_col], sep = "" ))
+    
+    print(paste("column: ", full_col+1, "Mutations: ", TestMutCount[row, col+1], "Test Divisor: ", TestDivisor[row, col], sep = ""))
+    Base_Test[row, full_col+1] <- TestMutCount[row, col+1]/TestDivisor[row, col]
+    Print(paste("Mutation Rate: ", Base_Test[row, full_col+1], sep = "" ))
+    
+    print(paste("column: ", full_col+2, "Mutations: ", TestMutCount[row+2, col], "Test Divisor: ", TestDivisor[row, col], sep = ""))
+    Base_Test[row, full_col+2] <- TestMutCount[row, col+2]/TestDivisor[row, col]
+    Print(paste("Mutation Rate: ", Base_Test[row, full_col+2], sep = "" ))
+    
+    
+    full_col <- full_col+3
+    }
   }
   full_col <- 1 #reset for the next row calculations until all rows calculated.
 }
