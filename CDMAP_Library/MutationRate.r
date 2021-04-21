@@ -3,6 +3,9 @@
 # This script generates the mutation rates for each replichore, and the chromosome of a given organim using the raw
 # Base substitution count, the GWTC, and the number of generations of an organism
 
+#The 16x12 mapping issue appeared to come from using col, instead of full_col to calculate the mutation rates for the 16x12
+# matrices. this note here is in case after the test run there are still inaccuracies to check those files.
+
 #mutation ratio calculation for each triplet site chromosome wide and replichore specific
 MutationRatio_Left <- matrix(0L, nrow =16, ncol =4)
 MutationRatio_Right <- matrix(0L, nrow =16, ncol =4)
@@ -79,11 +82,12 @@ for(row in 1:nrow(Sung_Matrix))
     GWTC_count <- as.numeric(GWTC_Current[row, col]) #Chromosome GWTC for a given Codon CHECK THIS VALUE NEXT!!!
     MutationRatio_Chromosome[row, col] <- Sung_Matrix[row, col]/GWTC_count #mutant/codon site ratio
     Sung_MutChrome[row, col] <- Sung_Matrix[row, col]/(generations*GWTC_count*malines) #Base Substitution Mutation rate
-    Base_MutChrome[row, full_col] <- Mut_Matrix_Total_Current[row, col]/(generations*GWTC_count*malines)
+    
+    Base_MutChrome[row, full_col] <- Mut_Matrix_Total_Current[row, full_col]/(generations*GWTC_count*malines)
     #print(full_col+1)
-    Base_MutChrome[row, full_col+1] <- Mut_Matrix_Total_Current[row, col+1]/(generations*GWTC_count*malines)
+    Base_MutChrome[row, full_col+1] <- Mut_Matrix_Total_Current[row, full_col+1]/(generations*GWTC_count*malines)
     #print(full_col+2)
-    Base_MutChrome[row, full_col+2] <- Mut_Matrix_Total_Current[row, col+2]/(generations*GWTC_count*malines)
+    Base_MutChrome[row, full_col+2] <- Mut_Matrix_Total_Current[row, full_col+2]/(generations*GWTC_count*malines)
     full_col <- full_col+3
   }
   full_col <- 1 #reset for the next row calculations until all rows calculated.
@@ -103,9 +107,9 @@ for(row in 1:nrow(Sung_Matrix_Left))
     Sung_MutLeft[row, col] <- Sung_Matrix_Left[row, col]/(generations*GWTC_count*malines) #Base Substitution Mutation Rate (Left/chromosome codon GWTC)
     Sung_MutLeftRep[row, col] <- Sung_Matrix_Left[row, col]/(generations*GWTC_Left_Count*malines) #Base Substitution Mutation Rate (Left/Left Rep codon GWTC)
 
-    Base_MutLeft[row, full_col] <- Mut_Matrix_Left_Current[row, col]/(generations*GWTC_Left_Count*malines)
-    Base_MutLeft[row, full_col+1] <- Mut_Matrix_Left_Current[row, col+1]/(generations*GWTC_Left_Count*malines)
-    Base_MutLeft[row, full_col+2] <- Mut_Matrix_Left_Current[row, col+2]/(generations*GWTC_Left_Count*malines)
+    Base_MutLeft[row, full_col] <- Mut_Matrix_Left_Current[row, full_col]/(generations*GWTC_Left_Count*malines)
+    Base_MutLeft[row, full_col+1] <- Mut_Matrix_Left_Current[row, full_col+1]/(generations*GWTC_Left_Count*malines)
+    Base_MutLeft[row, full_col+2] <- Mut_Matrix_Left_Current[row, full_col+2]/(generations*GWTC_Left_Count*malines)
     full_col <- full_col+3
     }
   full_col <- 1
@@ -125,9 +129,9 @@ for(row in 1:nrow(Sung_Matrix_Right))
     Sung_MutRight[row, col] <- Sung_Matrix_Right[row, col]/(generations*GWTC_count*malines) #Base Substitution Mutation Rate (Right/Chromosome codon GWTC)
     Sung_MutRightRep[row, col] <- Sung_Matrix_Right[row, col]/(generations*GWTC_Right_Count*malines) #Base Substitution Mutation Rate (Right/Right Rep codon GWTC)
    
-    Base_MutRight[row, full_col] <- Mut_Matrix_Right_Current[row, col]/(generations*GWTC_Right_Count*malines)
-    Base_MutRight[row, full_col+1] <- Mut_Matrix_Right_Current[row, col+1]/(generations*GWTC_Right_Count*malines)
-    Base_MutRight[row, full_col+2] <- Mut_Matrix_Right_Current[row, col+2]/(generations*GWTC_Right_Count*malines)
+    Base_MutRight[row, full_col] <- Mut_Matrix_Right_Current[row, full_col]/(generations*GWTC_Right_Count*malines)
+    Base_MutRight[row, full_col+1] <- Mut_Matrix_Right_Current[row, full_col+1]/(generations*GWTC_Right_Count*malines)
+    Base_MutRight[row, full_col+2] <- Mut_Matrix_Right_Current[row, full_col+2]/(generations*GWTC_Right_Count*malines)
     full_col <- full_col +3
   }
   full_col <- 1
