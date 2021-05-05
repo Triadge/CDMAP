@@ -5,7 +5,7 @@ path_to_scripts <- "/Desktop/Sung_Lab/R_workspace/Context_Project/Context_Pipeli
 path_output <- "/Desktop/CDMAP/Test_Datasets/Covid19"
 Path_RefFile <- "/Desktop/CDMAP/Test_Datasets/Covid19/NC_045512.2.fasta"
 Path_GBFile <- "/Desktop/CDMAP/Test_Datasets/Covid19/sequence.gb"
-Path_InFile <-"/Desktop/CDMAP/Test_Datasets/Covid19/covid_PointMut.csv"
+Path_InFile <-"/Desktop/CDMAP/Test_Datasets/Covid19/ncov_global_PointMutations.csv"
 Path_Refseq <- "/Desktop/PhD_Thesis/Covid19/NC_045512.2.fasta"
 
 
