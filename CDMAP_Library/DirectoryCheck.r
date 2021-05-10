@@ -40,15 +40,17 @@ Path_correlate_repo_up  <- paste(Path_correlate_repo, "Upstream", sep = "/")
 if(any(grepl(DirCheck, MasterCheck, ignore.case = TRUE)))
 {
   #### Direct file Access Mode#####
-  # Path_RefFile <- "/Desktop/CDMAP/Test_Datasets/Covid19/NC_045512.2.fasta"
-  # Path_GBFile <- "/Desktop/CDMAP/Test_Datasets/Covid19/sequence.gb"
-  # Path_InFile <-"/Desktop/CDMAP/Test_Datasets/Covid19/covid_PointMut.csv"
-  # Path_Refseq <- "/Desktop/PhD_Thesis/Covid19/NC_045512.2.fasta"
-
-  Path_RefFile <- "/Desktop/CDMAP/Test_Datasets/Agrobacterium_Vitis/Agrobacterium_VitisS4_Chr1_SRA.fasta"
-  Path_GBFile <- "/Desktop/CDMAP/Test_Datasets/Agrobacterium_Vitis/Agrobacterium_VitisS4_Chr1_SRA.gbk"
-  Path_InFile <- "/Desktop/CDMAP/Test_Datasets/Agrobacterium_Vitis/Vitis_Chr1.csv"
-  Path_Refseq <- "/Desktop/CDMAP/Test_Datasets/Agrobacterium_Vitis/Agrobacterium_VitisS4_Chr1_SRA.fasta"
+# 
+#   Path_RefFile <- "/Desktop/CDMAP/Test_Datasets/Covid19/NC_045512.2.fasta"
+#   Path_GBFile <- "/Desktop/CDMAP/Test_Datasets/Covid19/sequence.gb"
+#   Path_InFile <-"/Desktop/CDMAP/Test_Datasets/Covid19/ncov_global_PointMutations.csv"
+#   Path_Refseq <- "/Desktop/PhD_Thesis/Covid19/NC_045512.2.fasta"
+  
+  Path_RefFile <- "/Desktop/CDMAP/Test_Datasets/VF/chr2/CP000021.fasta"
+  Path_GBFile <- "/Desktop/CDMAP/Test_Datasets/VF/chr2/CP000021.gbk"
+  Path_InFile <-"/Desktop/CDMAP/Test_Datasets/VF/chr2/WT_chr2_basecalls.csv"
+  Path_Refseq <- "/Desktop/CDMAP/Test_Datasets/VF/chr2/CP000021.fasta"
+  
   ##################################
 
   #Dynamically grab the user path information

@@ -102,17 +102,45 @@ GC_arr <- as.character(GC_sort_matrix$name)
 colnames(GC_corr_matrix) <- GC_arr
 rownames(GC_corr_matrix) <- GC_arr
 
-
+source_colname <<- ""
+source_col <<- ""
+colname_strlen <<- ""
+colname_arr <<- ""
 for(i in 1:length(GC_arr))
 {
   if(length(cor_est_matrix) != 0)
   {  
     GC_row_flag <- GC_arr[i]
-    rownum <- grep(GC_row_flag, rownames(cor_est_matrix), ignore.case=TRUE)
+    rowinds <- grep(GC_row_flag, colnames(cor_est_matrix), ignore.case=TRUE)
+    if(length(rowinds) > 1)
+    {
+      rowname_arr <- rownames(cor_est_matrix)[rowinds]
+      rowname_strlen <- nchar(rowname_arr)
+      source_row <- which.min(rowname_strlen)
+      source_rowname <- rowname_arr[source_row]
+      rownum <- grep(source_rowname, rownames(cor_est_matrix), ignore.case=TRUE)
+    }
+    else
+    {
+      rownum <- rowinds
+    }
+    #rownum <- grep(GC_row_flag, rownames(cor_est_matrix), ignore.case=TRUE)
     for(j in 1:length(GC_arr))
     {
       GC_col_flag <- GC_arr[j]
-      colnum <- grep(GC_col_flag, colnames(cor_est_matrix), ignore.case=TRUE)
+      colinds <- grep(GC_col_flag, colnames(cor_est_matrix), ignore.case=TRUE)
+      if(length(colinds) > 1)
+      {
+        colname_arr <- colnames(cor_est_matrix)[colinds]
+        colname_strlen <- nchar(colname_arr)
+        source_col <- which.min(colname_strlen)
+        source_colname <- colname_arr[source_col]
+        colnum <- grep(source_colname, colnames(cor_est_matrix), ignore.case=TRUE)
+      }
+      else
+      {
+        colnum <- colinds
+      }
       GC_corr_matrix[i,j] <- cor_est_matrix[rownum, colnum]
     }
   }
