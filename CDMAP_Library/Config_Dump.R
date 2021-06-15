@@ -15,6 +15,9 @@ sink(file = Report_Name, type = "output")
 
 print("ORI, TERM, and Replichore Information: ")
 print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+print(paste("Name of organism analyzed: ", organism, sep = ''))
+print(paste("Number of mutation accumulation lines during experiment: ", malines, sep = ''))
+print(paste("Number of experimental generations during MA expiriment: ", generations, sep = ''))
 print(paste("Reference Sequence length (Genome Size): ", len_refseq, sep = ''))
 print(paste("Left Replichore Sequence length: ", sum(GWTC_Left)-1, sep = '')) # n-1 since last triplet is double counted in each replichore
 print(paste("Right Replichore Sequence length: ", sum(GWTC_Right)-1, sep = '')) #see

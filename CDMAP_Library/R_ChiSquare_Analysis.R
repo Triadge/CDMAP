@@ -24,12 +24,7 @@ if(!(dir.exists(path_output_SO)))
 dataTable <- read.csv("/Users/triadge/Desktop/PhD_Thesis/Data Analysis/MultiOrganismAnalysis/ChiSquare_Fisher_Dumps/input_files/MultiOrganism_Rupload.csv")
 #dataTable <- read.csv("/Users/triadge/Desktop/PhD_Thesis/Data Analysis/MultiOrganismAnalysis/Agro_Chr1_Test.csv")
 
-#generations <- readline("How many generations did you carry out your experiment? ")
-#generations <- as.numeric(generations)
-#malines <- readline("How many Mutation Accumulation Lines were run during your experiment? ")
-#malines <- as.numeric(malines)
 
-#dataTable <- sort(dataTable[,1])
 OrganismChrome <- sort(unique(dataTable[,1]))
 HeaderNames <- names(dataTable)
 
@@ -49,6 +44,9 @@ colnames(ChiSquarePvalGWTC) <- ChiNames
 colnames(OrgPvalCodon) <- ChiNames
 colnames(OrgPvalGWTC) <- ChiNames
 
+GCChiSquarePval <- matrix( nrow = 0, ncol = 3)
+GCChiSquarePvalCodon <- matrix( nrow = 0, ncol = 3)
+colnames(GCChiSquarePvalCodon) <- ChiNames
 
 
 #Amino Acid sites and data structures by Fold Designation
@@ -57,11 +55,11 @@ colnames(OrgPvalGWTC) <- ChiNames
 #6-fold Sites
 Argindices <- c("C[G]T", "C[G]G", "C[G]C", "C[G]A", "A[G]A", "A[G]G")
 Leuindices <- c("C[T]T", "C[T]G", "C[T]C", "C[T]A", "T[T]G", "T[T]A")
+Serindices <- c("T[C]T", "T[C]G", "T[C]C", "T[C]A", "A[G]T", "A[G]C")
 ArgCodons <- c()
 LeuCodons <- c()
 
 #4-fold sites
-Serindices <- c("T[C]T", "T[C]G", "T[C]C", "T[C]A") 
 Thrindices <- c("A[C]T", "A[C]G", "A[C]C", "A[C]A")
 Valindices <- c("G[T]T", "G[T]G", "G[T]C", "G[T]A")
 Proindices <- c("C[C]T", "C[C]G", "C[C]C", "C[C]A")
@@ -84,7 +82,6 @@ Lysindices <- c("A[A]A", "A[A]G")
 Aspindices <- c("G[A]T", "G[A]C")
 Gluindices <- c("G[A]A", "G[A]G")
 Cysindices <- c("T[G]T", "T[G]C")
-Serindices <- c("A[G]T", "A[G]C")
 PheCodons <- c()
 TyrCodons <- c()
 HisCodons <- c()
@@ -94,7 +91,6 @@ LysCodons <- c()
 AspCodons <- c()
 GluCodons <- c()
 CysCodons <- c()
-SerCodons <- c()
 
 #3-fold sites
 Stopindices <- c("T[A]G", "T[A]A", "T[G]A")
@@ -119,8 +115,26 @@ Gtriplet <- c()
 i <<- 1
 j <<- 1
 
+#Generate GC content for each Organism#
+#===============================#
+setwd(Path_to_scripts)
+source("GC_content_Multifold.R")
+#================================#
+
+i <<- 1
+
+#Begin Single Organism analysis#
+#=================================#
 for (j in 1:length(OrganismChrome))
   {
+  
+  #Insert GC content calculation script here#
+  #pass OrganismChrome to the script#
+  GC_content <- as.numeric(GC_output_matrix[j,2])
+  AT_content <- 1-GC_content
+  
+  #===================#
+  
     Atriplet <- c()
     Ttriplet <- c()
     Ctriplet <- c()
@@ -130,7 +144,8 @@ for (j in 1:length(OrganismChrome))
     organism <- OrganismChrome[j]
     Triplet <- organismSubset[,2]
     print(paste('running: ', organism, sep = ""))
-  
+    
+    k <<- 1
     for(k in 1:length(Triplet))
       {
         if(grepl("[A]", Triplet[k], fixed = TRUE))
@@ -152,36 +167,24 @@ for (j in 1:length(OrganismChrome))
           {
           Ttriplet <- rbind(Ttriplet, organismSubset[k,])
           }
-      }
-  #Triplet
-  observed <- c(Atriplet[,5], Ctriplet[,5], Gtriplet[,5], Ttriplet[,5])
+    }
+    
+  #Observed Mutations
+ # observed <- c(Atriplet[,5], Ctriplet[,5], Gtriplet[,5], Ttriplet[,5])
+ # observed <- as.matrix(observed)
+ 
+  #observed Codons 
+  observed <- c(Atriplet[,3], Ctriplet[,3], Gtriplet[,3], Ttriplet[,3])
   observed <- as.matrix(observed)
-  
-  #AsumCodon <- sum(Atriplet[,3])
-  #CsumCodon <- sum(Ctriplet[,3])
-  #GsumCodon <- sum(Gtriplet[,3])
-  #TsumCodon <- sum(Ttriplet[,3])
-  
-  #CodonExpectedA <- Atriplet[,3]/AsumCodon
-  #CodonExpectedC <- Ctriplet[,3]/CsumCodon
-  #CodonExpectedG <- Gtriplet[,3]/GsumCodon
-  #CodonExpectedT <- Ttriplet[,3]/TsumCodon
-  #CodonExpected <- c(CodonExpectedA, CodonExpectedC, CodonExpectedG, CodonExpectedT)
+
   CodonExpected <- organismSubset[,3]/sum(organismSubset[,3])
-  CodonExpected < as.matrix(CodonExpected)
+  CodonExpected <- as.matrix(CodonExpected)
   
-  #AsumGWTC <- sum(Atriplet[,4])
-  #CsumGWTC <- sum(Ctriplet[,4])
-  #GsumGWTC <- sum(Gtriplet[,4])
-  #TsumGWTC <- sum(Ttriplet[,4])
-  
-  #GWTCExpectedA <- Atriplet[,4]/AsumGWTC
-  #GWTCExpectedC <- Ctriplet[,4]/CsumGWTC
-  #GWTCExpectedG <- Gtriplet[,4]/GsumGWTC
-  #GWTCExpectedT <- Ttriplet[,4]/TsumGWTC
-  #GWTCExpected <- c(GWTCExpectedA, GWTCExpectedC, GWTCExpectedG, GWTCExpectedT)
+  CodonTotal <- sum(as.numeric(organismSubset[,3]))
   GWTCExpected <- organismSubset[,4]/sum(organismSubset[,4])
   GWTCExpected <- as.matrix(GWTCExpected)
+  
+  #Insert GC specific analysis Script here#
   
   path_output_organism <- paste(path_output_SO, organism, sep = "/")
   
@@ -201,6 +204,7 @@ for (j in 1:length(OrganismChrome))
 
      
    chiPvalCodon <- c(organism, ChiRawCodon$statistic, ChiRawCodon$p.value)
+   print(chiPvalCodon)
    chiPvalGWTC <- c(organism, ChiRawGWTC$statistic, ChiRawGWTC$p.value)
 
   #  
@@ -216,7 +220,9 @@ for (j in 1:length(OrganismChrome))
 
    
    setwd(Path_to_scripts)
+   source("GC_Multifold_Analysis.R")
    print("running Fold Analysis")
+   setwd(Path_to_scripts)
    source("ChiSq_Foldsite.R")
 
   
@@ -227,11 +233,13 @@ for (j in 1:length(OrganismChrome))
 }
 
 rownames(ChiSquarePvalCodon) <- NULL
+rownames(GCChiSquarePvalCodon) <- NULL
 rownames(ChiSquarePvalGWTC) <- NULL
 
 setwd(path_output_SO)
 
 write.csv(ChiSquarePvalCodon, "AllOrganisms_Pval_Codon.csv")
+write.csv(GCChiSquarePvalCodon, "AllOrganisms_GC_Pval_Codon.csv")
 write.csv(ChiSquarePvalGWTC, "AllOrganisms_Pval_GWTC.csv")
 
 

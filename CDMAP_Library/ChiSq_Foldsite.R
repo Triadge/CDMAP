@@ -42,14 +42,10 @@ if(any(codon == Leuindices))
 {
   LeuCodons <- rbind(LeuCodons, organismSubset[k,])
 }
-SixFold <- rbind(ArgCodons, LeuCodons)
+SixFold <- rbind(ArgCodons, LeuCodons, SerCodons)
 #==================================
 
 #4-fold sites
-if(any(codon == Serindices))
-{
-  SerCodons <- rbind(SerCodons, organismSubset[k,])
-}
 if(any(codon == Thrindices))
 {
   ThrCodons <- rbind(ThrCodons, organismSubset[k,])
@@ -71,7 +67,7 @@ if(any(codon == Glyindices))
   GlyCodons <- rbind(GlyCodons, organismSubset[k,])
 }
 
-FourFold <- rbind(GlyCodons, AlaCodons, ProCodons, ValCodons, ThrCodons, SerCodons)
+FourFold <- rbind(GlyCodons, AlaCodons, ProCodons, ValCodons, ThrCodons)
 #============================
 
 #2-fold sites
@@ -111,11 +107,7 @@ if(any(codon == Cysindices))
 {
   CysCodons <- rbind(CysCodons, organismSubset[k,])
 }
-if(any(codon == Serindices))
-{
-  SerCodons <- rbind(SerCodons, organismSubset[k,])
-}
-TwoFold <- rbind(SerCodons, CysCodons, GluCodons, AspCodons, LysCodons, AsnCodons, GlnCodons, HisCodons, TyrCodons, PheCodons)
+TwoFold <- rbind( CysCodons, GluCodons, AspCodons, LysCodons, AsnCodons, GlnCodons, HisCodons, TyrCodons, PheCodons)
 #====================================
 
 #3-fold sites
@@ -188,10 +180,16 @@ OneFold <- data.frame(OneFold)
       Ttriplet <- rbind(Ttriplet, SixFold[k,])
     }
   }
+  
+  #observed Mutations
+  #observed <- c(Atriplet[,5], Ctriplet[,5], Gtriplet[,5], Ttriplet[,5])
+  #observed <- as.matrix(observed)
 
-  observed <- c(Atriplet[,5], Ctriplet[,5], Gtriplet[,5], Ttriplet[,5])
+  #observed Codons
+  observed <- c(Atriplet[,3], Ctriplet[,3], Gtriplet[,3], Ttriplet[,3])
   observed <- as.matrix(observed)
-
+  
+  
   CodonExpected <- SixFold[,3]/sum(SixFold[,3])
   CodonExpected <- as.matrix(CodonExpected)
   
@@ -202,8 +200,8 @@ if(sum(observed) != 0)
 {
 SixChiRawCodon <- chisq.test(observed, p = CodonExpected) #, simulate.p.value = TRUE, B= 5000)
 SixChiRawGWTC <- chisq.test(observed, p = GWTCExpected) #, simulate.p.value = TRUE, B = 5000)
-SixchiPvalCodon <- c("Six Fold Sites", ChiRawCodon$statistic, ChiRawCodon$p.value)
-SixchiPvalGWTC <- c( "Six Fold Sites", ChiRawGWTC$statistic, ChiRawGWTC$p.value)
+SixchiPvalCodon <- c("Six Fold Sites", SixChiRawCodon$statistic, SixChiRawCodon$p.value)
+SixchiPvalGWTC <- c( "Six Fold Sites", SixChiRawGWTC$statistic, SixChiRawGWTC$p.value)
 
 OrgPvalCodon <- rbind(OrgPvalCodon, SixchiPvalCodon)
 OrgPvalGWTC <- rbind(OrgPvalGWTC, SixchiPvalGWTC)
@@ -264,8 +262,8 @@ if(sum(observed) !=0)
 {
 FourChiRawCodon <- chisq.test(observed, p = CodonExpected) #, simulate.p.value = TRUE, B= 5000)
 FourChiRawGWTC <- chisq.test(observed, p = GWTCExpected) #, simulate.p.value = TRUE, B = 5000)
-FourchiPvalCodon <- c("Four Fold Sites", ChiRawCodon$statistic, ChiRawCodon$p.value)
-FourchiPvalGWTC <- c("Four Fold Sites", ChiRawGWTC$statistic, ChiRawGWTC$p.value)
+FourchiPvalCodon <- c("Four Fold Sites", FourChiRawCodon$statistic, FourChiRawCodon$p.value)
+FourchiPvalGWTC <- c("Four Fold Sites", FourChiRawGWTC$statistic, FourChiRawGWTC$p.value)
 
 OrgPvalCodon <- rbind(OrgPvalCodon, FourchiPvalCodon)
 OrgPvalGWTC <- rbind(OrgPvalGWTC, FourchiPvalGWTC)
@@ -325,8 +323,8 @@ if(sum(observed) != 0)
 {
 ThreeChiRawCodon <- chisq.test(observed, p = CodonExpected) #, simulate.p.value = TRUE, B= 5000)
 ThreeChiRawGWTC <- chisq.test(observed, p = GWTCExpected) #, simulate.p.value = TRUE, B = 5000)
-ThreechiPvalCodon <- c("Three Fold Sites", ChiRawCodon$statistic, ChiRawCodon$p.value)
-ThreechiPvalGWTC <- c("Three Fold Sites", ChiRawGWTC$statistic, ChiRawGWTC$p.value)
+ThreechiPvalCodon <- c("Three Fold Sites", ThreeChiRawCodon$statistic, ThreeChiRawCodon$p.value)
+ThreechiPvalGWTC <- c("Three Fold Sites", ThreeChiRawGWTC$statistic, ThreeChiRawGWTC$p.value)
 
 OrgPvalCodon <- rbind(OrgPvalCodon, ThreechiPvalCodon)
 OrgPvalGWTC <- rbind(OrgPvalGWTC, ThreechiPvalGWTC)
@@ -387,8 +385,8 @@ if(sum(observed) != 0 )
 {
 TwoChiRawCodon <- chisq.test(observed, p = CodonExpected) #, simulate.p.value = TRUE, B= 5000)
 TwoChiRawGWTC <- chisq.test(observed, p = GWTCExpected) #, simulate.p.value = TRUE, B = 5000)
-TwochiPvalCodon <- c("Two Fold Sites", ChiRawCodon$statistic, ChiRawCodon$p.value)
-TwochiPvalGWTC <- c("Two Fold Sites", ChiRawGWTC$statistic, ChiRawGWTC$p.value)
+TwochiPvalCodon <- c("Two Fold Sites", TwoChiRawCodon$statistic, TwoChiRawCodon$p.value)
+TwochiPvalGWTC <- c("Two Fold Sites", TwoChiRawGWTC$statistic, TwoChiRawGWTC$p.value)
 
 OrgPvalCodon <- rbind(OrgPvalCodon, TwochiPvalCodon)
 OrgPvalGWTC <- rbind(OrgPvalGWTC, TwochiPvalGWTC)
