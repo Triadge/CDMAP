@@ -157,6 +157,7 @@ OneFold <- data.frame(OneFold)
   Ctriplet <- c()
   Gtriplet <- c()
   Triplet <- SixFold[,2]
+  fold <- "Sixfold"
 
   for(k in 1:length(Triplet))
   {
@@ -182,12 +183,12 @@ OneFold <- data.frame(OneFold)
   }
   
   #observed Mutations
-  #observed <- c(Atriplet[,5], Ctriplet[,5], Gtriplet[,5], Ttriplet[,5])
-  #observed <- as.matrix(observed)
+  observed <- c(Atriplet[,5], Ctriplet[,5], Gtriplet[,5], Ttriplet[,5])
+  observed <- as.matrix(observed)
 
   #observed Codons
-  observed <- c(Atriplet[,3], Ctriplet[,3], Gtriplet[,3], Ttriplet[,3])
-  observed <- as.matrix(observed)
+  #observed <- c(Atriplet[,3], Ctriplet[,3], Gtriplet[,3], Ttriplet[,3])
+  #observed <- as.matrix(observed)
   
   
   CodonExpected <- SixFold[,3]/sum(SixFold[,3])
@@ -195,12 +196,17 @@ OneFold <- data.frame(OneFold)
   
   GWTCExpected <- SixFold[,4]/sum(SixFold[,4])
   GWTCExpected <- as.matrix(CodonExpected)
+  
+  setwd(Path_to_scripts)
+  source("GC_Multifold_Analysis_Nfold.R")
 
 if(sum(observed) != 0)
 {
+  
+SixGCChiRawCodon <- chisq.test(observed, as.numeric(CodonProbMatrix[,4]))
 SixChiRawCodon <- chisq.test(observed, p = CodonExpected) #, simulate.p.value = TRUE, B= 5000)
 SixChiRawGWTC <- chisq.test(observed, p = GWTCExpected) #, simulate.p.value = TRUE, B = 5000)
-SixchiPvalCodon <- c("Six Fold Sites", SixChiRawCodon$statistic, SixChiRawCodon$p.value)
+SixchiPvalCodon <- c("Six Fold Sites", SixChiRawCodon$statistic, SixChiRawCodon$p.value, SixGCChiRawCodon$statistic, SixGCChiRawCodon$p.value)
 SixchiPvalGWTC <- c( "Six Fold Sites", SixChiRawGWTC$statistic, SixChiRawGWTC$p.value)
 
 OrgPvalCodon <- rbind(OrgPvalCodon, SixchiPvalCodon)
@@ -225,6 +231,7 @@ Ttriplet <- c()
 Ctriplet <- c()
 Gtriplet <- c()
 Triplet <- FourFold[,2]
+fold <- "Fourfold"
 
 for(k in 1:length(Triplet))
 {
@@ -249,8 +256,15 @@ for(k in 1:length(Triplet))
   }
 }
 
+#observed mutations
 observed <- c(Atriplet[,5], Ctriplet[,5], Gtriplet[,5], Ttriplet[,5])
 observed <- as.matrix(observed)
+
+#observed Codons
+#observed <- c(Atriplet[,3], Ctriplet[,3], Gtriplet[,3], Ttriplet[,3])
+#observed <- as.matrix(observed)
+
+
 
 CodonExpected <- FourFold[,3]/sum(FourFold[,3])
 CodonExpected <- as.matrix(CodonExpected)
@@ -258,11 +272,16 @@ CodonExpected <- as.matrix(CodonExpected)
 GWTCExpected <- FourFold[,4]/sum(FourFold[,4])
 GWTCExpected <- as.matrix(CodonExpected)
 
+setwd(Path_to_scripts)
+source("GC_Multifold_Analysis_Nfold.R")
+
 if(sum(observed) !=0)
 {
+FourGCChiRawCodon <- chisq.test(observed, as.numeric(CodonProbMatrix[,4]))
 FourChiRawCodon <- chisq.test(observed, p = CodonExpected) #, simulate.p.value = TRUE, B= 5000)
 FourChiRawGWTC <- chisq.test(observed, p = GWTCExpected) #, simulate.p.value = TRUE, B = 5000)
-FourchiPvalCodon <- c("Four Fold Sites", FourChiRawCodon$statistic, FourChiRawCodon$p.value)
+
+FourchiPvalCodon <- c("Four Fold Sites", FourChiRawCodon$statistic, FourChiRawCodon$p.value, FourGCChiRawCodon$statistic, FourGCChiRawCodon$p.value)
 FourchiPvalGWTC <- c("Four Fold Sites", FourChiRawGWTC$statistic, FourChiRawGWTC$p.value)
 
 OrgPvalCodon <- rbind(OrgPvalCodon, FourchiPvalCodon)
@@ -287,6 +306,7 @@ Ctriplet <- c()
 Gtriplet <- c()
 Triplet <- ThreeFold[,2]
 
+
 for(k in 1:length(Triplet))
 {
   if(grepl("[A]", Triplet[k], fixed = TRUE))
@@ -310,8 +330,13 @@ for(k in 1:length(Triplet))
   }
 }
 
+#observed mutations
 observed <- c(Atriplet[,5], Ctriplet[,5], Gtriplet[,5], Ttriplet[,5])
 observed <- as.matrix(observed)
+
+#observed Codons
+#observed <- c(Atriplet[,3], Ctriplet[,3], Gtriplet[,3], Ttriplet[,3])
+#observed <- as.matrix(observed)
 
 CodonExpected <- ThreeFold[,3]/sum(ThreeFold[,3])
 CodonExpected <- as.matrix(CodonExpected)
@@ -319,11 +344,17 @@ CodonExpected <- as.matrix(CodonExpected)
 GWTCExpected <- ThreeFold[,4]/sum(ThreeFold[,4])
 GWTCExpected <- as.matrix(CodonExpected)
 
+setwd(Path_to_scripts)
+source("GC_Multifold_Analysis_Nfold.R")
+
 if(sum(observed) != 0)
 {
+
+ThreeGCChiRawCodon <- chisq.test(observed, as.numeric(CodonProbMatrix[,4]))
 ThreeChiRawCodon <- chisq.test(observed, p = CodonExpected) #, simulate.p.value = TRUE, B= 5000)
 ThreeChiRawGWTC <- chisq.test(observed, p = GWTCExpected) #, simulate.p.value = TRUE, B = 5000)
-ThreechiPvalCodon <- c("Three Fold Sites", ThreeChiRawCodon$statistic, ThreeChiRawCodon$p.value)
+
+ThreechiPvalCodon <- c("Three Fold Sites", ThreeChiRawCodon$statistic, ThreeChiRawCodon$p.value, ThreeGCChiRawCodon$statistic, ThreeGCChiRawCodon$p.value)
 ThreechiPvalGWTC <- c("Three Fold Sites", ThreeChiRawGWTC$statistic, ThreeChiRawGWTC$p.value)
 
 OrgPvalCodon <- rbind(OrgPvalCodon, ThreechiPvalCodon)
@@ -349,6 +380,7 @@ Ctriplet <- c()
 Gtriplet <- c()
 Triplet <- TwoFold[,2]
 
+
 for(k in 1:length(Triplet))
 {
   if(grepl("[A]", Triplet[k], fixed = TRUE))
@@ -372,8 +404,13 @@ for(k in 1:length(Triplet))
   }
 }
 
+#observed mutations
 observed <- c(Atriplet[,5], Ctriplet[,5], Gtriplet[,5], Ttriplet[,5])
 observed <- as.matrix(observed)
+
+#observed Codons
+#observed <- c(Atriplet[,3], Ctriplet[,3], Gtriplet[,3], Ttriplet[,3])
+#observed <- as.matrix(observed)
 
 CodonExpected <- TwoFold[,3]/sum(TwoFold[,3])
 CodonExpected <- as.matrix(CodonExpected)
@@ -381,11 +418,17 @@ CodonExpected <- as.matrix(CodonExpected)
 GWTCExpected <- TwoFold[,4]/sum(TwoFold[,4])
 GWTCExpected <- as.matrix(CodonExpected)
 
+setwd(Path_to_scripts)
+source("GC_Multifold_Analysis_Nfold.R")
+
 if(sum(observed) != 0 )
 {
+
+TwoGCChiRawCodon <- chisq.test(observed, as.numeric(CodonProbMatrix[,4]))
 TwoChiRawCodon <- chisq.test(observed, p = CodonExpected) #, simulate.p.value = TRUE, B= 5000)
 TwoChiRawGWTC <- chisq.test(observed, p = GWTCExpected) #, simulate.p.value = TRUE, B = 5000)
-TwochiPvalCodon <- c("Two Fold Sites", TwoChiRawCodon$statistic, TwoChiRawCodon$p.value)
+
+TwochiPvalCodon <- c("Two Fold Sites", TwoChiRawCodon$statistic, TwoChiRawCodon$p.value, TwoGCChiRawCodon$statistic, TwoGCChiRawCodon$p.value)
 TwochiPvalGWTC <- c("Two Fold Sites", TwoChiRawGWTC$statistic, TwoChiRawGWTC$p.value)
 
 OrgPvalCodon <- rbind(OrgPvalCodon, TwochiPvalCodon)
@@ -453,6 +496,8 @@ print("Two Fold Complete")
 
 rownames(OrgPvalCodon) <- NULL
 rownames(OrgPvalGWTC) <- NULL
+OrgColNames <- c("Fold Site", "Chi Stat", "P-Value", "GC Chi Stat", "GC P-Value")
+colnames(OrgPvalCodon) <- OrgColNames
 setwd(path_output_organism)
 
 write.csv(OrgPvalCodon, "ChiSquare_Codon_ByFoldSite.csv")
