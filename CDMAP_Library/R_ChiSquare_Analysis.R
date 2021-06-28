@@ -48,6 +48,10 @@ GCChiSquarePval <- matrix( nrow = 0, ncol = 3)
 GCChiSquarePvalCodon <- matrix( nrow = 0, ncol = 3)
 colnames(GCChiSquarePvalCodon) <- ChiNames
 
+MutChiSquarePval <- matrix( nrow = 0, ncol = 3)
+MutChiSquarePvalCodon <- matrix( nrow = 0, ncol = 3)
+colnames(GCChiSquarePvalCodon) <- ChiNames
+
 
 #Amino Acid sites and data structures by Fold Designation
 #============================
@@ -168,14 +172,36 @@ for (j in 1:length(OrganismChrome))
           Ttriplet <- rbind(Ttriplet, organismSubset[k,])
           }
     }
+
+  ObservedMaster <- organismSubset
+  
+  #Observed Mutation Rates
+   observedRate <- c(Atriplet[,6], Ctriplet[,6], Gtriplet[,6], Ttriplet[,6])
+   #observedRate <- as.matrix(observed)
     
   #Observed Mutations
- # observed <- c(Atriplet[,5], Ctriplet[,5], Gtriplet[,5], Ttriplet[,5])
- # observed <- as.matrix(observed)
+  observedMut <- c(Atriplet[,5], Ctriplet[,5], Gtriplet[,5], Ttriplet[,5])
+  #observedMut <- as.matrix(observed)
  
   #observed Codons 
-  observed <- c(Atriplet[,3], Ctriplet[,3], Gtriplet[,3], Ttriplet[,3])
-  observed <- as.matrix(observed)
+  observedCodon <- c(Atriplet[,3], Ctriplet[,3], Gtriplet[,3], Ttriplet[,3])
+  #observedCodon <- as.matrix(observed)
+  
+  ObsFlag <- "Codon"
+  
+  if(ObsFlag == "Rates")
+  {
+    observed <- observedRate
+  }
+  if(ObsFlag == "Counts")
+  {
+    observed <- observedMut
+  }
+  if(ObsFlag == "Codon")
+  {
+    observed <- observedCodon
+  }
+  
 
   CodonExpected <- organismSubset[,3]/sum(organismSubset[,3])
   CodonExpected <- as.matrix(CodonExpected)
@@ -221,9 +247,11 @@ for (j in 1:length(OrganismChrome))
    
    setwd(Path_to_scripts)
    source("GC_Multifold_Analysis.R")
+   setwd(Path_to_scripts)
+   source("MutRate_ChiSqAnalysis.R")
    print("running Fold Analysis")
    setwd(Path_to_scripts)
-   source("ChiSq_Foldsite.R")
+   #source("ChiSq_Foldsite.R")
 
   
   #context_output_downstream_matrix <- rbind(context_output_downstream_matrix, newrow_down) #appends new mutant to abbreviated text
@@ -233,12 +261,14 @@ for (j in 1:length(OrganismChrome))
 }
 
 rownames(ChiSquarePvalCodon) <- NULL
+rownames(MutChiSquarePvalCodon) <- NULL
 rownames(GCChiSquarePvalCodon) <- NULL
 rownames(ChiSquarePvalGWTC) <- NULL
 
 setwd(path_output_SO)
 
 write.csv(ChiSquarePvalCodon, "AllOrganisms_Pval_Codon.csv")
+write.csv(MutChiSquarePvalCodon, "AllOrganisms_Mut_Pval_Codon.csv")
 write.csv(GCChiSquarePvalCodon, "AllOrganisms_GC_Pval_Codon.csv")
 write.csv(ChiSquarePvalGWTC, "AllOrganisms_Pval_GWTC.csv")
 

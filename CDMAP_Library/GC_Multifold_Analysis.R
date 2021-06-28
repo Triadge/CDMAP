@@ -51,8 +51,9 @@ GC_File_Title <- "GC_Codon_Probability_Matrix.csv"
 setwd(path_output_organism)
 write.csv(CodonProbMatrix, GC_File_Title)
 
+GCFrame <- data.frame(observed, as.numeric(CodonProbMatrix[,4]))
 
-GCChiRawCodon <- chisq.test(observed, as.numeric(CodonProbMatrix[,4]))
+GCChiRawCodon <- chisq.test(GCFrame)
 GCchiPvalCodon <- c(organism, GCChiRawCodon$statistic, GCChiRawCodon$p.value)
 print(GCchiPvalCodon)
 GCChiSquarePvalCodon <- rbind(GCChiSquarePvalCodon, GCchiPvalCodon)

@@ -182,13 +182,34 @@ OneFold <- data.frame(OneFold)
     }
   }
   
-  #observed Mutations
-  observed <- c(Atriplet[,5], Ctriplet[,5], Gtriplet[,5], Ttriplet[,5])
-  observed <- as.matrix(observed)
+  ObservedMaster <- organismSubset
+  
+  #Observed Mutation Rates
+  observedRate <- c(Atriplet[,6], Ctriplet[,6], Gtriplet[,6], Ttriplet[,6])
+  observedRate <- as.matrix(observed)
+  
+  #Observed Mutations
+  observedMut <- c(Atriplet[,5], Ctriplet[,5], Gtriplet[,5], Ttriplet[,5])
+  observedMut <- as.matrix(observed)
+  
+  #observed Codons 
+  observedCodon <- c(Atriplet[,3], Ctriplet[,3], Gtriplet[,3], Ttriplet[,3])
+  observedCodon <- as.matrix(observed)
+  
+  
 
-  #observed Codons
-  #observed <- c(Atriplet[,3], Ctriplet[,3], Gtriplet[,3], Ttriplet[,3])
-  #observed <- as.matrix(observed)
+  if(ObsFlag == "Counts")
+  {
+    observed <- observedMut
+    observednum <- SixFold[,5]
+    observedFoldRate <- SixFold[,6]
+  }
+  if(ObsFlag == "Codon")
+  {
+    observed <- observedCodon
+    observednum <- SixFold[,3]
+    observedFoldRate <- SixFold[,6]
+  }
   
   
   CodonExpected <- SixFold[,3]/sum(SixFold[,3])
@@ -197,22 +218,33 @@ OneFold <- data.frame(OneFold)
   GWTCExpected <- SixFold[,4]/sum(SixFold[,4])
   GWTCExpected <- as.matrix(CodonExpected)
   
+  
   setwd(Path_to_scripts)
   source("GC_Multifold_Analysis_Nfold.R")
+  setwd(Path_to_scripts)
+  source("MutRate_ChiSqAnalysis_Nfold.R")
 
-if(sum(observed) != 0)
+  if(length(unique(MutRateProbMatrix[,3])) != 1)
 {
   
-SixGCChiRawCodon <- chisq.test(observed, as.numeric(CodonProbMatrix[,4]))
-SixChiRawCodon <- chisq.test(observed, p = CodonExpected) #, simulate.p.value = TRUE, B= 5000)
-SixChiRawGWTC <- chisq.test(observed, p = GWTCExpected) #, simulate.p.value = TRUE, B = 5000)
-SixchiPvalCodon <- c("Six Fold Sites", SixChiRawCodon$statistic, SixChiRawCodon$p.value, SixGCChiRawCodon$statistic, SixGCChiRawCodon$p.value)
+chiframeGC <- data.frame(as.numeric(observednum), as.numeric(CodonProbMatrix[,4]))
+chiframeMut <-  data.frame(as.numeric(MutRateProbMatrix[,2]), as.numeric(MutRateProbMatrix[,6]))
+SixGCChiRawCodon <- chisq.test(chiframeGC)
+SixMutChiRawCodon <- chisq.test(chiframeMut)
+SixChiRawCodon <- chisq.test(observednum, p = CodonExpected) #, simulate.p.value = TRUE, B= 5000)
+SixChiRawGWTC <- chisq.test(observednum, p = GWTCExpected) #, simulate.p.value = TRUE, B = 5000)
+
+
+SixchiPvalCodon <- c("Six Fold Sites", SixChiRawCodon$statistic, SixChiRawCodon$p.value, SixGCChiRawCodon$statistic, SixGCChiRawCodon$p.value, SixMutChiRawCodon$statistic, SixMutChiRawCodon$p.value)
 SixchiPvalGWTC <- c( "Six Fold Sites", SixChiRawGWTC$statistic, SixChiRawGWTC$p.value)
+
+
+
 
 OrgPvalCodon <- rbind(OrgPvalCodon, SixchiPvalCodon)
 OrgPvalGWTC <- rbind(OrgPvalGWTC, SixchiPvalGWTC)
 }
-if(sum(observed) == 0)
+  if(length(unique(MutRateProbMatrix[,3])) == 1)
 {
   SixchiPvalCodon <- c("Six Fold Sites", "NA", "NA")
   SixchiPvalGWTC <- c("Six Fold Sites", "NA", "NA")
@@ -256,13 +288,33 @@ for(k in 1:length(Triplet))
   }
 }
 
-#observed mutations
-observed <- c(Atriplet[,5], Ctriplet[,5], Gtriplet[,5], Ttriplet[,5])
-observed <- as.matrix(observed)
+ObservedMaster <- organismSubset
 
-#observed Codons
-#observed <- c(Atriplet[,3], Ctriplet[,3], Gtriplet[,3], Ttriplet[,3])
-#observed <- as.matrix(observed)
+#Observed Mutation Rates
+observedRate <- c(Atriplet[,6], Ctriplet[,6], Gtriplet[,6], Ttriplet[,6])
+observedRate <- as.matrix(observed)
+
+#Observed Mutations
+observedMut <- c(Atriplet[,5], Ctriplet[,5], Gtriplet[,5], Ttriplet[,5])
+observedMut <- as.matrix(observed)
+
+#observed Codons 
+observedCodon <- c(Atriplet[,3], Ctriplet[,3], Gtriplet[,3], Ttriplet[,3])
+observedCodon <- as.matrix(observed)
+
+
+if(ObsFlag == "Counts")
+{
+  observed <- observedMut
+  observednum <- FourFold[,5]
+  observedFoldRate <- FourFold[,6]
+}
+if(ObsFlag == "Codon")
+{
+  observed <- observedCodon
+  observednum <- FourFold[,3]
+  observedFoldRate <- FourFold[,6]
+}
 
 
 
@@ -274,20 +326,26 @@ GWTCExpected <- as.matrix(CodonExpected)
 
 setwd(Path_to_scripts)
 source("GC_Multifold_Analysis_Nfold.R")
+setwd(Path_to_scripts)
+source("MutRate_ChiSqAnalysis_Nfold.R")
 
-if(sum(observed) !=0)
+if(length(unique(MutRateProbMatrix[,3])) != 1)
 {
-FourGCChiRawCodon <- chisq.test(observed, as.numeric(CodonProbMatrix[,4]))
-FourChiRawCodon <- chisq.test(observed, p = CodonExpected) #, simulate.p.value = TRUE, B= 5000)
-FourChiRawGWTC <- chisq.test(observed, p = GWTCExpected) #, simulate.p.value = TRUE, B = 5000)
+  chiframeGC <- data.frame(as.numeric(observednum), as.numeric(CodonProbMatrix[,4]))
+  chiframeMut <-  data.frame(as.numeric(MutRateProbMatrix[,2]), as.numeric(MutRateProbMatrix[,6]))
+  FourGCChiRawCodon <- chisq.test(chiframeGC)
+  FourMutChiRawCodon <- chisq.test(chiframeMut)
+  FourChiRawCodon <- chisq.test(observednum, p = CodonExpected) #, simulate.p.value = TRUE, B= 5000)
+  FourChiRawGWTC <- chisq.test(observednum, p = GWTCExpected) #, simulate.p.value = TRUE, B = 5000)
 
-FourchiPvalCodon <- c("Four Fold Sites", FourChiRawCodon$statistic, FourChiRawCodon$p.value, FourGCChiRawCodon$statistic, FourGCChiRawCodon$p.value)
-FourchiPvalGWTC <- c("Four Fold Sites", FourChiRawGWTC$statistic, FourChiRawGWTC$p.value)
-
+  
+  FourchiPvalCodon <- c("Four Fold Sites", FourChiRawCodon$statistic, FourChiRawCodon$p.value, FourGCChiRawCodon$statistic, FourGCChiRawCodon$p.value, FourMutChiRawCodon$statistic, FourMutChiRawCodon$p.value)
+  FourchiPvalGWTC <- c( "Four Fold Sites", FourChiRawGWTC$statistic, FourChiRawGWTC$p.value)
+  
 OrgPvalCodon <- rbind(OrgPvalCodon, FourchiPvalCodon)
 OrgPvalGWTC <- rbind(OrgPvalGWTC, FourchiPvalGWTC)
 }
-if(sum(observed) == 0)
+if(length(unique(MutRateProbMatrix[,3])) == 1)
 {
   FourchiPvalCodon <- c("Four Fold Sites", "NA", "NA")
   FourchiPvalGWTC <- c("Four Fold Sites", "NA", "NA")
@@ -330,13 +388,34 @@ for(k in 1:length(Triplet))
   }
 }
 
-#observed mutations
-observed <- c(Atriplet[,5], Ctriplet[,5], Gtriplet[,5], Ttriplet[,5])
-observed <- as.matrix(observed)
+ObservedMaster <- organismSubset
 
-#observed Codons
-#observed <- c(Atriplet[,3], Ctriplet[,3], Gtriplet[,3], Ttriplet[,3])
-#observed <- as.matrix(observed)
+#Observed Mutation Rates
+observedRate <- c(Atriplet[,6], Ctriplet[,6], Gtriplet[,6], Ttriplet[,6])
+observedRate <- as.matrix(observed)
+
+#Observed Mutations
+observedMut <- c(Atriplet[,5], Ctriplet[,5], Gtriplet[,5], Ttriplet[,5])
+observedMut <- as.matrix(observed)
+
+#observed Codons 
+observedCodon <- c(Atriplet[,3], Ctriplet[,3], Gtriplet[,3], Ttriplet[,3])
+observedCodon <- as.matrix(observed)
+
+
+
+if(ObsFlag == "Counts")
+{
+  observed <- observedMut
+  observednum <- ThreeFold[,5]
+  observedFoldRate <- ThreeFold[,6]
+}
+if(ObsFlag == "Codon")
+{
+  observed <- observedCodon
+  observednum <- ThreeFold[,3]
+  observedFoldRate <- ThreeFold[,6]
+}
 
 CodonExpected <- ThreeFold[,3]/sum(ThreeFold[,3])
 CodonExpected <- as.matrix(CodonExpected)
@@ -346,23 +425,27 @@ GWTCExpected <- as.matrix(CodonExpected)
 
 setwd(Path_to_scripts)
 source("GC_Multifold_Analysis_Nfold.R")
+setwd(Path_to_scripts)
+source("MutRate_ChiSqAnalysis_Nfold.R")
 
-if(sum(observed) != 0)
+if(length(unique(MutRateProbMatrix[,3])) != 1)
 {
-
-ThreeGCChiRawCodon <- chisq.test(observed, as.numeric(CodonProbMatrix[,4]))
-ThreeChiRawCodon <- chisq.test(observed, p = CodonExpected) #, simulate.p.value = TRUE, B= 5000)
-ThreeChiRawGWTC <- chisq.test(observed, p = GWTCExpected) #, simulate.p.value = TRUE, B = 5000)
-
-ThreechiPvalCodon <- c("Three Fold Sites", ThreeChiRawCodon$statistic, ThreeChiRawCodon$p.value, ThreeGCChiRawCodon$statistic, ThreeGCChiRawCodon$p.value)
-ThreechiPvalGWTC <- c("Three Fold Sites", ThreeChiRawGWTC$statistic, ThreeChiRawGWTC$p.value)
-
+  chiframeGC <- data.frame(as.numeric(observednum), as.numeric(CodonProbMatrix[,4]))
+  chiframeMut <-  data.frame(as.numeric(MutRateProbMatrix[,2]), as.numeric(MutRateProbMatrix[,6]))
+  ThreeGCChiRawCodon <- chisq.test(chiframeGC)
+  ThreeMutChiRawCodon <- chisq.test(chiframeMut)
+  ThreeChiRawCodon <- chisq.test(observednum, p = CodonExpected) #, simulate.p.value = TRUE, B= 5000)
+  ThreeChiRawGWTC <- chisq.test(observednum, p = GWTCExpected) #, simulate.p.value = TRUE, B = 5000)
+  
+  ThreechiPvalCodon <- c("Three Fold Sites", ThreeChiRawCodon$statistic, ThreeChiRawCodon$p.value, ThreeGCChiRawCodon$statistic, ThreeGCChiRawCodon$p.value, ThreeMutChiRawCodon$statistic, ThreeMutChiRawCodon$p.value)
+  ThreechiPvalGWTC <- c( "Three Fold Sites", ThreeChiRawGWTC$statistic, ThreeChiRawGWTC$p.value)
+  
 OrgPvalCodon <- rbind(OrgPvalCodon, ThreechiPvalCodon)
 OrgPvalGWTC <- rbind(OrgPvalGWTC, ThreechiPvalGWTC)
 print("Three Fold Complete")
 }
 
-if(sum(observed) == 0)
+if(length(unique(MutRateProbMatrix[,3])) == 1)
 {
   ThreechiPvalCodon <- c("Three Fold Sites", "NA", "NA")
   ThreechiPvalGWTC <- c("Three Fold Sites", "NA", "NA")
@@ -404,13 +487,33 @@ for(k in 1:length(Triplet))
   }
 }
 
-#observed mutations
-observed <- c(Atriplet[,5], Ctriplet[,5], Gtriplet[,5], Ttriplet[,5])
-observed <- as.matrix(observed)
+ObservedMaster <- organismSubset
 
-#observed Codons
-#observed <- c(Atriplet[,3], Ctriplet[,3], Gtriplet[,3], Ttriplet[,3])
-#observed <- as.matrix(observed)
+#Observed Mutation Rates
+observedRate <- c(Atriplet[,6], Ctriplet[,6], Gtriplet[,6], Ttriplet[,6])
+observedRate <- as.matrix(observed)
+
+#Observed Mutations
+observedMut <- c(Atriplet[,5], Ctriplet[,5], Gtriplet[,5], Ttriplet[,5])
+observedMut <- as.matrix(observed)
+
+#observed Codons 
+observedCodon <- c(Atriplet[,3], Ctriplet[,3], Gtriplet[,3], Ttriplet[,3])
+observedCodon <- as.matrix(observed)
+
+
+if(ObsFlag == "Counts")
+{
+  observed <- observedMut
+  observednum <- TwoFold[,5]
+  observedFoldRate <- TwoFold[,6]
+}
+if(ObsFlag == "Codon")
+{
+  observed <- observedCodon
+  observednum <- TwoFold[,3]
+  observedFoldRate <- TwoFold[,6]
+}
 
 CodonExpected <- TwoFold[,3]/sum(TwoFold[,3])
 CodonExpected <- as.matrix(CodonExpected)
@@ -420,21 +523,26 @@ GWTCExpected <- as.matrix(CodonExpected)
 
 setwd(Path_to_scripts)
 source("GC_Multifold_Analysis_Nfold.R")
+setwd(Path_to_scripts)
+source("MutRate_ChiSqAnalysis_Nfold.R")
 
-if(sum(observed) != 0 )
+if(length(unique(MutRateProbMatrix[,3])) != 1)
 {
+  chiframeGC <- data.frame(as.numeric(observednum), as.numeric(CodonProbMatrix[,4]))
+  chiframeMut <-  data.frame(as.numeric(MutRateProbMatrix[,2]), as.numeric(MutRateProbMatrix[,6]))
+  TwoGCChiRawCodon <- chisq.test(chiframeGC)
+  TwoMutChiRawCodon <- chisq.test(chiframeMut)
+  TwoChiRawCodon <- chisq.test(observednum, p = CodonExpected) #, simulate.p.value = TRUE, B= 5000)
+  TwoChiRawGWTC <- chisq.test(observednum, p = GWTCExpected) #, simulate.p.value = TRUE, B = 5000)
 
-TwoGCChiRawCodon <- chisq.test(observed, as.numeric(CodonProbMatrix[,4]))
-TwoChiRawCodon <- chisq.test(observed, p = CodonExpected) #, simulate.p.value = TRUE, B= 5000)
-TwoChiRawGWTC <- chisq.test(observed, p = GWTCExpected) #, simulate.p.value = TRUE, B = 5000)
-
-TwochiPvalCodon <- c("Two Fold Sites", TwoChiRawCodon$statistic, TwoChiRawCodon$p.value, TwoGCChiRawCodon$statistic, TwoGCChiRawCodon$p.value)
-TwochiPvalGWTC <- c("Two Fold Sites", TwoChiRawGWTC$statistic, TwoChiRawGWTC$p.value)
-
+  
+  TwochiPvalCodon <- c("Two Fold Sites", TwoChiRawCodon$statistic, TwoChiRawCodon$p.value, TwoGCChiRawCodon$statistic, TwoGCChiRawCodon$p.value, TwoMutChiRawCodon$statistic, TwoMutChiRawCodon$p.value)
+  TwochiPvalGWTC <- c( "Two Fold Sites", TwoChiRawGWTC$statistic, TwoChiRawGWTC$p.value)
+  
 OrgPvalCodon <- rbind(OrgPvalCodon, TwochiPvalCodon)
 OrgPvalGWTC <- rbind(OrgPvalGWTC, TwochiPvalGWTC)
 }
-if(sum(observed) == 0)
+if(length(unique(MutRateProbMatrix[,3])) == 1)
 {
   TwochiPvalCodon <- c("Two Fold Sites", "NA", "NA")
   TwochiPvalGWTC <- c("Two Fold Sites", "NA", "NA")
@@ -496,7 +604,7 @@ print("Two Fold Complete")
 
 rownames(OrgPvalCodon) <- NULL
 rownames(OrgPvalGWTC) <- NULL
-OrgColNames <- c("Fold Site", "Chi Stat", "P-Value", "GC Chi Stat", "GC P-Value")
+OrgColNames <- c("Fold Site", "Chi Stat", "P-Value", "GC Chi Stat", "GC P-Value", "MutChiStat", "MutChiPval")
 colnames(OrgPvalCodon) <- OrgColNames
 setwd(path_output_organism)
 
