@@ -6,6 +6,9 @@ setwd(Path_output_organism)
 
 report_suffix <- "DataSummary.txt"
 Report_Name <- paste(organism, report_suffix, sep = "_")
+fasta_file_name <- paste(organism, ".fasta", sep = "" )
+detach("package:vcfR", unload = TRUE)
+write.fasta(RefFile, organism, fasta_file_name)
 
 
 #Generating a Data report of all pertinent Information about the Organism post-pipeline
@@ -16,6 +19,9 @@ sink(file = Report_Name, type = "output")
 print("ORI, TERM, and Replichore Information: ")
 print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 print(paste("Name of organism analyzed: ", organism, sep = ''))
+print(paste("Number of Mutation Accumulation Generations carried out: ", generations, sep = ''))
+print(paste("Number of Mutation Accumulation Lines Ran: ", malines, sep = ''))
+  
 print(paste("Number of mutation accumulation lines during experiment: ", malines, sep = ''))
 print(paste("Number of experimental generations during MA expiriment: ", generations, sep = ''))
 print(paste("Reference Sequence length (Genome Size): ", len_refseq, sep = ''))

@@ -45,12 +45,11 @@ if(any(grepl(DirCheck, MasterCheck, ignore.case = TRUE)))
 #   Path_GBFile <- "/Desktop/CDMAP/Test_Datasets/Covid19/sequence.gb"
 #   Path_InFile <-"/Desktop/CDMAP/Test_Datasets/Covid19/ncov_global_PointMutations.csv"
 #   Path_Refseq <- "/Desktop/PhD_Thesis/Covid19/NC_045512.2.fasta"
-  
-  Path_RefFile <- "/Desktop/CDMAP/Test_Datasets/VF/chr2/CP000021.fasta"
-  Path_GBFile <- "/Desktop/CDMAP/Test_Datasets/VF/chr2/CP000021.gbk"
-  Path_InFile <-"/Desktop/CDMAP/Test_Datasets/VF/chr2/WT_chr2_basecalls.csv"
-  Path_Refseq <- "/Desktop/CDMAP/Test_Datasets/VF/chr2/CP000021.fasta"
-  
+
+  Path_RefFile <- "/Desktop/CDMAP/Test_Datasets/Teredinibacter_turnerae_T7901/CP001614.fasta"
+  Path_GBFile <- "/Desktop/CDMAP/Test_Datasets/Teredinibacter_turnerae_T7901/CP001614.gbk"
+  Path_InFile <- "/Desktop/CDMAP/Test_Datasets/Teredinibacter_turnerae_T7901/Basecalls.csv"
+  Path_Refseq <- "/Desktop/CDMAP/Test_Datasets/Teredinibacter_turnerae_T7901/CP001614.fasta"
   ##################################
 
   #Dynamically grab the user path information

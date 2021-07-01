@@ -198,7 +198,6 @@ term_pos <- which.min(ori_ref$skew) #find the position of the terminus of replic
 term_value <- ori_ref$skew[term_pos] #value of the terminii
 term_bp <- term_pos*1000 #base pair position of the terminus of replication
 
-
 #generates a dummy indices vector based on the length of the reference sequence
 RefSeq_inds <<- c()
 for(i in 1:len_refseq) 
@@ -224,6 +223,12 @@ for(i in 1:len_refseq)
 # ori_bp <- 336131
 # term_pos <- 2199.319
 # term_bp <- 2199319
+
+#Use for Linear Chromosomes only (agro_vitis_Chr2)
+# ori_pos <- .918
+# ori_bp <- 918
+# term_pos <- 642.512
+# term_bp <- 642512
 
 #Use for Linear Chromosomes only
  # ori_pos <- 0
@@ -501,6 +506,7 @@ CodonGCcontent <- GC_counter/CodingRegionSize
 CodonGCcontent <- CodonGCcontent * 100
 CodonATcontent <- 100 - CodonGCcontent
 source("Config_Dump.R")
+
 
 ## =================== ##
 
