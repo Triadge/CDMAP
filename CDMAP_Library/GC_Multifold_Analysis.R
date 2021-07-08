@@ -42,6 +42,16 @@ for(p in 1:length(CodonTriplets))
   CodonProbMatrix[p,2] <- as.numeric(CodonProbability)  
 }
 
+#tempcodon <- CodonProbMatrix
+#Detect zero mutation rate entries and delete/replace
+for(s in length(organismSubset[,1]):1) #reverse iterate through matrix to avoid subscript out of bound errors
+{
+  if(organismSubset[s,6] == 0) #detect if there is a 0 mutation rate
+  {
+    CodonProbMatrix <- CodonProbMatrix[-s,] #remove row with 0 mutation rate
+  }
+}
+
 SumCodonP <- sum(as.numeric(CodonProbMatrix[,2]))
 CodonProbMatrix[,3] <- as.numeric(CodonProbMatrix[,2])/SumCodonP
 Sum_observed <- sum(observed)
@@ -54,7 +64,7 @@ write.csv(CodonProbMatrix, GC_File_Title)
 GCFrame <- data.frame(observed, as.numeric(CodonProbMatrix[,4]))
 
 GCChiRawCodon <- chisq.test(GCFrame)
-GCchiPvalCodon <- c(organism, GCChiRawCodon$statistic, GCChiRawCodon$p.value)
+GCchiPvalCodon <- c(organism, GCChiRawCodon$statistic, GCChiRawCodon$p.value, GCChiRawCodon$parameter)
 print(GCchiPvalCodon)
 GCChiSquarePvalCodon <- rbind(GCChiSquarePvalCodon, GCchiPvalCodon)
 

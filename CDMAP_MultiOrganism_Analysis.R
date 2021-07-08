@@ -10,7 +10,7 @@ package.check <- lapply(
     }
   }
 )
-BiocManager::install("genbankr")
+BiocManager::install("genbankr", force = TRUE)
 library("genbankr")
 
 username <- Sys.info()[7]

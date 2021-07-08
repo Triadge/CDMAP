@@ -29,27 +29,27 @@ OrganismChrome <- sort(unique(dataTable[,1]))
 HeaderNames <- names(dataTable)
 
 
-ChiNames <- c("Organism", "RawChiStat", "RawChiPval")
+ChiNames <- c("Organism", "ChiStat", "ChiPval", "df")
 
 
 
-ChiSquarePval <- matrix( nrow = 0, ncol = 3)
-ChiSquarePvalCodon <- matrix( nrow = 0, ncol = 3)
-ChiSquarePvalGWTC <- matrix( nrow = 0, ncol = 3)
-OrgPvalCodon <- matrix( nrow = 0, ncol = 3)
-OrgPvalGWTC <- matrix( nrow = 0, ncol = 3)
+ChiSquarePval <- matrix( nrow = 0, ncol = 4)
+ChiSquarePvalCodon <- matrix( nrow = 0, ncol = 4)
+ChiSquarePvalGWTC <- matrix( nrow = 0, ncol = 4)
+OrgPvalCodon <- matrix( nrow = 0, ncol = 4)
+OrgPvalGWTC <- matrix( nrow = 0, ncol = 4)
 
 colnames(ChiSquarePvalCodon) <- ChiNames
 colnames(ChiSquarePvalGWTC) <- ChiNames
 colnames(OrgPvalCodon) <- ChiNames
 colnames(OrgPvalGWTC) <- ChiNames
 
-GCChiSquarePval <- matrix( nrow = 0, ncol = 3)
-GCChiSquarePvalCodon <- matrix( nrow = 0, ncol = 3)
+GCChiSquarePval <- matrix( nrow = 0, ncol = 4)
+GCChiSquarePvalCodon <- matrix( nrow = 0, ncol = 4)
 colnames(GCChiSquarePvalCodon) <- ChiNames
 
-MutChiSquarePval <- matrix( nrow = 0, ncol = 3)
-MutChiSquarePvalCodon <- matrix( nrow = 0, ncol = 3)
+MutChiSquarePval <- matrix( nrow = 0, ncol = 4)
+MutChiSquarePvalCodon <- matrix( nrow = 0, ncol = 4)
 colnames(GCChiSquarePvalCodon) <- ChiNames
 
 
@@ -132,6 +132,10 @@ i <<- 1
 for (j in 1:length(OrganismChrome))
   {
   
+  if(i >= length(dataTable[,1]))
+  {
+    break
+  }
   #Insert GC content calculation script here#
   #pass OrganismChrome to the script#
   GC_content <- as.numeric(GC_output_matrix[j,2])
@@ -229,9 +233,9 @@ for (j in 1:length(OrganismChrome))
    #print(ChiRawGWTC$p.value)
 
      
-   chiPvalCodon <- c(organism, ChiRawCodon$statistic, ChiRawCodon$p.value)
+   chiPvalCodon <- c(organism, ChiRawCodon$statistic, ChiRawCodon$p.value, ChiRawCodon$parameter)
    print(chiPvalCodon)
-   chiPvalGWTC <- c(organism, ChiRawGWTC$statistic, ChiRawGWTC$p.value)
+   chiPvalGWTC <- c(organism, ChiRawGWTC$statistic, ChiRawGWTC$p.value, ChiRawGWTC$parameter)
 
   #  
    ChiSquarePvalCodon <- rbind(ChiSquarePvalCodon, chiPvalCodon)
@@ -243,7 +247,32 @@ for (j in 1:length(OrganismChrome))
    write.csv(codonout, "ExpectedCodons.csv")
    write.csv(gwtcout, "ExpectedGWTC.csv")
    
+   #ctrlsubset <- organismSubset
+   #tempsubset <- organismSubset 
+   #need to remove row without altering subscript of the matrix!!!!
+   #for(s in length(MutRateProbMatrix[,1]):1)
+   #{
+    #print(s)
+     #if(tempsubset[s,6] == 0) #detect if row has zero mutations
+     #{
+       #print("removing entry!")
+       #tempsubset <- tempsubset[-s,] #remove the row with a 0 entry
+     #}
+   #  if(s %in% inds)
+   #  {
+   #    tempmatrix <- MutRateProbMatrix[-s,]
+   #  }
+   #}
 
+   for(s in length(observed):1) #reverse iterate through matrix to avoid subscript out of bound errors
+   {
+     if(organismSubset[s,6] == 0) #detect if there is a 0 mutation rate
+     {
+       observed <- observed[-s] #remove row with 0 mutation rate
+       observedCodon <- observedCodon[-s]
+       #MutRateProbMatrix[s,3] <- 0.000000000001 #option to insert dummy mutation rate instead
+     }
+   }
    
    setwd(Path_to_scripts)
    source("GC_Multifold_Analysis.R")
@@ -251,7 +280,7 @@ for (j in 1:length(OrganismChrome))
    source("MutRate_ChiSqAnalysis.R")
    print("running Fold Analysis")
    setwd(Path_to_scripts)
-   #source("ChiSq_Foldsite.R")
+   source("ChiSq_Foldsite.R")
 
   
   #context_output_downstream_matrix <- rbind(context_output_downstream_matrix, newrow_down) #appends new mutant to abbreviated text

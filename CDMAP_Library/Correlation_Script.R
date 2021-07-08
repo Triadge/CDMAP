@@ -11,6 +11,10 @@ CCW_output <- FALSE
 directory <- list.files(path_analyze)
 setwd(path_analyze)
 
+GC_corr_matrix <- matrix(0L, nrow =dim(GC_output_matrix)[1], ncol = dim(GC_output_matrix)[1])
+GC_arr <- as.character(GC_sort_matrix$name)
+
+
 
 for(i in 1:length(directory))
 {
@@ -38,6 +42,66 @@ for(i in 1:length(directory))
   }
 
 
+
+#agropos <- grep("Agrobacterium_vitis_Chr2", names_array)
+#names_array <- names_array[-agropos]
+#matrix_index_array <- matrix_index_array[-agropos]
+
+name_abbrev_array <- c()
+gcpos_arr <- c()
+
+for(i in 1:length(GC_arr))
+{
+
+if(i > length(GC_arr))
+{
+  break
+}
+  
+#dummy code lines for strsplit
+ #nameobj  <- data.frame(strsplit(names_array[i], "_")) #split ith organism into substrings
+ nameobj  <- data.frame(strsplit(GC_arr[i], "_")) #split ith organism into substrings
+ nameobj2 <- unname(unlist(nameobj))  # convert to an unnamed character vector
+ nameobj3 <- nameobj2[3:length(nameobj2)]
+
+ name1 <- nameobj2[1] #first part of first name
+ namesplit1 <- unlist(strsplit(name1, "")) #split the first name into character vector
+ namechar1 <- namesplit1[1] #the desired first letter of first name
+
+ name2 <- nameobj2[2] #first part of first name
+ namesplit2 <- unlist(strsplit(name2, "")) #split the first name into character vector
+ namechar2 <- namesplit2[1] #the desired first letter of first name
+ 
+ name_abbrev <- paste(namechar1, tolower(namechar2), sep = "")
+ 
+ chrposition <-  grep("Chr", nameobj3)
+ if(!identical(chrposition, integer(0)))
+ {
+   name_abbrev <- paste(name_abbrev, "_", nameobj3[chrposition], sep = "")
+ }
+ 
+ mutposition <-  grep("Mut", nameobj3)
+ if(!identical(mutposition, integer(0)))
+ {
+   pos <- which(nameobj3[mutposition] == "Mut")
+   mutpos <- mutposition[pos]
+   name_abbrev <- paste(name_abbrev, "_", nameobj3[mutpos], sep = "")
+ }
+ 
+ mmrposition <-  grep("MMR", nameobj3)
+ if(!identical(mmrposition, integer(0)))
+ {
+   pos2 <- which(nameobj3[mmrposition] == "MMR")
+   mmrpos <- mmrposition[pos2]
+   name_abbrev <- paste(name_abbrev, "_", nameobj3[mmrpos], sep = "")
+ }
+ 
+ name_abbrev_array <- c(name_abbrev_array, name_abbrev)
+ 
+}
+
+
+
 #====================Output Matrix Creation========================#
 #p value matrix
 cor_pval_matrix <- matrix(0L, nrow = length(names_array), ncol = length(names_array))
@@ -58,18 +122,30 @@ rownames(cor_est_matrix) <- names_array
 
 #======== Generate the 1:N correlation output matrices of all organisms in the output csv list ====== #
 
+for(i in length(names_array):1)
+{
+  checker <- get(matrix_index_array[i])
+  if(sum(checker) == 0)
+  {
+    print("found a zero sum matrix!")
+    print(names_array[i])
+    names_array <- names_array[-i]
+    matrix_index_array <- matrix_index_array[-i]
+  }
+}
+
+
 for(i in 1:length(names_array))
 {
   if(length(matrix_index_array) != 0)
   {
   object1 <- get(matrix_index_array[i])
-  
   for(j in 1:length(names_array))
   {
     if(j < length(names_array))
     {
       object2 <- get(matrix_index_array[j+1])
-      #print(paste("corr object 1: ", as.character(names_array[i]), "corr object 2: ", as.character(names_array[j+1]) ))
+      #print(paste("corr object 1: ", as.character(names_array[i]), "corr object 2: ", as.character(names_array[j+1]) )
       corr_object <- cor.test(object1, object2)
       cor_pval_matrix[i, j+1] <- corr_object$p.value
       cor_pval_matrix[j+1, i] <- corr_object$p.value
@@ -97,10 +173,12 @@ for(i in 1:length(names_array))
 
 #Generate GC Ccontent based correlation matrix
 
-GC_corr_matrix <- matrix(0L, nrow =dim(GC_output_matrix)[1], ncol = dim(GC_output_matrix)[1])
-GC_arr <- as.character(GC_sort_matrix$name)
-colnames(GC_corr_matrix) <- GC_arr
-rownames(GC_corr_matrix) <- GC_arr
+
+#colnames(GC_corr_matrix) <- GC_arr
+#rownames(GC_corr_matrix) <- GC_arr
+
+colnames(GC_corr_matrix) <- name_abbrev_array
+rownames(GC_corr_matrix) <- name_abbrev_array
 
 source_colname <<- ""
 source_col <<- ""
@@ -124,6 +202,11 @@ for(i in 1:length(GC_arr))
     {
       rownum <- rowinds
     }
+    if(length(rownum) > 1)
+    {
+      rownum <- which(tolower(rownames(cor_est_matrix)[rownum]) == tolower(GC_arr[i]))
+    }
+    
     #rownum <- grep(GC_row_flag, rownames(cor_est_matrix), ignore.case=TRUE)
     for(j in 1:length(GC_arr))
     {
@@ -141,6 +224,11 @@ for(i in 1:length(GC_arr))
       {
         colnum <- colinds
       }
+      if(length(colnum) > 1)
+      {
+        colnum <- which(tolower(colnames(cor_est_matrix)[colnum]) == tolower(GC_arr[j]))
+      }
+      
       GC_corr_matrix[i,j] <- cor_est_matrix[rownum, colnum]
     }
   }

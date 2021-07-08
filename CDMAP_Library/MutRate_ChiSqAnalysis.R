@@ -17,14 +17,15 @@ MutRateProbMatrix[,1] <- CodonTriplets
 MutRateProbMatrix[,2] <- as.numeric(observedMut)
 MutRateProbMatrix[,3] <- as.numeric(observedRate)
 #need to trim sites with no observed mutation rate
-inds <- c()
-for(s in 1:length(MutRateProbMatrix[,1]))
+#inds <- c()
+
+#Detect zero mutation rate entries and delete/replace
+for(s in length(MutRateProbMatrix[,1]):1) #reverse iterate through matrix to avoid subscript out of bound errors
 {
-  if(MutRateProbMatrix[s,3] == 0)
+  if(MutRateProbMatrix[s,3] == 0) #detect if there is a 0 mutation rate
   {
-    #inds <- c(inds, s)
-    #replace a 0 mutation rate site with .01 mutations/(site)(generation)(lines)
-    MutRateProbMatrix[s,3] <- 0.000000000001
+    MutRateProbMatrix <- MutRateProbMatrix[-s,] #remove row with 0 mutation rate
+    #MutRateProbMatrix[s,3] <- 0.000000000001 #option to insert dummy mutation rate instead
   }
 }
 
@@ -37,18 +38,11 @@ for(k in 1:length(MutRateProbMatrix[,1]))
 }
 
 SumInvMutRate <- sum(as.numeric(MutRateProbMatrix[,4]))
-SumObs <- sum(as.numeric(MutRateProbMatrix[,2]))
+SumObs <- sum(observedCodon)
 MutRateProbMatrix[,5] <- as.numeric(MutRateProbMatrix[,4])/ SumInvMutRate
-MutRateProbMatrix[,6] <- sum(observedCodon)*as.numeric(MutRateProbMatrix[,5])
+MutRateProbMatrix[,6] <- SumObs*as.numeric(MutRateProbMatrix[,5])
 
-#need to remove row without altering subscript of the matrix!!!!
-#for(s in length(MutRateProbMatrix[,1]):1)
-#{
-#  if(s %in% inds)
-#  {
-#    tempmatrix <- MutRateProbMatrix[-s,]
-#  }
-#}
+
 
 Mut_File_Title <- "Mutation_Probability_Matrix.csv"
 setwd(path_output_organism)
@@ -56,7 +50,7 @@ write.csv(MutRateProbMatrix, Mut_File_Title)
 
 chiframe <- data.frame(as.numeric(observedCodon), as.numeric(MutRateProbMatrix[,6]))
 MutChiRawCodon <- chisq.test(chiframe)
-MutchiPvalCodon <- c(organism, MutChiRawCodon$statistic, MutChiRawCodon$p.value)
+MutchiPvalCodon <- c(organism, MutChiRawCodon$statistic, MutChiRawCodon$p.value, MutChiRawCodon$parameter)
 print(MutchiPvalCodon)
 MutChiSquarePvalCodon <- rbind(MutChiSquarePvalCodon, MutchiPvalCodon)
 

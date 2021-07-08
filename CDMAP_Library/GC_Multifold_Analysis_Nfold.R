@@ -6,9 +6,9 @@
 # 3. Calculate the expected # of codons Exp(codon) = W(P(codon))*SUM(OBS_codon)
 # 4. Chi Square Test: chisq.test(OBS_codon, EXP_codon)
 Codon_colnames <- c("Codon", "Probability", "Weighted Probability", "Expected Value")
-CodonProbMatrix <- matrix(nrow = length(Triplet), ncol = 4)
+CodonProbMatrix <- matrix(nrow = length(MutTriplet), ncol = 4)
 colnames(CodonProbMatrix) <- Codon_colnames
-CodonTriplets <- gsub("\\[|\\]", "",Triplet)
+CodonTriplets <- gsub("\\[|\\]", "",MutTriplet)
 CodonTriplets <- sort(CodonTriplets)
 
 p <-1
@@ -42,11 +42,21 @@ for(p in 1:length(CodonTriplets))
   CodonProbMatrix[p,2] <- as.numeric(CodonProbability)  
 }
 
+for(s in length(Nfold[,1]):1) #reverse iterate through matrix to avoid subscript out of bound errors
+{
+  if(Nfold[s,6] == 0) #detect if there is a 0 mutation rate
+  {
+    CodonProbMatrix <- CodonProbMatrix[-s,] #remove row with 0 mutation rate
+  }
+}
+
+if(length(CodonProbMatrix[,1]) !=0)
+{
 SumCodonP <- sum(as.numeric(CodonProbMatrix[,2]))
 CodonProbMatrix[,3] <- as.numeric(CodonProbMatrix[,2])/SumCodonP
 Sum_observed <- sum(observed)
 CodonProbMatrix[,4] <- as.numeric(CodonProbMatrix[,3])*CodonTotal
-
+}
 #GC_File_Title <- "GC_Codon_Probability_Matrix.csv"
 #setwd(path_output_organism)
 #write.csv(CodonProbMatrix, GC_File_Title)

@@ -1,5 +1,6 @@
 
-path_to_FASTA  <- paste(UserOutput,"/Desktop/CDMAP_Output/GC_directory/FASTA", sep = "")
+#path_to_FASTA  <- paste(UserOutput,"/Desktop/CDMAP_Output/GC_directory/FASTA", sep = "")
+path_to_FASTA  <- paste(UserOutput,"/Desktop/CDMAP_Output/GC_directory", sep = "")
 path_to_chrome  <- paste(UserOutput,"/Desktop/CDMAP_Output/Correlation_Repository/triplet/Chromosome", sep = "")
 path_to_Lcore  <- paste(UserOutput,"/Desktop/CDMAP_Output/Correlation_Repository/triplet/Lcore", sep = "")
 path_to_Rcore <- paste(UserOutput,"/Desktop/CDMAP_Output/Correlation_Repository/triplet/Rcore", sep = "")
